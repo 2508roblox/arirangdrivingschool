@@ -656,12 +656,12 @@
         href="https://idealdrivingschool.ca/wp-content/uploads/2020/11/IDEAL-Driving-School.rev7png-150x150.png"
         sizes="32x32" />
     <link rel="icon"
-        href="https://idealdrivingschool.ca/wp-content/uploads/2020/11/IDEAL-Driving-School.rev7png.png"
+        href="{{asset("assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg")}}"
         sizes="192x192" />
     <link rel="apple-touch-icon"
-        href="https://idealdrivingschool.ca/wp-content/uploads/2020/11/IDEAL-Driving-School.rev7png.png" />
+        href="{{asset("assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg")}}" />
     <meta name="msapplication-TileImage"
-        content="https://idealdrivingschool.ca/wp-content/uploads/2020/11/IDEAL-Driving-School.rev7png.png" />
+        content="{{asset("assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg")}}" />
     <style id="wp-custom-css">
         /** Start Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
 
