@@ -779,11 +779,7 @@
                                                                     </span>
                                                                 </button>
                                                             </div>
-                                                            @if (session('success'))
-                                                            <div class="alert alert-success">
-                                                                {{ session('success') }}
-                                                            </div>
-                                                        @endif
+                                                          
                                                         <style>
                                                             .alert {
                                                         padding: 10px;
@@ -810,6 +806,65 @@
                         </div>
                     </div>
                 </section>
+
+                <div class="conduct-section">
+                    <h2>Code of Conduct & Expectations</h2>
+                    <p><strong>Each lesson is 90 minutes,</strong> allowing ample time to absorb key concepts and practice essential skills effectively.</p>
+                    <p>The last few minutes of each lesson will be used to review your progress and provide feedback for improvement. Please maintain a courteous and respectful attitude towards your instructor and fellow learners.</p>
+                    <p><strong>Abusive or aggressive behavior will not be tolerated</strong> and may result in lesson termination at the instructor’s discretion.</p>
+                    <p>If you have lived for months or years of driving experience, you may have developed <strong>bad habits</strong> or learned incorrect techniques over time. Our goal is to address these mistakes and ensure you meet ICBC's road test marking criteria. Be prepared for constructive feedback—this is why you are here.</p>
+                    <p>To achieve the best possible outcome on the ICBC road test, students should demonstrate at least <strong>80% proficiency</strong> in required driving skills. All dangerous actions and traffic violations will result in an automatic <strong>FAIL.</strong></p>
+                
+                    <h3>Instructor’s Evaluation:</h3>
+                    <p>Throughout your training, our instructor will assess your progress and provide clear guidance on whether:</p>
+                    <ul>
+                        <li>✔ More training is recommended.</li>
+                        <li>✔ You are ready for the ICBC road test.</li>
+                        <li>✔ You are not yet ready for the road test and require further practice.</li>
+                    </ul>
+                    <p>Our <strong>90-minute lessons</strong> are designed to provide a comprehensive learning experience that equips you with safe driving habits and the confidence needed to pass your road test successfully.</p>
+                </div>
+
+                <style>
+                    .conduct-section {
+    max-width: 1140px;
+    
+
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #f8f8f8; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.conduct-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.conduct-section h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.conduct-section p {
+    font-size: 1em;
+    line-height: 1.5; /* Better readability */
+    color: #555; /* Dark gray for readability */
+}
+
+.conduct-section ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.conduct-section ul li {
+    font-size: 1em;
+    color: #333; /* Darker text for emphasis */
+    margin-bottom: 5px;
+}
+                </style>
                     <section data-particle_enable="false" data-particle-mobile-disabled="false"
                         class="elementor-section elementor-top-section elementor-element elementor-element-fc4e972 elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
                         data-id="fc4e972" data-element_type="section"
@@ -1267,6 +1322,9 @@
                             </div>
                         </div>
                     </section>
+
+
+
                     <section data-particle_enable="false" data-particle-mobile-disabled="false"
                         class="elementor-section elementor-top-section elementor-element elementor-element-a6c4a9a elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
                         data-id="a6c4a9a" data-element_type="section"

@@ -763,7 +763,8 @@
                                     data-id="fcd4092" data-element_type="widget" id="form"
                                     data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Book your lesson</h2>
+                                        <h2 class="elementor-heading-title elementor-size-default">Contact Form</h2>
+                                        <p style="margin-top: 1rem" class="elementor-heading-title elementor-size-default">FB: Da Tuyen tran</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-b97c6bc elementor-button-align-start elementor-widget elementor-widget-form"
@@ -796,40 +797,22 @@
                                                         pattern="[0-9()#&amp;+*-=.]+"
                                                         title="Only numbers and phone characters (#, -, *, etc) are accepted.">
                                                 </div>
-                                                <div class="elementor-field-type-date elementor-field-group elementor-column elementor-field-group-field_ea3e04f elementor-col-100 elementor-field-required">
-                                                    <label for="form-field-field_ea3e04f" class="elementor-field-label">Start Date</label>
-                                                    <input type="date" name="start_date" id="form-field-field_ea3e04f"
-                                                        class="elementor-field elementor-size-sm elementor-field-textual elementor-date-field" required="required"
-                                                        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
-                                                </div>
+                                             
                                                 <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_d65172f elementor-col-100 elementor-field-required">
-                                                    <label for="form-field-field_d65172f" class="elementor-field-label">Pickup Address</label>
+                                                    <label for="form-field-field_d65172f" class="elementor-field-label">Subject</label>
                                                     <input size="1" type="text" name="pickup_address" id="form-field-field_d65172f"
                                                         class="elementor-field elementor-size-sm elementor-field-textual" required="required">
                                                 </div>
-                                                <div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-field_7bcf13b elementor-col-100 elementor-field-required">
-                                                    <label for="form-field-field_7bcf13b" class="elementor-field-label">What Service Are you Interested In</label>
-                                                    <div class="elementor-field elementor-select-wrapper remove-before">
-                                                        <div class="select-caret-down-wrapper">
-                                                            <i aria-hidden="true" class="eicon-caret-down"></i>
-                                                        </div>
-                                                        <select name="service_id" id="form-field-field_7bcf13b"
-                                                            class="elementor-field-textual elementor-size-sm" required="required">
-                                                            @foreach($services as $service)
-                                                                <option value="{{ $service->id }}">{{ $service->name }}</option>
-                                                            @endforeach
-                                                        </select>
-                                                    </div>
-                                                </div>
+                                              
                                                 <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_4c0855b elementor-col-100">
-                                                    <label for="form-field-field_4c0855b" class="elementor-field-label">Message & Comments</label>
+                                                    <label for="form-field-field_4c0855b" class="elementor-field-label">Your Message</label>
                                                     <textarea class="elementor-field-textual elementor-field elementor-size-sm" name="comment"
                                                         id="form-field-field_4c0855b" rows="4"></textarea>
                                                 </div>
                                                 <div  style="margin-top: 1rem" class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
                                                     <button class="elementor-button elementor-size-sm" type="submit">
                                                         <span class="elementor-button-content-wrapper " >
-                                                            <span class="elementor-button-text">Schedule Your Lesson Today!</span>
+                                                            <span class="elementor-button-text">Submit!</span>
                                                         </span>
                                                     </button>
                                                 </div>
@@ -1019,6 +1002,66 @@
                         </div>
                     </div>
                 </section>
+
+                <div class="container">
+                    <div class="faq-section">
+                        <h2>Frequently Asked Questions</h2>
+                        
+                        <div class="faq-item">
+                            <h3>Do you accept bookings for special events or holidays?</h3>
+                            <p>Yes, we do accept bookings for lessons on special events and holidays, depending on availability. However, due to limited availability during these times, it is recommended that you book a few days in advance to secure your preferred slots.</p>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <h3>Can I drive if I don't pass the knowledge test?</h3>
+                            <p>In accordance to Canadian law, you must pass the knowledge test before you are allowed to drive. The knowledge test is a required step in obtaining your learner's permit, and you must pass it to proceed with driving lessons.</p>
+                        </div>
+                    
+                        <div class="faq-item">
+                            <h3>Do you offer lessons on weekends and into the evenings?</h3>
+                            <p>Yes, we do offer lessons on weekends and evening times. However, due to high demand, it is recommended that you book weekend lessons in advance by up to 2-3 weeks, especially during the Summer. We also do not book past 6:00 pm during November and early spring due to shorter days for safety purposes.</p>
+                        </div>
+                    
+                        <div class="faq-item">
+                            <h3>Can I take multiple lessons per week?</h3>
+                            <p>Yes, but lesson frequency is subject to availability. If you have a rather flexible availability, there is a higher possibility that we can accommodate more than one lesson per week. If you are available only on weekends or late afternoons/evenings, we will only be able to accommodate you once a week.</p>
+                        </div>
+                    </div>
+                    <style>
+                        .faq-section {
+    max-width: 1140px;
+    margin-top: ;
+    margin: 3rem auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff; /* White background for items */
+}
+
+.faq-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1em;
+    color: #555; /* Dark gray for readability */
+}   
+                    </style>
+                </div>
                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
                     class="elementor-section elementor-top-section elementor-element elementor-element-ee1e126 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
                     data-id="ee1e126" data-element_type="section"

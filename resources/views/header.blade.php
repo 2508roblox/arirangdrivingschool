@@ -10,16 +10,24 @@
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
 }
+@media (min-width: 768px) {
+    .elementor-column.elementor-col-33, .elementor-column[data-col="33"] {
+        width: 42.333%;
+    }
+}
 .top-bar {
-            background-color: #c71b1b;
             color: white;
             text-align: center;
             padding: 15px;
+      
+
         }
         .top-bar p {
             margin: 0;
             font-size: 16px;
+            text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.897);
         }
+        
         @media (max-width: 600px) {
             .top-bar p {
                 font-size: 14px;
@@ -28,8 +36,8 @@
         </style>
     <div data-elementor-type="header" data-elementor-id="639"
             class="elementor elementor-639 elementor-location-header" data-elementor-post-type="elementor_library">
-            <div class="top-bar">
-                <bold>Winter Special for a limited time</bold>
+            <div style="background-image: url({{asset('assets/z6293487719740_30797b247117c4e9403e96bdf9472ddd.jpg')}}) " class="top-bar">
+                <p>Winter Special for a limited time</p>
                 <p>1-hour lesson: $65</p>
                 <p>1.5-hour lessons: $90</p>
              
@@ -190,12 +198,14 @@
                                 <div class="elementor-widget-container">
                                     <nav aria-label="Menu"
                                         class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-double-line e--animation-fade">
-                                        <ul id="menu-1-2d9ce608" class="elementor-nav-menu">
+                                        <ul  style="
+                                        flex-wrap: nowrap;
+                                    " id="menu-1-2d9ce608" class="elementor-nav-menu">
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home {{ request()->is('/') ? 'current-menu-item menu-item-active' : '' }}">
                                                 <a href="{{ url('/') }}" class="elementor-item {{ request()->is('/') ? 'elementor-item-active' : '' }}">Home</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('about') ? 'current-menu-item menu-item-active' : '' }}">
-                                                <a href="{{ url('/about') }}" class="elementor-item {{ request()->is('about') ? 'elementor-item-active' : '' }}">About</a>
+                                                <a href="{{ url('/about') }}" class="elementor-item {{ request()->is('about') ? 'elementor-item-active' : '' }}">About Us</a>
                                             </li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('services') ? 'current-menu-item menu-item-active' : '' }}">
                                                 <a href="{{ url('/services') }}" class="elementor-item {{ request()->is('services') ? 'elementor-item-active' : '' }}">Services</a>
@@ -229,7 +239,7 @@
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673">
                                                 <a href="{{route('about')}}/" class="elementor-item"
-                                                    tabindex="-1">About</a></li>
+                                                    tabindex="-1">About Us</a></li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671">
                                                 <a href="{{route('services')}}" class="elementor-item"
@@ -293,7 +303,7 @@
                                             data-id="390399e" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Learn to Drive? Call us +1 6722 000 666</p>
+                                                <p>Learn to Drive? Call us <br> +1 6722 000 666</p>
                                             </div>
                                         </div>
                                     </div>

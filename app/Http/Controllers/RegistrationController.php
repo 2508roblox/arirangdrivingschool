@@ -14,9 +14,7 @@ class RegistrationController extends Controller
             'last_name' => 'required',
             'email' => 'required',
             'phone' => 'required',
-            'start_date' => 'required',
             'pickup_address' => 'required|string|max:255',
-            'service_id' => 'required',
             'comment' => 'nullable',
         ]);
 

@@ -815,8 +815,13 @@
                                                         data-id="4e3d868" data-element_type="widget"
                                                         data-widget_type="image.default">
                                                         <div class="elementor-widget-container">
-                                                            <img decoding="async" width="800" height="532"
-                                                                src="https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-1024x681.jpg"
+                                         
+                                                            <img  style="
+                                                            height: 500px;
+                                                            width: 100%;
+                                                            object-fit: cover;
+                                                        " decoding="async"  
+                                                                src="{{ asset('assets/z6292606938134_515a679ec267d9237a169cdbe710ab92.jpg') }}"
                                                                 class="attachment-large size-large wp-image-505"
                                                                 alt=""
                                                                 sizes="(max-width: 800px) 100vw, 800px" />
@@ -869,161 +874,313 @@
                         </div>
                     </section>
                     <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-7e058ac elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                        data-id="7e058ac" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0369964"
-                                data-id="0369964" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-ca72116 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="ca72116" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9c23ef6"
-                                                data-id="9c23ef6" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-e309c49 elementor-widget elementor-widget-heading"
-                                                        data-id="e309c49" data-element_type="widget"
-                                                        data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <h2 class="elementor-heading-title elementor-size-default">Book
-                                                                Now with an<br>
-                                                                Award Winning Driving School</h2>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-e4948b3 elementor-widget elementor-widget-text-editor"
-                                                        data-id="e4948b3" data-element_type="widget"
-                                                        data-widget_type="text-editor.default">
-                                                        <div class="elementor-widget-container">
-                                                            <p>Get trained by our well educated instructors on all parts of
-                                                                successfully becoming a good driver.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-9aae8b9 elementor-widget elementor-widget-image"
-                                                        data-id="9aae8b9" data-element_type="widget"
-                                                        data-widget_type="image.default">
-                                                        <div class="elementor-widget-container" >
-                                                            <img style="color: white; background: white;" decoding="async" width="150" height="150"
-                                                                src="{{asset('assets/driving_schools-vancouver-2023-clr.svg')}}"
-                                                                class="attachment-thumbnail size-thumbnail wp-image-686"
-                                                                alt=""
-                                                                sizes="(max-width: 150px) 100vw, 150px" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1db9b7a"
-                                            data-id="1db9b7a" data-element_type="column"
-                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-fcd4092 elementor-widget elementor-widget-heading"
-                                                    data-id="fcd4092" data-element_type="widget" id="form"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h2 class="elementor-heading-title elementor-size-default">Book your lesson</h2>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-b97c6bc elementor-button-align-start elementor-widget elementor-widget-form"
-                                                   >
-                                                    <div class="elementor-widget-container">
-                                                        <form class="elementor-form1" method="post" action="{{ route('register') }}" name="New Form">
-                                                            @csrf
-                                                      
-                                        
-                                                            <div class="elementor-form-fields-wrapper elementor-labels-above">
-                                                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50 elementor-field-required">
-                                                                    <label for="form-field-name" class="elementor-field-label">First Name</label>
-                                                                    <input size="1" type="text" name="first_name" id="form-field-name"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual" required="required">
-                                                                </div>
-                                                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_696bd05 elementor-col-50 elementor-field-required">
-                                                                    <label for="form-field-field_696bd05" class="elementor-field-label">Last Name</label>
-                                                                    <input size="1" type="text" name="last_name" id="form-field-field_696bd05"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual" required="required">
-                                                                </div>
-                                                                <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-field_4932af6 elementor-col-50 elementor-field-required">
-                                                                    <label for="form-field-field_4932af6" class="elementor-field-label">Email Address</label>
-                                                                    <input size="1" type="email" name="email" id="form-field-field_4932af6"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual" required="required">
-                                                                </div>
-                                                                <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_ea43119 elementor-col-50 elementor-field-required">
-                                                                    <label for="form-field-field_ea43119" class="elementor-field-label">Phone Number</label>
-                                                                    <input size="1" type="tel" name="phone" id="form-field-field_ea43119"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual" required="required"
-                                                                        pattern="[0-9()#&amp;+*-=.]+"
-                                                                        title="Only numbers and phone characters (#, -, *, etc) are accepted.">
-                                                                </div>
-                                                                <div class="elementor-field-type-date elementor-field-group elementor-column elementor-field-group-field_ea3e04f elementor-col-100 elementor-field-required">
-                                                                    <label for="form-field-field_ea3e04f" class="elementor-field-label">Start Date</label>
-                                                                    <input type="date" name="start_date" id="form-field-field_ea3e04f"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual elementor-date-field" required="required"
-                                                                        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
-                                                                </div>
-                                                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_d65172f elementor-col-100 elementor-field-required">
-                                                                    <label for="form-field-field_d65172f" class="elementor-field-label">Pickup Address</label>
-                                                                    <input size="1" type="text" name="pickup_address" id="form-field-field_d65172f"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual" required="required">
-                                                                </div>
-                                                                <div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-field_7bcf13b elementor-col-100 elementor-field-required">
-                                                                    <label for="form-field-field_7bcf13b" class="elementor-field-label">What Service Are you Interested In</label>
-                                                                    <div class="elementor-field elementor-select-wrapper remove-before">
-                                                                        <div class="select-caret-down-wrapper">
-                                                                            <i aria-hidden="true" class="eicon-caret-down"></i>
-                                                                        </div>
-                                                                        <select name="service_id" id="form-field-field_7bcf13b"
-                                                                            class="elementor-field-textual elementor-size-sm" required="required">
-                                                                            @foreach($services as $service)
-                                                                                <option value="{{ $service->id }}">{{ $service->name }}</option>
-                                                                            @endforeach
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_4c0855b elementor-col-100">
-                                                                    <label for="form-field-field_4c0855b" class="elementor-field-label">Message & Comments</label>
-                                                                    <textarea class="elementor-field-textual elementor-field elementor-size-sm" name="comment"
-                                                                        id="form-field-field_4c0855b" rows="4"></textarea>
-                                                                </div>
-                                                                <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                                                    <button class="elementor-button elementor-size-sm" type="submit">
-                                                                        <span class="elementor-button-content-wrapper">
-                                                                            <span class="elementor-button-text">Schedule Your Lesson Today!</span>
-                                                                        </span>
-                                                                    </button>
-                                                                </div>
-                                                                @if (session('success'))
-                                                                <div class="alert alert-success">
-                                                                    {{ session('success') }}
-                                                                </div>
-                                                            @endif
-                                                            <style>
-                                                                .alert {
-                                                            padding: 10px;
-                                                            margin-bottom: 15px;
-                                                            border: 1px solid transparent;
-                                                            border-radius: 4px;
-                                                        }
+                    class="elementor-section elementor-top-section elementor-element elementor-element-7e058ac elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                    data-id="7e058ac" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class=" " style="background: white"></div>
+                    <div class="elementor-container elementor-column-gap-default" style="
+                    background: white;
+                 ">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0369964"
+                            data-id="0369964" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                <style>
+                                                                    /* General styles for the review section */
+                            .elementor-section {
+                                padding: 40px 0;
+                            }
 
-                                                        .alert-success {
-                                                            color: #155724;
-                                                            background-color: #d4edda;
-                                                            border-color: #c3e6cb;
-                                                        }
-                                                            </style>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
+                            .home-reviews {
+                                max-width: 800px;
+                                margin: 0 auto;
+                            }
+
+                            .sub-heading {
+                                font-size: 2em;
+                                margin-bottom: 20px;
+                                color: #333;
+                            }
+
+                            .row {
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                            }
+
+                            .review {
+                                margin-bottom: 20px;
+                                background-color: #f9f9f9;
+                                border-radius: 8px;
+                                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                                overflow: hidden;
+                                width: 100%;
+                            }
+
+                            .card {
+                                display: flex;
+                                align-items: center;
+                                padding: 15px;
+                            }
+
+                            .author-image {
+                                border-radius: 50%;
+                                margin-right: 15px;
+                            }
+
+                            .author-name {
+                                font-size: 1.2em;
+                                color: #333;
+                            }
+
+                            .card-body {
+                                flex: 1;
+                            }
+
+                            .card-text {
+                                font-size: 1em;
+                                color: #555;
+                            }
+
+                            .google-ratings {
+                                margin: 10px 0;
+                            }
+
+                            .rating {
+                                color: #ffcc00; /* Gold color for stars */
+                            }
+
+                            .text-gray {
+                                color: #888;
+                            }
+
+                            .review-time {
+                                font-size: 0.9em;
+                            }
+                            h2.sub-heading {
+                                font-weight: bold;
+                                font-size: 3rem;
+                                text-transform: uppercase;
+                            }.google-ratings {
+                                font-size: 1.2em;
+                                color: #333;
+                                text-align: center;
+                                letter-spacing: 2px;
+                            }
+                            .reviews {
+                                display: grid
+                            ;
+                                grid-template-columns: 1fr 1fr;
+                                gap: 1rem;
+                            }
+                            .review .card {
+                                
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+
+                            }
+                            .review .no-link {
+                                
+                                flex-direction: column;
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;
+
+                            }
+                            .review .rating.orange.text-orange {
+                                
+                                padding-left: 23%;
+
+                            }
+                            @media (max-width: 768px) {
+                                .reviews {
+                                    grid-template-columns: 1fr; /* One column for mobile screens */
+                                }
+                            }
+                            .elementor-492 .elementor-element.elementor-element-7e058ac:not(.elementor-motion-effects-element-type-background), .elementor-492 .elementor-element.elementor-element-7e058ac > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent;
+}
+                                                    </style>
+                                                                <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                                                                    class="elementor-section elementor-inner-section elementor-element elementor-element-ca72116 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                                                    data-id="ca72116" data-element_type="section">
+                                                                    <div class="col-md-12 home-reviews text-center py-5">
+                                                                        <div class="container a1-container text-center">
+                                                                            <h2 style="
+                                                                            text-align: center;
+                                                                        " class="sub-heading">What our Customers Say</h2>
+                                                    <div class="row py-5">
+                                                        <div class="col-xs-12 col-sm-10 col-lg-8 center-block">
+                                                                                            <div style="text-align: center" class="h4">Vacnouver Driving School</div><div class="google-ratings overall-ratings">
+                                                                                            <a class="no-link" style="  display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                vertical-align: middle;" href="https://www.google.com/maps?cid=1977024605774768343" target="_blank" title="Google Ratings">
+                                                                                            <span class="inline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="44" width="44"><g fill="none" fill-rule="evenodd"><path d="M482.56 261.36c0-16.73-1.5-32.83-4.29-48.27H256v91.29h127.01c-5.47 29.5-22.1 54.49-47.09 71.23v59.21h76.27c44.63-41.09 70.37-101.59 70.37-173.46z" fill="#4285f4"></path><path d="M256 492c63.72 0 117.14-21.13 156.19-57.18l-76.27-59.21c-21.13 14.16-48.17 22.53-79.92 22.53-61.47 0-113.49-41.51-132.05-97.3H45.1v61.15c38.83 77.13 118.64 130.01 210.9 130.01z" fill="#34a853"></path><path d="M123.95 300.84c-4.72-14.16-7.4-29.29-7.4-44.84s2.68-30.68 7.4-44.84V150.01H45.1C29.12 181.87 20 217.92 20 256c0 38.08 9.12 74.13 25.1 105.99l78.85-61.15z" fill="#fbbc05"></path><path d="M256 113.86c34.65 0 65.76 11.91 90.22 35.29l67.69-67.69C373.03 43.39 319.61 20 256 20c-92.25 0-172.07 52.89-210.9 130.01l78.85 61.15c18.56-55.78 70.59-97.3 132.05-97.3z" fill="#ea4335"></path><path d="M20 20h472v472H20V20z"></path></g></svg></span>
+                                                                                            <span class="inline">Google Ratings<br>5.0 <span class="rating orange text-orange"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
+                                                                                            </a>
+                                                          </div><div class="reviews"><div class="review">
+                                                                <div class="card">
+                                                                  <a class="no-link" href="https://www.google.com/maps/contrib/101877261372935905753/reviews" title="Dominic Melanson">
+                                                                    <img class="img-fluid card-img-top author-image" width="80" src="https://lh3.googleusercontent.com/a-/ALV-UjVBwFQCH18CxEgX2Mx0EOj4zXVV-cca7bYuCKl7mecdzOHWimXw=s128-c0x00000000-cc-rp-mo" alt="Dominic Melanson" title="Dominic Melanson">
+                                                                    <div class="h4 author-name">Dominic Melanson</div>
+                                                                  </a>
+                                                                  <span><span class="rating orange text-orange"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span><span> <span class="text-gray review-time">in the last week</span>
+                                                                  <div class="card-body">
+                                                                    <p class="card-text text-left review-text">Passed my test on the first try! Vancouver driving school has excellent instructors - Shafi, Lori, Ashraf. It’s thanks to their teaching that I was able to grow comfortable and felt 100% prepared for my road test.</p>
+                                                                  </div>
+                                                                </span></span></div>
+                                                              </div><div class="review">
+                                                                <div class="card">
+                                                                  <a class="no-link" href="https://www.google.com/maps/contrib/117294221752761645396/reviews" title="Maia Rankine-Griffith">
+                                                                    <img class="img-fluid card-img-top author-image" width="80" src="https://lh3.googleusercontent.com/a-/ALV-UjV9h6mDBWdg6H-oC6r8QrtdIyUiUxZLQtxkkMumJbHV4Cms2eyH=s128-c0x00000000-cc-rp-mo" alt="Maia Rankine-Griffith" title="Maia Rankine-Griffith">
+                                                                    <div class="h4 author-name">Maia Rankine-Griffith</div>
+                                                                  </a>
+                                                                  <span><span class="rating orange text-orange"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span><span> <span class="text-gray review-time">in the last week</span>
+                                                                  <div class="card-body">
+                                                                    <p class="card-text text-left review-text">Ashraf from VDS was a great instructor. His lessons gave me the  confidence and fine tuning I needed to pass the road test. Would recommend for both new and experienced drivers :)</p>
+                                                                  </div>
+                                                                </span></span></div>
+                                                              </div><div class="review">
+                                                                <div class="card">
+                                                                  <a class="no-link" href="https://www.google.com/maps/contrib/117797568700274983705/reviews" title="Nova Chamberlin">
+                                                                    <img class="img-fluid card-img-top author-image" width="80" src="https://lh3.googleusercontent.com/a/ACg8ocIrZ-lSMXarc0v_2MewyeRaI4hHhTmhG1pVDKtxaMtgnVySWOQ=s128-c0x00000000-cc-rp-mo" alt="Nova Chamberlin" title="Nova Chamberlin">
+                                                                    <div class="h4 author-name">Nova Chamberlin</div>
+                                                                  </a>
+                                                                  <span><span class="rating orange text-orange"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span><span> <span class="text-gray review-time">in the last week</span>
+                                                                  <div class="card-body">
+                                                                    <p class="card-text text-left review-text">After taking lessons with Shafi, I passed my N road test on the first attempt! He is very kind, calm and patient, and makes you feel comfortable even as a beginner. He is great at teaching the more difficult manoeuvres like parallel and back-in parking, and makes sure that you feel confident with everything that is expected of you for the road test. I would absolutely recommend him and Vancouver Driving School to anyone looking to take lessons, and especially if you are new to driving. The office staff were also kind and helpful - the whole experience was great.</p>
+                                                                  </div>
+                                                                </span></span></div>
+                                                              </div><div class="review">
+                                                                <div class="card">
+                                                                  <a class="no-link" href="https://www.google.com/maps/contrib/108238144018505589330/reviews" title="Adam G">
+                                                                    <img class="img-fluid card-img-top author-image" width="80" src="https://lh3.googleusercontent.com/a/ACg8ocKMTJH3wL4wyE4ylonnMi3ndJdy52eQEqj4R5nC4K3JUsWdug=s128-c0x00000000-cc-rp-mo" alt="Adam G" title="Adam G">
+                                                                    <div class="h4 author-name">Adam G</div>
+                                                                  </a>
+                                                                  <span><span class="rating orange text-orange"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span><span> <span class="text-gray review-time">in the last week</span>
+                                                                  <div class="card-body">
+                                                                    <p class="card-text text-left review-text">I had the pleasure of learning 21 lessons with Shah. He demonstrated an abundance of patience and leaving the lessons I felt confident in my skills and passed the class 7 road test with flying colors. Highly recommended!</p>
+                                                                  </div>
+                                                                </span></span></div>
+                                                              </div></div>					</div>
                                         </div>
-                                        </div>
-                                    </section>
+                                    </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div style="    max-width: 1140px; margin: auto"  id="vancouver-driving-school" class="col-md-12 home-feature">
+                    <div class="container a1-container">
+                        <div class="col-md-8 col-md-offset-2 feature-top">
+                            <h2 class="home-heading">ARIRANG DRIVING SCHOOL
+
+                            </h2>
+                            <div class="circle-border"><span class="fa fa-circle"></span></div>
+                            <p>Welcome to Arirang Driving School! We are committed to ensuring you become a confident and skilled driver for the future. Our experienced instructors provide one-on-one, in-car practical training, creating an enjoyable and supportive learning environment. We aim to help you pass your road test without hassle, giving you the knowledge, skills, and confidence to be safe on the road.
+
+                            </p>
+                        </div>
+                        <div class="col-md-12 no-padding-lr">
+                            <div class="row feature-row1">
+                                <div class="col-md-4 col-sm-4 feature-box " style="display: flex; justify-content: start; flex-direction: column;align-items: center">
+                                    <span><img src="{{asset('assets/car-icon.jpg')}}" style="width: 100px;;"></span>
+                                    <h5>Licensed Instructor</h5>
+                                    <p>Our instructors surpass ICBC requirements and bring years of driving experience in the local area.
+
+                                    </p>
+                                </div>
+                                <div class="col-md-4 col-sm-4 feature-box " style="display: flex; justify-content: center; flex-direction: column;align-items: center">
+                                    <span><img src="{{asset('assets/vds-icon.jpg')}}" style="width: 100px;;"></span>
+                                    <h5>Why Arirang Driving School?
+                                    </h5>
+                                    <p>We offer reliable, professional service in a safe, friendly environment. Our highly qualified instructors cater to the learning needs of each student. This level of service is provided at a fair, competitive price.
+
+                                    </p>
+                                </div>
+                                <div class="col-md-4 col-sm-4 feature-box " style="display: flex; justify-content: center; flex-direction: column;align-items: center">
+                                    <span><img src="{{asset('assets/teach-icon.jpg')}}" style="width: 100px;;"></span>
+                                    <h5>What We Teach</h5>
+                                     <ul>
+                                        <li>Circle Check, Shoulder & 360° Check</li>
+                                        <li>Hazard Perception</li>
+                                        <li>Speed Control</li>
+                                        <li>2 & 3-Point Turns</li>
+                                        <li>Uphill & Downhill Parking</li>
+                                        <li>Parallel Parking & Reverse Stall Parking</li>
+                                     </ul>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                    </div>
+                </div>
+                <style>
+                    /* Styles for Vancouver Driving School Section */
+#vancouver-driving-school {
+    padding: 20px; /* Add padding for the section */
+}
+
+.feature-top {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.circle-border {
+    display: inline-block;
+    margin: 10px 0;
+}
+.circle-border:before {
+    content: "";
+    border-top: 2px solid #ffffff;
+    width: 47%;
+    padding: 29px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}.circle-border:after {
+    content: "";
+    border-top: 2px solid #ffffff;
+    width: 47%;
+    padding: 29px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.circle-border {
+    width: 100%;
+    font-size: 18px;
+    margin: 15px 0;
+    position: relative;
+    float: left;
+    color: #A0711E;
+    text-align: center;
+    margin: 25px 0 35px 0;
+}
+.feature-row1 {
+    display: flex; /* Use flexbox for the row */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Space out the boxes */
+}
+
+.feature-box {
+    flex: 1 1 calc(33.33% - 20px); /* Responsive width with spacing */
+    margin: 10px; /* Margin for spacing */
+    border-radius: 8px; /* Optional: rounded corners */
+    padding: 15px; /* Optional: padding inside each box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
+}
+.feature-top>.circle-border:before, .feature-top>.circle-border:after {
+    border-color: #7f7f7f;
+}
+.feature-box img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+                </style>
+                    <section  data-particle_enable="false" data-particle-mobile-disabled="false"
                         class="elementor-section elementor-top-section elementor-element elementor-element-c665d1d elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
                         data-id="c665d1d" data-element_type="section"
                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">

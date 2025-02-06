@@ -802,46 +802,35 @@
                         </div>
                     </div>
                 </section>
-                <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                    class="elementor-section elementor-top-section elementor-element elementor-element-7f2bc89 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="7f2bc89" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class="elementor-background-overlay"></div>
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c703e5d"
-                            data-id="c703e5d" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-3b35eaf elementor-widget elementor-widget-heading"
-                                    data-id="3b35eaf" data-element_type="widget" data-widget_type="heading.default">
-                                   
-                                </div>
-                              
-                                <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-0f274a3 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default"
-                                    data-id="0f274a3" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ccd9c0b"
-                                            data-id="ccd9c0b" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-8f5f5b5 elementor-widget elementor-widget-image"
-                                                    data-id="8f5f5b5" data-element_type="widget"
-                                                    data-widget_type="image.default">
-                                                    <div class="elementor-widget-container">
-                                                        <img decoding="async" width="768" height="418"
-                                                            src="{{asset('assets/Screenshot-2024-11-29-at-1.53.01 PM-768x1013.png')}}"
-                                                            class="attachment-medium_large size-medium_large wp-image-678"
-                                                            alt=""
-                                                            sizes="(max-width: 768px) 100vw, 768px" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+         
+                   <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                
+                   style="
+                   max-width: 1140px;
+                   margin: auto;
+                   padding: 4rem;
+               "
+                   class="elementor-section elementor-top-section elementor-element elementor-element  elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
+
+                    >
+                    <h1>Arirang Driving School</h1>
+<p>Welcome to Arirang Driving School! We are committed to providing high-quality driver education to students from all communities, with a strong focus on inclusivity. We take pride in serving our diverse student base, including individuals from <strong>Vietnamese, Chinese, Indonesian, and Canadian</strong> communities. Our mission is to equip every student with the skills, confidence, and knowledge to navigate the roads safely and responsibly.</p>
+
+<h2>Why Choose Arirang Driving School?</h2>
+<ul>
+    <li><strong>Comprehensive Driver Education</strong> – Structured courses designed to develop safe and responsible drivers.</li>
+    <li><strong>Flexible Scheduling</strong> – Ideal for busy individuals with demanding schedules.</li>
+    <li><strong>Private In-Car Lessons</strong> – One-on-one training with fully licensed professional instructors.</li>
+    <li><strong>Modern, Safe Vehicles</strong> – Our 2025 Toyota Corolla is equipped with a steering wheel and auxiliary brake pedal for advanced safety.</li>
+    <li><strong>British Columbia Ministry of Transportation Approval</strong> – Meeting the highest professional standards in driver education.</li>
+    <li><strong>Serving Vancouver & Burnaby</strong> – Free pick-up and drop-off services available.</li>
+    <li><strong>Test-Ready Support</strong> – Vehicles available for use during road tests.</li>
+</ul>
+
+<p>At Arirang Driving School, we emphasize practical training, hands-on experience, and the importance of being a safe and responsible driver. We believe that the best way to learn is through practice, and we provide the necessary tools and support to ensure proper technique is learned.</p>
+
+<p>Take the first step toward becoming a confident and responsible driver—<a href="mailto:contact@arirangdrivingschool.com">contact us today</a> to schedule your lessons!</p>
+                   </section>
                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
                     class="elementor-section elementor-top-section elementor-element elementor-element-e50280b elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
                     data-id="e50280b" data-element_type="section"

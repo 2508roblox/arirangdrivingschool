@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Feb 06, 2025 at 01:54 PM
+-- Generation Time: Feb 06, 2025 at 07:11 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -38,8 +38,8 @@ CREATE TABLE `cache` (
 --
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:1;', 1738848999),
-('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1738848999;', 1738848999);
+('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:1;', 1738820938),
+('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1738820938;', 1738820938);
 
 -- --------------------------------------------------------
 
@@ -151,9 +151,9 @@ CREATE TABLE `registrations` (
   `last_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `phone` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `start_date` date DEFAULT NULL,
+  `start_date` date NOT NULL,
   `pickup_address` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `service_id` bigint UNSIGNED DEFAULT NULL,
+  `service_id` bigint UNSIGNED NOT NULL,
   `comment` text COLLATE utf8mb4_unicode_ci,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
@@ -167,9 +167,7 @@ INSERT INTO `registrations` (`id`, `first_name`, `last_name`, `email`, `phone`, 
 (8, 'Oliver', 'Smith', 'oliver.smith@example.com', '+44 20 7946 0958', '2025-02-05', '123 Main Street, London, NW1 5LT', 1, '123 Main Street, London, NW1 5LT\n', '2025-02-04 19:04:01', '2025-02-04 19:04:01'),
 (9, 'Amelia', 'Johnson', 'amelia.johnson@example.com', '+44 20 7946 0959', '2025-02-06', '456 High Road, Manchester, M1 2AB', 2, '456 High Road, Manchester, M1 2AB\n', '2025-02-04 19:04:26', '2025-02-04 19:04:26'),
 (10, 'Harry', 'Brown', 'harry.brown@example.com', '+44 20 7946 0960', '2025-02-05', '789 Elm Street, Birmingham, B1 3AA', 3, '789 Elm Street, Birmingham, B1 3AA\n', '2025-02-04 19:05:03', '2025-02-04 19:05:03'),
-(11, 'Isla', 'Williams', 'isla.williams@example.com', '+44 20 7946 0961', '2025-02-05', '101 Oak Avenue, Leeds, LS1 4GH', 2, '101 Oak Avenue, Leeds, LS1 4GH', '2025-02-04 19:05:24', '2025-02-04 19:05:24'),
-(12, 'faweg', 'ăegaw', 'trangiangzxc@gmail.com', '0589317493', NULL, '123123', NULL, '123123', '2025-02-06 06:51:05', '2025-02-06 06:51:05'),
-(13, 'faweg', 'ăegaw', 'trangiangzxc@gmail.com', '0589317493', '2025-02-06', 'HCM', 1, '123123', '2025-02-06 06:53:05', '2025-02-06 06:53:05');
+(11, 'Isla', 'Williams', 'isla.williams@example.com', '+44 20 7946 0961', '2025-02-05', '101 Oak Avenue, Leeds, LS1 4GH', 2, '101 Oak Avenue, Leeds, LS1 4GH', '2025-02-04 19:05:24', '2025-02-04 19:05:24');
 
 -- --------------------------------------------------------
 
@@ -194,14 +192,12 @@ CREATE TABLE `services` (
 
 INSERT INTO `services` (`id`, `name`, `duration`, `price`, `lesson_count`, `benefits`, `created_at`, `updated_at`) VALUES
 (1, 'Single Lesson', '60-90 minutes', '70.00', 1, '[{\"value\": \" $70 for 60 minutes\"}, {\"value\": \" $90 for 90 minutes (saved $15)\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"No refund or exchange\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}]', '2025-02-04 04:03:57', '2025-02-05 22:56:42'),
-(2, 'H2 Package', '2 lessons', '175.00', 2, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $5\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}, {\"value\": \"Recommend for intermediate drivers\"}]', '2025-02-04 04:37:40', '2025-02-06 06:35:59'),
-(3, 'H4 Package', '4 lessons', '350.00', 4, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $10\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}, {\"value\": \"Recommend for intermediate drivers\"}]', '2025-02-04 04:38:18', '2025-02-06 06:36:10'),
-(4, 'H6 Package', '6 lessons', '530.00', 6, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $10\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}, {\"value\": \"Recommend for intermediate drivers\"}]', '2025-02-04 04:38:44', '2025-02-06 06:36:18'),
+(2, 'H2 Package', '2 lessons', '175.00', 2, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $5\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}]', '2025-02-04 04:37:40', '2025-02-05 22:56:56'),
+(3, 'H4 Package', '4 lessons', '350.00', 4, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $10\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}]', '2025-02-04 04:38:18', '2025-02-05 22:57:20'),
+(4, 'H6 Package', '6 lessons', '530.00', 6, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $10\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}]', '2025-02-04 04:38:44', '2025-02-05 22:58:00'),
 (5, 'H10 Package', '2 lessons', '880.00', 10, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $20\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}]', '2025-02-04 04:39:12', '2025-02-05 22:58:14'),
 (6, 'Road Test Rental', '0', '160.00', 1, '[{\"value\": \" Includes car rental for ICBC Class 5/7\"}, {\"value\": \"road test plus one-hour warm-up lesson\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}]', '2025-02-04 04:39:43', '2025-02-05 22:59:31'),
-(7, 'Car Rental (Test Only)', '0', '100.00', 0, '[{\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}]', '2025-02-05 22:54:19', '2025-02-05 22:59:20'),
-(8, 'HR15', '0', '1450.00', 0, '[{\"value\": \"Includes one road test + 1hour warm-up lesson\"}]', '2025-02-06 06:42:35', '2025-02-06 06:42:35'),
-(9, 'HR10', '0', '1000.00', 0, '[{\"value\": \"Includes one road test + 1hour warm-up lesson\"}]', '2025-02-06 06:42:52', '2025-02-06 06:42:52');
+(7, 'Car Rental (Test Only)', '0', '100.00', 0, '[{\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}]', '2025-02-05 22:54:19', '2025-02-05 22:59:20');
 
 -- --------------------------------------------------------
 
@@ -223,7 +219,15 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('7dRXFSOci69f7SPV7Ryj04VMLGw9iJg6yGZ3SQnT', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiTXpyVE5Lb1BtYldNZzJoQTlucEVzaTNzelRPSXkzZUpmVWdBYk1xSyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9jb250YWN0Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRxd0RNWEo5R01ka1BrS1pzdUE5VzllUmZkNzRoalZWV3NUb0FlUmNpVklJNUdNdGI0VXpzdSI7czo4OiJmaWxhbWVudCI7YTowOnt9fQ==', 1738850015);
+('c8CgkiJz4dasgwzBUcZmQSjdX1C0FPEBfw2fUHEi', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiVmpkdEJGZHoyVWxsTjY3c3pFd2taaVJ3VW94UVloa1d4Sm1RdlpuNiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjg6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9wb2xpY3kiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1738825873),
+('d3yXGZJ18MhLSNVlWaZOZb9vrTKPjQXrkVVrkgpL', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoidThhNWJucERiOWlKQjFlNXBkcGw0VTBPMmt3Vkl0R010bTY1YWxpRSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9sb2dpbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1738824805),
+('g9lmG9Gm5Dux8RARnIstoqqO7X8gBo25uJmrUvEF', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiSExaNWg5dzFDdEhGbEI4YkVUbHV4MFRjSmpjaVNTdVF1c2JmME9sbyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzQ6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9yZWdpc3RyYXRpb24iO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjM6InVybCI7YTowOnt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJHF3RE1YSjlHTWRrUGtLWnN1QTlXOWVSZmQ3NGhqVlZXc1RvQWVSY2lWSUk1R010YjRVenN1IjtzOjg6ImZpbGFtZW50IjthOjA6e319', 1738825675),
+('muQoNyZCK8rGeYpXlWkTePUr8H3O1RZvacw3S7e5', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiaEl3RXVYeHlFV215TnVzbmFrNzdhekZ2OGlIekg2c1Nramd3aEh3aiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hYm91dCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1738825872),
+('nsnZUsO46phNri15gEhVKjcNvZWezYW4Rgf0I0BP', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiblNqQ0FncUp1cGM5YTVoQXJwWjltSm9kRWc0S1JvQmtyRkVQTVZpQiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hYm91dCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1738824825),
+('TiURvwUOAusUDguXDzQenhZ0N4qSEQHuaImm8sOl', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiQXlON0M0UmhDNmQyNzZ3WXhEdXE1SkdXdkRObWU1N0hxUlJmanFWbSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzA6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9zZXJ2aWNlcyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1738824292),
+('U3XOTXDxsZpCFTib9h6V0fVekmqbN3NKfq3v79Nw', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiZmhqREsxSG5Rd3djT1M2c0pieWZIeWpqNm1TRTlmNDRTRGNHbzl6TCI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czozNjoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2FkbWluL3NlcnZpY2VzIjt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9zZXJ2aWNlcyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1738825413),
+('wryaHOwvYSRIirNabM5zb04FvWaIsIvmkUXpxdU6', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiSnhETGZUamRGODZ1TGVqR2haQlFldWJtc3lEZWs3M25mdW9ldlE3TSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9sb2dpbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1738825414),
+('zUgQl3PatzgpTauN4DGsJ9taQJIY4GZMcoiXwQwL', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiQnJqZkUwcUJzNTA0Y0x5blZNcUFDNzQ4cDRPZU55R2JJaVNxczVPYiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hYm91dCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1738824825);
 
 -- --------------------------------------------------------
 
@@ -351,13 +355,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `registrations`
 --
 ALTER TABLE `registrations`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `services`
 --
 ALTER TABLE `services`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `users`
