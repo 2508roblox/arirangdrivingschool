@@ -11,7 +11,7 @@
     padding-bottom: 1rem !important;
 }
 .top-bar {
-            background-color: #268fe6;
+            background-color: #c71b1b;
             color: white;
             text-align: center;
             padding: 15px;
@@ -29,8 +29,10 @@
     <div data-elementor-type="header" data-elementor-id="639"
             class="elementor elementor-639 elementor-location-header" data-elementor-post-type="elementor_library">
             <div class="top-bar">
-                <p>Reference a friend</p>
-                <p>$10 off for each friend reference when they start their first lesson</p>
+                <bold>Winter Special for a limited time</bold>
+                <p>1-hour lesson: $65</p>
+                <p>1.5-hour lessons: $90</p>
+             
             </div>
             <section data-particle_enable="false" data-particle-mobile-disabled="false"
                 class="elementor-section elementor-top-section elementor-element elementor-element-4a8ba69d elementor-section-height-min-height elementor-section-content-middle elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle"

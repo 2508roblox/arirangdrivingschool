@@ -819,7 +819,6 @@
                                                                 src="https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-1024x681.jpg"
                                                                 class="attachment-large size-large wp-image-505"
                                                                 alt=""
-                                                                srcset="https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-1024x681.jpg 1024w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-300x200.jpg 300w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-768x511.jpg 768w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-1536x1022.jpg 1536w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1.jpg 2000w"
                                                                 sizes="(max-width: 800px) 100vw, 800px" />
                                                         </div>
                                                     </div>
@@ -1101,8 +1100,23 @@
                                     <div class="elementor-element elementor-element-4b46395 elementor-widget elementor-widget-heading"
                                         data-id="4b46395" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">Successful Students
-                                            </h2>
+                                            <h2 class="elementor-heading-title elementor-size-default">Successful Students</h2>
+                                        
+                                            <style>
+                                                .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Can be changed to 'flex-start' if you want left alignment */
+    gap: 10px; /* Space between images */
+}
+
+.student-image {
+    max-height: 300px; /* Giới hạn chiều cao tối đa */
+    width: auto; /* Để chiều rộng tự động điều chỉnh theo chiều cao */
+    height: auto; /* Duy trì tỷ lệ khung hình */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+                                            </style>
                                         </div>
                                     </div>
                                     <section data-particle_enable="false" data-particle-mobile-disabled="false"
@@ -1540,6 +1554,14 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </section>
+                                    <section class="elementor-container elementor-column-gap-default">
+                                        <div class="image-container">
+                                            <img src="{{ asset('assets/z6292606938134_515a679ec267d9237a169cdbe710ab92.jpg') }}" alt="Student 1" class="student-image">
+                                            <img src="{{ asset('assets/z6292606976448_4c548e52f07afca95976446fa11312f4.jpg') }}" alt="Student 2" class="student-image">
+                                            <img src="{{ asset('assets/z6292607818611_44d570875040747c1ba105e9784d94e1.jpg') }}" alt="Student 3" class="student-image">
+                                            <img src="{{ asset('assets/z6292607827407_99688cc3c225f11d327f782f389ef237.jpg') }}" alt="Student 4" class="student-image">
                                         </div>
                                     </section>
                                 </div>

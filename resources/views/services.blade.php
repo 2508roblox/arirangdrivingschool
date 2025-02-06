@@ -783,7 +783,25 @@
                             </div>
                         </div>
                     </div>
+                 
+                    <style>
+                        .top-bar {
+            background-color: #c71b1b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .top-bar p {
+            margin: 0;
+            font-size: 16px;
+        }
+                    </style>
                 </section>
+                <div class="top-bar">
+                
+                    <p>Reference a friend</p>
+                    <p>$10 off for each friend reference when they start their first lesson</p>
+                </div>
                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
                     class="elementor-section elementor-top-section elementor-element elementor-element-2e64a2a elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                     data-id="2e64a2a" data-element_type="section">
