@@ -10,9 +10,28 @@
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
 }
+.top-bar {
+            background-color: #268fe6;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .top-bar p {
+            margin: 0;
+            font-size: 16px;
+        }
+        @media (max-width: 600px) {
+            .top-bar p {
+                font-size: 14px;
+            }
+        }
         </style>
     <div data-elementor-type="header" data-elementor-id="639"
             class="elementor elementor-639 elementor-location-header" data-elementor-post-type="elementor_library">
+            <div class="top-bar">
+                <p>Reference a friend</p>
+                <p>$10 off for each friend reference when they start their first lesson</p>
+            </div>
             <section data-particle_enable="false" data-particle-mobile-disabled="false"
                 class="elementor-section elementor-top-section elementor-element elementor-element-4a8ba69d elementor-section-height-min-height elementor-section-content-middle elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
                 data-id="4a8ba69d" data-element_type="section"
@@ -182,6 +201,12 @@
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('contact') ? 'current-menu-item menu-item-active' : '' }}">
                                                 <a href="{{ url('/contact') }}" class="elementor-item {{ request()->is('contact') ? 'elementor-item-active' : '' }}">Contact</a>
                                             </li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('policy') ? 'current-menu-item menu-item-active' : '' }}">
+                                                <a href="{{ url('/policy') }}" class="elementor-item {{ request()->is('policy') ? 'elementor-item-active' : '' }}">Policy</a>
+                                            </li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page {{ request()->is('registration') ? 'current-menu-item menu-item-active' : '' }}">
+                                                <a href="{{ url('/registration') }}" class="elementor-item {{ request()->is('registration') ? 'elementor-item-active' : '' }}">Registration</a>
+                                            </li>
                                         </ul>
                                     </nav>
                                     <div class="elementor-menu-toggle" role="button" tabindex="0"
@@ -211,6 +236,10 @@
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
                                                 <a href="https://idealdrivingschool.ca/contact/" class="elementor-item"
                                                     tabindex="-1">Contact</a></li>
+                                            <li
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
+                                                <a href="https://idealdrivingschool.ca/policy/" class="elementor-item"
+                                                    tabindex="-1">Policy</a></li>
                                         </ul>
                                     </nav>
                                 </div>

@@ -656,439 +656,160 @@
                 <div data-elementor-type="wp-page" data-elementor-id="492" class="elementor elementor-492"
                     data-elementor-post-type="page">
                     <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-f022277 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
-                        data-id="f022277" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a01a55a"
-                                data-id="a01a55a" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-cc01fdf elementor-widget elementor-widget-text-editor"
-                                        data-id="cc01fdf" data-element_type="widget"
-                                        data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <p>Locally Owned &amp; Operated</p>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-cd29b23 elementor-widget elementor-widget-heading"
-                                        data-id="cd29b23" data-element_type="widget" data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">Get The Best
-                                                Learning At Affordable Rates</h2>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-38cb035 elementor-widget elementor-widget-text-editor"
-                                        data-id="38cb035" data-element_type="widget"
-                                        data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <p>Exceptional car driving lessons towards developing good driving habits and
-                                                skills to stay safe on the road.</p>
-                                        </div>
-                                    </div>
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-4dccd6a elementor-section-full_width elementor-hidden-tablet elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"
-                                        data-id="4dccd6a" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-75f8282"
-                                                data-id="75f8282" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-fba4d55 elementor-align-left elementor-widget elementor-widget-button"
-                                                        data-id="fba4d55" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="{{route('registration')}}">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Enroll
-                                                                            Now</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-48e1286"
-                                                data-id="48e1286" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-ba67e4d elementor-align-left elementor-widget elementor-widget-button"
-                                                        data-id="ba67e4d" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="{{route('services')}}/">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Learn
-                                                                            More</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-db94553"
-                                                data-id="db94553" data-element_type="column">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-76e6234 elementor-hidden-tablet elementor-hidden-mobile"
-                                                data-id="76e6234" data-element_type="column">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-244d72e elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="244d72e" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2db7a16"
-                                                data-id="2db7a16" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-911dbf3 elementor-align-left elementor-widget elementor-widget-button"
-                                                        data-id="911dbf3" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="#form">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Enroll
-                                                                            Now</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7d74518"
-                                                data-id="7d74518" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-71144d3 elementor-align-left elementor-widget elementor-widget-button"
-                                                        data-id="71144d3" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="{{route('services')}}/">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Learn
-                                                                            More</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-35efb27"
-                                                data-id="35efb27" data-element_type="column">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-5e6c9e2 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                        data-id="5e6c9e2" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-77d9863"
-                                data-id="77d9863" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-1ec36d6 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                                        data-id="1ec36d6" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-65ad586"
-                                                data-id="65ad586" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-4e3d868 elementor-widget elementor-widget-image"
-                                                        data-id="4e3d868" data-element_type="widget"
-                                                        data-widget_type="image.default">
-                                                        <div class="elementor-widget-container">
-                                                            <img decoding="async" width="800" height="532"
-                                                                src="https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-1024x681.jpg"
-                                                                class="attachment-large size-large wp-image-505"
-                                                                alt=""
-                                                                srcset="https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-1024x681.jpg 1024w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-300x200.jpg 300w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-768x511.jpg 768w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1-1536x1022.jpg 1536w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/woman-and-man-with-checklist-driving-school-1.jpg 2000w"
-                                                                sizes="(max-width: 800px) 100vw, 800px" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-13aee37"
-                                                data-id="13aee37" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-8d1d81b elementor-widget elementor-widget-heading"
-                                                        data-id="8d1d81b" data-element_type="widget"
-                                                        data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <h2 class="elementor-heading-title elementor-size-default">
-                                                                We're here to help you succeed!</h2>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-560de44 elementor-widget elementor-widget-text-editor"
-                                                        data-id="560de44" data-element_type="widget"
-                                                        data-widget_type="text-editor.default">
-                                                        <div class="elementor-widget-container">
-                                                            <p>Our school offers a variety of different services that will
-                                                                be beneficial to our students which will develop good
-                                                                driving skills and habits while being trained by our well
-                                                                educated instructors.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-f779d8c elementor-align-left elementor-widget elementor-widget-button"
-                                                        data-id="f779d8c" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="{{route('services')}}/">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Learn
-                                                                            More</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-7e058ac elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                        data-id="7e058ac" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0369964"
-                                data-id="0369964" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-ca72116 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="ca72116" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9c23ef6"
-                                                data-id="9c23ef6" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-e309c49 elementor-widget elementor-widget-heading"
-                                                        data-id="e309c49" data-element_type="widget"
-                                                        data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <h2 class="elementor-heading-title elementor-size-default">Book
-                                                                Now with an<br>
-                                                                Award Winning Driving School</h2>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-e4948b3 elementor-widget elementor-widget-text-editor"
-                                                        data-id="e4948b3" data-element_type="widget"
-                                                        data-widget_type="text-editor.default">
-                                                        <div class="elementor-widget-container">
-                                                            <p>Get trained by our well educated instructors on all parts of
-                                                                successfully becoming a good driver.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-9aae8b9 elementor-widget elementor-widget-image"
-                                                        data-id="9aae8b9" data-element_type="widget"
-                                                        data-widget_type="image.default">
-                                                        <div class="elementor-widget-container" >
-                                                            <img style="color: white; background: white;" decoding="async" width="150" height="150"
-                                                                src="{{asset('assets/driving_schools-vancouver-2023-clr.svg')}}"
-                                                                class="attachment-thumbnail size-thumbnail wp-image-686"
-                                                                alt=""
-                                                                sizes="(max-width: 150px) 100vw, 150px" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1db9b7a"
-                                            data-id="1db9b7a" data-element_type="column"
-                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    class="elementor-section elementor-top-section elementor-element elementor-element-7e058ac elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                    data-id="7e058ac" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0369964"
+                            data-id="0369964" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                                    class="elementor-section elementor-inner-section elementor-element elementor-element-ca72116 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                    data-id="ca72116" data-element_type="section">
+                                    <div class="elementor-container elementor-column-gap-default">
+                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9c23ef6"
+                                            data-id="9c23ef6" data-element_type="column">
                                             <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-fcd4092 elementor-widget elementor-widget-heading"
-                                                    data-id="fcd4092" data-element_type="widget" id="form"
+                                                <div class="elementor-element elementor-element-e309c49 elementor-widget elementor-widget-heading"
+                                                    data-id="e309c49" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <h2 class="elementor-heading-title elementor-size-default">Book your lesson</h2>
+                                                        <h2 class="elementor-heading-title elementor-size-default">Book
+                                                            Now with an<br>
+                                                            Award Winning Driving School</h2>
                                                     </div>
                                                 </div>
-                                                <div class="elementor-element elementor-element-b97c6bc elementor-button-align-start elementor-widget elementor-widget-form"
-                                                   >
+                                                <div class="elementor-element elementor-element-e4948b3 elementor-widget elementor-widget-text-editor"
+                                                    data-id="e4948b3" data-element_type="widget"
+                                                    data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <form class="elementor-form1" method="post" action="{{ route('register') }}" name="New Form">
-                                                            @csrf
-                                                      
-                                        
-                                                            <div class="elementor-form-fields-wrapper elementor-labels-above">
-                                                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50 elementor-field-required">
-                                                                    <label for="form-field-name" class="elementor-field-label">First Name</label>
-                                                                    <input size="1" type="text" name="first_name" id="form-field-name"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual" required="required">
-                                                                </div>
-                                                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_696bd05 elementor-col-50 elementor-field-required">
-                                                                    <label for="form-field-field_696bd05" class="elementor-field-label">Last Name</label>
-                                                                    <input size="1" type="text" name="last_name" id="form-field-field_696bd05"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual" required="required">
-                                                                </div>
-                                                                <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-field_4932af6 elementor-col-50 elementor-field-required">
-                                                                    <label for="form-field-field_4932af6" class="elementor-field-label">Email Address</label>
-                                                                    <input size="1" type="email" name="email" id="form-field-field_4932af6"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual" required="required">
-                                                                </div>
-                                                                <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_ea43119 elementor-col-50 elementor-field-required">
-                                                                    <label for="form-field-field_ea43119" class="elementor-field-label">Phone Number</label>
-                                                                    <input size="1" type="tel" name="phone" id="form-field-field_ea43119"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual" required="required"
-                                                                        pattern="[0-9()#&amp;+*-=.]+"
-                                                                        title="Only numbers and phone characters (#, -, *, etc) are accepted.">
-                                                                </div>
-                                                                <div class="elementor-field-type-date elementor-field-group elementor-column elementor-field-group-field_ea3e04f elementor-col-100 elementor-field-required">
-                                                                    <label for="form-field-field_ea3e04f" class="elementor-field-label">Start Date</label>
-                                                                    <input type="date" name="start_date" id="form-field-field_ea3e04f"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual elementor-date-field" required="required"
-                                                                        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
-                                                                </div>
-                                                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_d65172f elementor-col-100 elementor-field-required">
-                                                                    <label for="form-field-field_d65172f" class="elementor-field-label">Pickup Address</label>
-                                                                    <input size="1" type="text" name="pickup_address" id="form-field-field_d65172f"
-                                                                        class="elementor-field elementor-size-sm elementor-field-textual" required="required">
-                                                                </div>
-                                                                <div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-field_7bcf13b elementor-col-100 elementor-field-required">
-                                                                    <label for="form-field-field_7bcf13b" class="elementor-field-label">What Service Are you Interested In</label>
-                                                                    <div class="elementor-field elementor-select-wrapper remove-before">
-                                                                        <div class="select-caret-down-wrapper">
-                                                                            <i aria-hidden="true" class="eicon-caret-down"></i>
-                                                                        </div>
-                                                                        <select name="service_id" id="form-field-field_7bcf13b"
-                                                                            class="elementor-field-textual elementor-size-sm" required="required">
-                                                                            @foreach($services as $service)
-                                                                                <option value="{{ $service->id }}">{{ $service->name }}</option>
-                                                                            @endforeach
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_4c0855b elementor-col-100">
-                                                                    <label for="form-field-field_4c0855b" class="elementor-field-label">Message & Comments</label>
-                                                                    <textarea class="elementor-field-textual elementor-field elementor-size-sm" name="comment"
-                                                                        id="form-field-field_4c0855b" rows="4"></textarea>
-                                                                </div>
-                                                                <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                                                    <button class="elementor-button elementor-size-sm" type="submit">
-                                                                        <span class="elementor-button-content-wrapper">
-                                                                            <span class="elementor-button-text">Schedule Your Lesson Today!</span>
-                                                                        </span>
-                                                                    </button>
-                                                                </div>
-                                                                @if (session('success'))
-                                                                <div class="alert alert-success">
-                                                                    {{ session('success') }}
-                                                                </div>
-                                                            @endif
-                                                            <style>
-                                                                .alert {
-                                                            padding: 10px;
-                                                            margin-bottom: 15px;
-                                                            border: 1px solid transparent;
-                                                            border-radius: 4px;
-                                                        }
-
-                                                        .alert-success {
-                                                            color: #155724;
-                                                            background-color: #d4edda;
-                                                            border-color: #c3e6cb;
-                                                        }
-                                                            </style>
-                                                            </div>
-                                                        </form>
+                                                        <p>Get trained by our well educated instructors on all parts of
+                                                            successfully becoming a good driver.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-9aae8b9 elementor-widget elementor-widget-image"
+                                                    data-id="9aae8b9" data-element_type="widget"
+                                                    data-widget_type="image.default">
+                                                    <div class="elementor-widget-container" >
+                                                        <img style="color: white; background: white;" decoding="async" width="150" height="150"
+                                                            src="{{asset('assets/driving_schools-vancouver-2023-clr.svg')}}"
+                                                            class="attachment-thumbnail size-thumbnail wp-image-686"
+                                                            alt=""
+                                                            sizes="(max-width: 150px) 100vw, 150px" />
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-c665d1d elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
-                        data-id="c665d1d" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5a00c78"
-                                data-id="5a00c78" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-bfa7a59 elementor-widget elementor-widget-heading"
-                                        data-id="bfa7a59" data-element_type="widget" data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">When it comes to
-                                                learning to drive, we're the experts!</h2>
+                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1db9b7a"
+                                        data-id="1db9b7a" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-fcd4092 elementor-widget elementor-widget-heading"
+                                                data-id="fcd4092" data-element_type="widget" id="form"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Book your lesson</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-b97c6bc elementor-button-align-start elementor-widget elementor-widget-form"
+                                               >
+                                                <div class="elementor-widget-container">
+                                                    <form class="elementor-form1" method="post" action="{{ route('register') }}" name="New Form">
+                                                        @csrf
+                                                  
+                                    
+                                                        <div class="elementor-form-fields-wrapper elementor-labels-above">
+                                                            <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50 elementor-field-required">
+                                                                <label for="form-field-name" class="elementor-field-label">First Name</label>
+                                                                <input size="1" type="text" name="first_name" id="form-field-name"
+                                                                    class="elementor-field elementor-size-sm elementor-field-textual" required="required">
+                                                            </div>
+                                                            <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_696bd05 elementor-col-50 elementor-field-required">
+                                                                <label for="form-field-field_696bd05" class="elementor-field-label">Last Name</label>
+                                                                <input size="1" type="text" name="last_name" id="form-field-field_696bd05"
+                                                                    class="elementor-field elementor-size-sm elementor-field-textual" required="required">
+                                                            </div>
+                                                            <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-field_4932af6 elementor-col-50 elementor-field-required">
+                                                                <label for="form-field-field_4932af6" class="elementor-field-label">Email Address</label>
+                                                                <input size="1" type="email" name="email" id="form-field-field_4932af6"
+                                                                    class="elementor-field elementor-size-sm elementor-field-textual" required="required">
+                                                            </div>
+                                                            <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_ea43119 elementor-col-50 elementor-field-required">
+                                                                <label for="form-field-field_ea43119" class="elementor-field-label">Phone Number</label>
+                                                                <input size="1" type="tel" name="phone" id="form-field-field_ea43119"
+                                                                    class="elementor-field elementor-size-sm elementor-field-textual" required="required"
+                                                                    pattern="[0-9()#&amp;+*-=.]+"
+                                                                    title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+                                                            </div>
+                                                            <div class="elementor-field-type-date elementor-field-group elementor-column elementor-field-group-field_ea3e04f elementor-col-100 elementor-field-required">
+                                                                <label for="form-field-field_ea3e04f" class="elementor-field-label">Start Date</label>
+                                                                <input type="date" name="start_date" id="form-field-field_ea3e04f"
+                                                                    class="elementor-field elementor-size-sm elementor-field-textual elementor-date-field" required="required"
+                                                                    pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+                                                            </div>
+                                                            <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_d65172f elementor-col-100 elementor-field-required">
+                                                                <label for="form-field-field_d65172f" class="elementor-field-label">Pickup Address</label>
+                                                                <input size="1" type="text" name="pickup_address" id="form-field-field_d65172f"
+                                                                    class="elementor-field elementor-size-sm elementor-field-textual" required="required">
+                                                            </div>
+                                                            <div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-field_7bcf13b elementor-col-100 elementor-field-required">
+                                                                <label for="form-field-field_7bcf13b" class="elementor-field-label">What Service Are you Interested In</label>
+                                                                <div class="elementor-field elementor-select-wrapper remove-before">
+                                                                    <div class="select-caret-down-wrapper">
+                                                                        <i aria-hidden="true" class="eicon-caret-down"></i>
+                                                                    </div>
+                                                                    <select name="service_id" id="form-field-field_7bcf13b"
+                                                                        class="elementor-field-textual elementor-size-sm" required="required">
+                                                                        @foreach($services as $service)
+                                                                            <option value="{{ $service->id }}">{{ $service->name }}</option>
+                                                                        @endforeach
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_4c0855b elementor-col-100">
+                                                                <label for="form-field-field_4c0855b" class="elementor-field-label">Message & Comments</label>
+                                                                <textarea class="elementor-field-textual elementor-field elementor-size-sm" name="comment"
+                                                                    id="form-field-field_4c0855b" rows="4"></textarea>
+                                                            </div>
+                                                            <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+                                                                <button class="elementor-button elementor-size-sm" type="submit">
+                                                                    <span class="elementor-button-content-wrapper">
+                                                                        <span class="elementor-button-text">Schedule Your Lesson Today!</span>
+                                                                    </span>
+                                                                </button>
+                                                            </div>
+                                                            @if (session('success'))
+                                                            <div class="alert alert-success">
+                                                                {{ session('success') }}
+                                                            </div>
+                                                        @endif
+                                                        <style>
+                                                            .alert {
+                                                        padding: 10px;
+                                                        margin-bottom: 15px;
+                                                        border: 1px solid transparent;
+                                                        border-radius: 4px;
+                                                    }
+
+                                                    .alert-success {
+                                                        color: #155724;
+                                                        background-color: #d4edda;
+                                                        border-color: #c3e6cb;
+                                                    }
+                                                        </style>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-6d7c743 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="6d7c743" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9eb3450"
-                                                data-id="9eb3450" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-b35e920 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button"
-                                                        data-id="b35e920" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="#form">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Book Now</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-dba471b"
-                                                data-id="dba471b" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-d3ac6cf elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button"
-                                                        data-id="d3ac6cf" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="{{route('services')}}">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Learn
-                                                                            More</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
+                                    </div>
+                                </section>
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </section>
                     <section data-particle_enable="false" data-particle-mobile-disabled="false"
                         class="elementor-section elementor-top-section elementor-element elementor-element-fc4e972 elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
                         data-id="fc4e972" data-element_type="section"

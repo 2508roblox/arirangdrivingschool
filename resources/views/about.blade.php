@@ -831,7 +831,6 @@
                                                             src="{{asset('assets/Screenshot-2024-11-29-at-1.53.01 PM-768x1013.png')}}"
                                                             class="attachment-medium_large size-medium_large wp-image-678"
                                                             alt=""
-                                                            srcset="{{asset('assets/Screenshot-2024-11-29-at-1.53.01 PM-768x1013.png')}} 768w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/Road-300x163.png 300w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/Road-1024x557.png 1024w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/Road-1536x835.png 1536w, https://idealdrivingschool.ca/wp-content/uploads/2022/03/Road-2048x1113.png 2048w"
                                                             sizes="(max-width: 768px) 100vw, 768px" />
                                                     </div>
                                                 </div>

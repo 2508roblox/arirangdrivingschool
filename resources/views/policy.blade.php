@@ -6,18 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <title>services &#8211; Arirang Driving School</title>
+    <title>About &#8211; Arirang Driving School</title>
     <meta name='robots' content='max-image-preview:large' />
     <meta name="description" content="At Arirang Driving School, we pride ourselves on offering professional, friendly, and dependable service. Our mission goes beyond simply helping you pass your driving test; we focus on equipping you with the knowledge, skills, and techniques that build confidence for safe driving.">
     <meta name="keywords" content="Arirang Driving School, driving lessons, professional driving, safe driving, driving test, personalized driving lessons, beginner driving lessons, driving skills, confidence in driving">
-    <meta name="robots" content="index, follow">
-    <link rel="icon" href="{{asset("assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg")}}" type="image/x-icon"> <!-- Replace with your favicon path -->
+    <meta name="robots" content="index, follow">            <link rel="icon" href="{{asset("assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg")}}" type="image/x-icon"> <!-- Replace with your favicon path -->
 
     <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-    <link rel="alternate" type="application/rss+xml" title="Arirang Driving School &raquo; Feed"
-        href="https://idealdrivingschool.ca/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="Arirang Driving School &raquo; Comments Feed"
-        href="https://idealdrivingschool.ca/comments/feed/" />
+  
     <script>
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
@@ -135,9 +131,11 @@
         }((window, document), window._wpemojiSettings);
     </script>
     <link rel='stylesheet' id='bdt-uikit-css'
-        href='{{ asset('assets/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css') }}' media='all' />
+        href='{{ asset("assets/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css") }}'
+        media='all' />
     <link rel='stylesheet' id='ep-helper-css'
-        href='{{ asset('assets/wp-content/plugins/bdthemes-element-pack/assets/css/ep-helper.css') }}' media='all' />
+        href='{{ asset("assets/wp-content/plugins/bdthemes-element-pack/assets/css/ep-helper.css") }}'
+        media='all' />
     <style id='wp-emoji-styles-inline-css'>
         img.wp-smiley,
         img.emoji {
@@ -580,93 +578,58 @@
         }
     </style>
     <link rel='stylesheet' id='wp-components-css'
-        href='{{ asset('assets/wp-includes/css/dist/components/style.min.css') }}' media='all' />
+        href='{{ asset("assets/wp-includes/css/dist/components/style.min.css") }}' media='all' />
     <link rel='stylesheet' id='godaddy-styles-css'
-        href='{{ asset('assets/wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css') }}'
+        href='{{ asset("assets/wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css") }}'
         media='all' />
     <link rel='stylesheet' id='hello-elementor-css'
-        href='{{ asset('assets/wp-content/themes/hello-elementor/style.min.css') }}' media='all' />
+        href='{{ asset("assets/wp-content/themes/hello-elementor/style.min.css") }}' media='all' />
     <link rel='stylesheet' id='hello-elementor-theme-style-css'
-        href='{{ asset('assets/wp-content/themes/hello-elementor/theme.min.css') }}' media='all' />
+        href='{{ asset("assets/wp-content/themes/hello-elementor/theme.min.css") }}' media='all' />
     <link rel='stylesheet' id='hello-elementor-header-footer-css'
-        href='{{ asset('assets/wp-content/themes/hello-elementor/header-footer.min.css') }}' media='all' />
-    <link rel='stylesheet' id='elementor-frontend-css'
-        href='{{ asset('assets/wp-content/plugins/elementor/assets/css/frontend.min.css') }}' media='all' />
-    <link rel='stylesheet' id='eael-general-css'
-        href='{{ asset('assets/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css') }}'
+        href='{{ asset("assets/wp-content/themes/hello-elementor/header-footer.min.css") }}'
         media='all' />
-    <link rel='stylesheet' id='eael-573-css'
-        href='{{ asset('assets/wp-content/uploads/essential-addons-elementor/eael-573.css') }}' media='all' />
     <link rel='stylesheet' id='elementor-icons-css'
-        href='{{ asset('assets/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css') }}'
+        href='{{ asset("assets/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css") }}'
         media='all' />
-    <style id='elementor-icons-inline-css'>
-        .elementor-add-new-section .elementor-add-templately-promo-button {
-            background-color: #5d4fff;
-            background-image: url(https://idealdrivingschool.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
-            background-repeat: no-repeat;
-            background-position: center center;
-            position: relative;
-        }
-
-        .elementor-add-new-section .elementor-add-templately-promo-button>i {
-            height: 12px;
-        }
-
-        body .elementor-add-new-section .elementor-add-section-area-button {
-            margin-left: 0;
-        }
-
-        .elementor-add-new-section .elementor-add-templately-promo-button {
-            background-color: #5d4fff;
-            background-image: url(https://idealdrivingschool.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
-            background-repeat: no-repeat;
-            background-position: center center;
-            position: relative;
-        }
-
-        .elementor-add-new-section .elementor-add-templately-promo-button>i {
-            height: 12px;
-        }
-
-        body .elementor-add-new-section .elementor-add-section-area-button {
-            margin-left: 0;
-        }
-    </style>
+    <link rel='stylesheet' id='elementor-frontend-css'
+        href='{{ asset("assets/wp-content/plugins/elementor/assets/css/frontend.min.css") }}'
+        media='all' />
     <link rel='stylesheet' id='elementor-post-50-css'
-        href='{{ asset('assets/wp-content/uploads/elementor/css/post-50.css') }}' media='all' />
-    <link rel='stylesheet' id='elementor-post-573-css'
-        href='{{ asset('assets/wp-content/uploads/elementor/css/post-573.css') }}' media='all' />
+        href='{{ asset("assets/wp-content/uploads/elementor/css/post-50.css") }}'
+        media='all' />
+    <link rel='stylesheet' id='elementor-post-526-css'
+        href='{{ asset("assets/wp-content/uploads/elementor/css/post-526.css") }}'
+        media='all' />
     <link rel='stylesheet' id='elementor-post-639-css'
-        href='{{ asset('assets/wp-content/uploads/elementor/css/post-639.css') }}' media='all' />
+        href='{{ asset("assets/wp-content/uploads/elementor/css/post-639.css") }}'
+        media='all' />
     <link rel='stylesheet' id='elementor-post-665-css'
-        href='{{ asset('assets/wp-content/uploads/elementor/css/post-665.css') }}' media='all' />
+        href='{{ asset("assets/wp-content/uploads/elementor/css/post-665.css") }}'
+        media='all' />
+    <link rel='stylesheet' id='eael-general-css'
+        href='{{ asset("assets/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css") }}'
+        media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
         href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMaven+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.7.1'
         media='all' />
     <link rel='stylesheet' id='elementor-icons-shared-0-css'
-        href='{{ asset('assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css') }}'
+        href='{{ asset("assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css") }}'
         media='all' />
     <link rel='stylesheet' id='elementor-icons-fa-solid-css'
-        href='{{ asset('assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css') }}'
+        href='{{ asset("assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css") }}'
         media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <script src="{{ asset('assets/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js"></script>
-    <script src="{{ asset('assets/wp-includes/js/jquery/jquery-migrate.min.js') }}" id="jquery-migrate-js"></script>
-    <link rel="https://api.w.org/" href="https://idealdrivingschool.ca/wp-json/" />
-    <link rel="alternate" title="JSON" type="application/json"
-        href="https://idealdrivingschool.ca/wp-json/wp/v2/pages/573" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD"
-        href="https://idealdrivingschool.ca/xmlrpc.php?rsd" />
+    <script src="{{ asset("assets/wp-includes/js/jquery/jquery.min.js") }}" id="jquery-core-js"></script>
+    <script src="{{ asset("assets/wp-includes/js/jquery/jquery-migrate.min.js") }}"
+        id="jquery-migrate-js"></script>
+   
+  
     <meta name="generator" content="WordPress 6.7.1" />
-    <link rel="canonical" href="{{route('services')}}" />
-    <link rel='shortlink' href='https://idealdrivingschool.ca/?p=573' />
-    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-        href="https://idealdrivingschool.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fidealdrivingschool.ca%2Fservices%2F" />
-    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-        href="https://idealdrivingschool.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fidealdrivingschool.ca%2Fservices%2F&#038;format=xml" />
+    <link rel="canonical" href="{{route('about')}}/" />
+   
     <meta name="generator"
-        content="Elementor 3.27.3; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+        content="Elementor 3.27.2; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
     <style>
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
@@ -752,32 +715,32 @@
 </head>
 
 <body
-    class="page-template-default page page-id-573 wp-custom-logo wp-embed-responsive theme-default elementor-default elementor-kit-50 elementor-page elementor-page-573">
-    @include('header')
+    class="page-template-default page page-id-526 wp-custom-logo wp-embed-responsive theme-default elementor-default elementor-kit-50 elementor-page elementor-page-526">
 
+    @include('header')
     <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-   
+ 
 
-    <main id="content" class="site-main post-573 page type-page status-publish hentry">
+    <main id="content" class="site-main post-526 page type-page status-publish hentry">
 
 
         <div class="page-content">
-            <div data-elementor-type="wp-page" data-elementor-id="573" class="elementor elementor-573"
+            <div data-elementor-type="wp-page" data-elementor-id="526" class="elementor elementor-526"
                 data-elementor-post-type="page">
                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                    class="elementor-section elementor-top-section elementor-element elementor-element-a0edbba elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
-                    data-id="a0edbba" data-element_type="section"
+                    class="elementor-section elementor-top-section elementor-element elementor-element-590919f elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
+                    data-id="590919f" data-element_type="section"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-background-overlay"></div>
                     <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2b625cd"
-                            data-id="2b625cd" data-element_type="column">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6803cf3"
+                            data-id="6803cf3" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-0f9261f elementor-widget elementor-widget-heading"
-                                    data-id="0f9261f" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-element elementor-element-f7d1768 elementor-widget elementor-widget-heading"
+                                    data-id="f7d1768" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Services</h2>
+                                        <h2 class="elementor-heading-title elementor-size-default">Policy</h2>
                                     </div>
                                 </div>
                             </div>
@@ -785,122 +748,90 @@
                     </div>
                 </section>
                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                    class="elementor-section elementor-top-section elementor-element elementor-element-2e64a2a elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="2e64a2a" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-60a2410"
-                            data-id="60a2410" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                              <section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-section-full_width elementor-section-height-default">
-    <div class="elementor-container elementor-column-gap-default " id="k-L34_35">
-        <div class="elementor-row"> <!-- Thêm div này để nhóm các cột lại -->
-            @foreach($services as $index => $service)
-            <div class="elementor-column elementor-col-33 elementor-inner-column">
-                <div class="elementor-widget-wrap elementor-element-populated">
-                    <div class="elementor-element elementor-element-2e3fca0 eael-pricing-content-align-center eael-pricing-button-align-center elementor-widget elementor-widget-eael-pricing-table">
-                        <div class="elementor-widget-container">
-                            <div class="eael-pricing style-4">
-                                <div class="eael-pricing-item">
-                                    <div class="eael-pricing-image">
-                                        <div class="eael-pricing-tag">
-                                            <span class="price-tag">
-                                                <span class="original-price">
-                                                    <span class="price-currency">${{ number_format($service->price, 0) }}</span>
-                                                </span>
-                                            </span>
-                                            @if($service->duration > 0)
-                                            <span class="price-period">/{{ $service->duration }}</span>
-                                        @endif                                        </div>
-                                    </div>
-                                    <div class="header">
-                                        <h2 class="title">{{ $service->name }}</h2>
-                                    </div>
-                                    <div class="body">
-                                        <ul>
-                                            @if(is_array($service->benefits))
-                                                @foreach($service->benefits as $benefit)
-                                                <li>
-                                                    <span class="li-icon" style="color:#01BFFD;fill:#01BFFD;"></span>
-                                                    <span>{{ $benefit['value'] }}</span> <!-- Truy cập vào thuộc tính 'value' -->
-                                                </li>
-                                                @endforeach
-                                            @else
-                                                <li>{{ $service->benefits }}</li> <!-- Nếu không phải là mảng -->
-                                            @endif
-                                        </ul>
-                                    </div>
-                                    <div class="footer">
-                                        <a class="eael-pricing-button" href="{{route('registration')}}#form">
-                                            Book Now
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            @if(($index + 1) % 3 == 0) <!-- Nếu đã hiển thị 3 dịch vụ -->
-                </div><div class="elementor-row"> <!-- Kết thúc hàng và bắt đầu hàng mới -->
-            @endif
-            @endforeach
-        </div>
-    </div>
-</section>
-<style>
-    .elementor-row {
-        display: flex
-;  
-    gap: 1rem;
-    }
- 
-@media (max-width: 768px) {  /* Đối với mobile và tablet */
-    .elementor-row {
-        flex-wrap: wrap;
-    }
-}
-    #k-L34_35 {
-        
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-
-    }
-</style>      
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                    class="elementor-section elementor-top-section elementor-element elementor-element-7254f66 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
-                    data-id="7254f66" data-element_type="section"
+                    class="elementor-section elementor-top-section elementor-element elementor-element-6ae2cfc elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                    data-id="6ae2cfc" data-element_type="section"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f7670ee"
-                            data-id="f7670ee" data-element_type="column">
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ba15648"
+                            data-id="ba15648" data-element_type="column">
+              
+                        </div>
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c7e6a32"
+                            data-id="c7e6a32" data-element_type="column">
+                         
+                        </div>
+                    </div>
+                </section>
+                <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                    class="elementor-section elementor-top-section elementor-element elementor-element-7f2bc89 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                    data-id="7f2bc89" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c703e5d"
+                            data-id="c703e5d" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-6093c92 elementor-widget elementor-widget-heading"
-                                    data-id="6093c92" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-element elementor-element-3b35eaf elementor-widget elementor-widget-heading"
+                                    data-id="3b35eaf" data-element_type="widget" data-widget_type="heading.default">
+                                   
+                                </div>
+                              
+                                <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                                    class="elementor-section elementor-inner-section elementor-element elementor-element-0f274a3 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default"
+                                    data-id="0f274a3" data-element_type="section">
+                                    <div class="elementor-container elementor-column-gap-default">
+                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ccd9c0b"
+                                            data-id="ccd9c0b" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-8f5f5b5 elementor-widget elementor-widget-image"
+                                                    data-id="8f5f5b5" data-element_type="widget"
+                                                    data-widget_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <img decoding="async" width="768" height="418"
+                                                            src="{{asset('assets/Screenshot-2024-11-29-at-1.53.01 PM-768x1013.png')}}"
+                                                            class="attachment-medium_large size-medium_large wp-image-678"
+                                                            alt=""
+                                                            sizes="(max-width: 768px) 100vw, 768px" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                    class="elementor-section elementor-top-section elementor-element elementor-element-e50280b elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
+                    data-id="e50280b" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-82b31b9"
+                            data-id="82b31b9" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-fafdf78 elementor-widget elementor-widget-heading"
+                                    data-id="fafdf78" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Safe driving starts
-                                            with us!</h2>
+                                        <h2 class="elementor-heading-title elementor-size-default">Start your driving
+                                            journey with us</h2>
                                     </div>
                                 </div>
                                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-cf7bd67 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="cf7bd67" data-element_type="section">
+                                    class="elementor-section elementor-inner-section elementor-element elementor-element-13b2450 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                    data-id="13b2450" data-element_type="section">
                                     <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b6c1752"
-                                            data-id="b6c1752" data-element_type="column">
+                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b995897"
+                                            data-id="b995897" data-element_type="column">
                                             <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-58910c4 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button"
-                                                    data-id="58910c4" data-element_type="widget"
+                                                <div class="elementor-element elementor-element-d6f160f elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button"
+                                                    data-id="d6f160f" data-element_type="widget"
                                                     data-widget_type="button.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-button-wrapper">
                                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                href="{{route('contact')}}#form">
+                                                                href="{{ route('contact') }}">
                                                                 <span class="elementor-button-content-wrapper">
                                                                     <span class="elementor-button-text">Book Now</span>
                                                                 </span>
@@ -910,16 +841,16 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-462dbf5"
-                                            data-id="462dbf5" data-element_type="column">
+                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5894846"
+                                            data-id="5894846" data-element_type="column">
                                             <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-1ce4be0 elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button"
-                                                    data-id="1ce4be0" data-element_type="widget"
+                                                <div class="elementor-element elementor-element-ae8a7c4 elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button"
+                                                    data-id="ae8a7c4" data-element_type="widget"
                                                     data-widget_type="button.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-button-wrapper">
                                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                href="{{route('about')}}">
+                                                                href="{{route('services')}}">
                                                                 <span class="elementor-button-content-wrapper">
                                                                     <span class="elementor-button-text">Learn
                                                                         More</span>
@@ -967,13 +898,13 @@
                                             <a href="https://idealdrivingschool.ca/" class="elementor-item">Home</a>
                                         </li>
                                         <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673">
-                                            <a href="{{route('about')}}/"
-                                                class="elementor-item">About</a></li>
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-526 current_page_item menu-item-673">
+                                            <a href="{{route('about')}}/" aria-current="page"
+                                                class="elementor-item elementor-item-active">About</a></li>
                                         <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-573 current_page_item menu-item-671">
-                                            <a href="{{route('services')}}" aria-current="page"
-                                                class="elementor-item elementor-item-active">Services</a></li>
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671">
+                                            <a href="{{route('services')}}"
+                                                class="elementor-item">Services</a></li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
                                             <a href="https://idealdrivingschool.ca/contact/"
@@ -995,13 +926,13 @@
                                             <a href="https://idealdrivingschool.ca/" class="elementor-item"
                                                 tabindex="-1">Home</a></li>
                                         <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673">
-                                            <a href="{{route('about')}}/" class="elementor-item"
-                                                tabindex="-1">About</a></li>
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-526 current_page_item menu-item-673">
+                                            <a href="{{route('about')}}/" aria-current="page"
+                                                class="elementor-item elementor-item-active" tabindex="-1">About</a>
+                                        </li>
                                         <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-573 current_page_item menu-item-671">
-                                            <a href="{{route('services')}}" aria-current="page"
-                                                class="elementor-item elementor-item-active"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671">
+                                            <a href="{{route('services')}}" class="elementor-item"
                                                 tabindex="-1">Services</a></li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
@@ -1156,22 +1087,24 @@
         });
     </script>
     <link rel='stylesheet' id='widget-icon-list-css'
-        href='{{ asset('assets/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css') }}'
+        href='{{ asset("assets/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css") }}'
         media='all' />
     <link rel='stylesheet' id='widget-image-css'
-        href='{{ asset('assets/wp-content/plugins/elementor/assets/css/widget-image.min.css') }}' media='all' />
+        href='{{ asset("assets/wp-content/plugins/elementor/assets/css/widget-image.min.css") }}'
+        media='all' />
     <link rel='stylesheet' id='widget-text-editor-css'
-        href='{{ asset('assets/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css') }}'
+        href='{{ asset("assets/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css") }}'
         media='all' />
     <link rel='stylesheet' id='widget-nav-menu-css'
-        href='{{ asset('assets/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css') }}'
+        href='{{ asset("assets/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css") }}'
         media='all' />
     <link rel='stylesheet' id='widget-heading-css'
-        href='{{ asset('assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css') }}' media='all' />
+        href='{{ asset("assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css") }}'
+        media='all' />
     <script id="eael-general-js-extra">
         var localize = {
             "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
-            "nonce": "aac387bd3f",
+            "nonce": "ed89c33a23",
             "i18n": {
                 "added": "Added ",
                 "compare": "Compare",
@@ -1184,7 +1117,7 @@
                 "shipping_text": "Shipping",
                 "fg_mfp_counter_text": "of"
             },
-            "page_permalink": "https:\/\/idealdrivingschool.ca\/services\/",
+            "page_permalink": "https:\/\/idealdrivingschool.ca\/about\/",
             "cart_redirectition": "",
             "cart_page_url": "",
             "el_breakpoints": {
@@ -1238,17 +1171,15 @@
                 "snow": "{\"particles\":{\"number\":{\"value\":450,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#fff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":500,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":2},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"bottom\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":0.5}},\"bubble\":{\"distance\":400,\"size\":4,\"duration\":0.3,\"opacity\":1,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}",
                 "nyan_cat": "{\"particles\":{\"number\":{\"value\":150,\"density\":{\"enable\":false,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"star\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"http:\/\/wiki.lexisnexis.com\/academic\/images\/f\/fb\/Itunes_podcast_icon_300.jpg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":4,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":14,\"direction\":\"left\",\"random\":false,\"straight\":true,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":200,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}"
             },
-            "eael_login_nonce": "df3b604104",
-            "eael_register_nonce": "6fadf4c794",
-            "eael_lostpassword_nonce": "45873009c3",
-            "eael_resetpassword_nonce": "2ed2440f54"
+            "eael_login_nonce": "c6e37b0035",
+            "eael_register_nonce": "8cf381d57f",
+            "eael_lostpassword_nonce": "e1830b352e",
+            "eael_resetpassword_nonce": "86f7ad055a"
         };
     </script>
     <script
-        src="{{ asset('assets/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js') }}"
+        src="{{ asset("assets/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js") }}"
         id="eael-general-js"></script>
-    <script src="{{ asset('assets/wp-content/uploads/essential-addons-elementor/eael-573.js') }}" id="eael-573-js">
-    </script>
     <script id="bdt-uikit-js-extra">
         var element_pack_ajax_login_config = {
             "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
@@ -1258,7 +1189,7 @@
         };
         var ElementPackConfig = {
             "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
-            "nonce": "f952e14462",
+            "nonce": "0d70a04672",
             "data_table": {
                 "language": {
                     "lengthMenu": "Show _MENU_ Entries",
@@ -1291,13 +1222,15 @@
             }
         };
     </script>
-    <script src="{{ asset('assets/wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js') }}"
+    <script
+        src="{{ asset("assets/wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js") }}"
         id="bdt-uikit-js"></script>
-    <script src="{{ asset('assets/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}"
+    <script src="{{ asset("assets/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js") }}"
         id="elementor-webpack-runtime-js"></script>
-    <script src="{{ asset('assets/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}"
+    <script src="{{ asset("assets/wp-content/plugins/elementor/assets/js/frontend-modules.min.js") }}"
         id="elementor-frontend-modules-js"></script>
-    <script src="{{ asset('assets/wp-includes/js/jquery/ui/core.min.js') }}" id="jquery-ui-core-js"></script>
+    <script src="{{ asset("assets/wp-includes/js/jquery/ui/core.min.js") }}" id="jquery-ui-core-js">
+    </script>
     <script id="elementor-frontend-js-before">
         var elementorFrontendConfig = {
             "environmentMode": {
@@ -1380,7 +1313,7 @@
                 },
                 "hasCustomBreakpoints": false
             },
-            "version": "3.27.3",
+            "version": "3.27.2",
             "is_static": false,
             "experimentalFeatures": {
                 "additional_custom_breakpoints": true,
@@ -1397,7 +1330,7 @@
                 "uploadUrl": "https:\/\/idealdrivingschool.ca\/wp-content\/uploads"
             },
             "nonces": {
-                "floatingButtonsClickTracking": "da2265afd3"
+                "floatingButtonsClickTracking": "71e9f81c5b"
             },
             "swiperClass": "swiper",
             "settings": {
@@ -1415,25 +1348,31 @@
                 "lightbox_description_src": "description"
             },
             "post": {
-                "id": 573,
-                "title": "services%20%E2%80%93%20Ideal%20Driving%20School",
+                "id": 526,
+                "title": "About%20%E2%80%93%20Ideal%20Driving%20School",
                 "excerpt": "",
                 "featuredImage": false
             }
         };
     </script>
-    <script src="{{ asset('assets/wp-content/plugins/elementor/assets/js/frontend.min.js') }}" id="elementor-frontend-js">
-    </script>
-    <script src="{{ asset('assets/wp-content/plugins/bdthemes-element-pack/assets/js/modules/ep-wrapper-link.min.js') }}"
+    <script src="{{ asset("assets/wp-content/plugins/elementor/assets/js/frontend.min.js") }}"
+        id="elementor-frontend-js"></script>
+    <script
+        src="{{ asset("assets/wp-content/plugins/bdthemes-element-pack/assets/js/modules/ep-wrapper-link.min.js") }}"
         id="ep-wrapper-link-js"></script>
-    <script src="{{ asset('assets/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js') }}"
+    <script
+        src="{{ asset("assets/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js") }}"
         id="smartmenus-js"></script>
-    <script src="{{ asset('assets/wp-content/plugins/bdthemes-element-pack/assets/js/common/helper.min.js') }}"
+    <script
+        src="{{ asset("assets/wp-content/plugins/bdthemes-element-pack/assets/js/common/helper.min.js") }}"
         id="element-pack-helper-js"></script>
-    <script src="{{ asset('assets/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js') }}"
+    <script
+        src="{{ asset("assets/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js") }}"
         id="elementor-pro-webpack-runtime-js"></script>
-    <script src="{{ asset('assets/wp-includes/js/dist/hooks.min.js') }}d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
-    <script src="{{ asset('assets/wp-includes/js/dist/i18n.min.js') }}e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+    <script src="{{ asset("assets/wp-includes/js/dist/hooks.min.js") }}d63a3d491d11ffd8ac6" id="wp-hooks-js">
+    </script>
+    <script src="{{ asset("assets/wp-includes/js/dist/i18n.min.js") }}e580eb46a90c2b997e6" id="wp-i18n-js">
+    </script>
     <script id="wp-i18n-js-after">
         wp.i18n.setLocaleData({
             'text direction\u0004ltr': ['ltr']
@@ -1442,7 +1381,7 @@
     <script id="elementor-pro-frontend-js-before">
         var ElementorProFrontendConfig = {
             "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
-            "nonce": "f16c2a68ca",
+            "nonce": "b5e1b32e3e",
             "urls": {
                 "assets": "https:\/\/idealdrivingschool.ca\/wp-content\/plugins\/elementor-pro\/assets\/",
                 "rest": "https:\/\/idealdrivingschool.ca\/wp-json\/"
@@ -1533,9 +1472,10 @@
             }
         };
     </script>
-    <script src="{{ asset('assets/wp-content/plugins/elementor-pro/assets/js/frontend.min.js') }}"
+    <script src="{{ asset("assets/wp-content/plugins/elementor-pro/assets/js/frontend.min.js") }}"
         id="elementor-pro-frontend-js"></script>
-    <script src="{{ asset('assets/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js') }}"
+    <script
+        src="{{ asset("assets/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js") }}"
         id="pro-elements-handlers-js"></script>
 
 </body>
