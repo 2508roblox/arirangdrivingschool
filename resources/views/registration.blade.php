@@ -939,7 +939,7 @@
                                                                                 <div class="eael-testimonial-image">
                                                                                     <figure>
                                                                                         <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
+                                                                                            src="{{asset("assets/hbz-hottest-men-jon-hamm-gettyimages-141278424.avif")}}"
                                                                                             alt="">
                                                                                     </figure>
                                                                                 </div>
@@ -977,39 +977,7 @@
 
 
 
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>I was able to pass the test
-                                                                                            solely because of the expert
-                                                                                            services by Ideal. I kid you
-                                                                                            not, I was super nervous and the
-                                                                                            way the instructor handled it
-                                                                                            was so professional. He keeps a
-                                                                                            record of your progress and
-                                                                                            trains you in the best way
-                                                                                            possible</p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
+                                           
 
 
 
@@ -1028,7 +996,7 @@
                                                                                 <div class="eael-testimonial-image">
                                                                                     <figure>
                                                                                         <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
+                                                                                             src="{{asset("assets/2048x2730-c66edaf0-29fc-11e6-a7bc-73c1b803ce16-assets-elleuk-com-thumbs-14566-jamie-dornan-rex-jpg.avif")}}"
                                                                                             alt="">
                                                                                     </figure>
                                                                                 </div>
@@ -1064,51 +1032,7 @@
 
 
 
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>What an awesome trainer. I would
-                                                                                            strongly recommend this driving
-                                                                                            school. I had been struggling
-                                                                                            from last 2 and half years for
-                                                                                            Class 5 road test which looked a
-                                                                                            hard but to crack for me. I got
-                                                                                            a reference from one of my
-                                                                                            office colleague about this
-                                                                                            driving school and took only 5
-                                                                                            regular classes and result was I
-                                                                                            got my class 5 licence today
-                                                                                            morning. Trainer is too too
-                                                                                            good, very professional, soft
-                                                                                            spoken, positive attitude. He
-                                                                                            encouraged me every time at
-                                                                                            every point to be confident and
-                                                                                            positive, which is really a key
-                                                                                            to success in road test.</p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
+ 
 
 
 
@@ -1125,7 +1049,7 @@
                                                                                 <div class="eael-testimonial-image">
                                                                                     <figure>
                                                                                         <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
+                                                                                             src="{{asset("assets/original.webp")}}"
                                                                                             alt="">
                                                                                     </figure>
                                                                                 </div>
@@ -1160,38 +1084,16 @@
 
 
 
+ 
 
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>I had a positive experience with
-                                                                                            Arirang Driving School. The
-                                                                                            trainer was knowledgeable and
-                                                                                            patient for giving all
-                                                                                            instructions, and took care
-                                                                                            about all my driving weakness
-                                                                                        </p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
+
+
+
+
+
+
+
+ 
 
 
 
@@ -1201,94 +1103,7 @@
 
 
 
-
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>I had a great experience with
-                                                                                            Arirang Driving School and passed
-                                                                                            my test in first attempt. The
-                                                                                            instructor really helps you
-                                                                                            build confidence and points out
-                                                                                            all the mistakes with a lot of
-                                                                                            patience. In the past i had
-                                                                                            experience with a couple of
-                                                                                            other driving schools but I
-                                                                                            found this one the best.</p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>I highly recommend this driving
-                                                                                            school. Sabir is a very patient
-                                                                                            and professional instructor. He
-                                                                                            points out all the things you're
-                                                                                            doing wrong in an instance and
-                                                                                            you'll learn easily from your
-                                                                                            mistakes. My daughter took
-                                                                                            lessons from Ideal Driving
-                                                                                            School and not only passed her
-                                                                                            road test she felt very
-                                                                                            confident with the test after
-                                                                                            receiving excellent instructions
-                                                                                            that made her feel very prepared
-                                                                                            prior to her test.</p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
+                                                             
 
 
 

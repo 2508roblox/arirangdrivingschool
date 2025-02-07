@@ -1,2405 +1,2141 @@
- 
-    <!doctype html>
-    <html lang="en-CA">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="profile" href="https://gmpg.org/xfn/11">
-        <meta name='robots' content='max-image-preview:large' />
-        <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-        <link rel="alternate" type="application/rss+xml" title="Arirang Driving School &raquo; Feed"
-            href="https://idealdrivingschool.ca/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Arirang Driving School &raquo; Comments Feed"
-            href="https://idealdrivingschool.ca/comments/feed/" />
-            <title>Arirang Driving School - Professional Driving Lessons</title>
-            <meta name="description" content="At Arirang Driving School, we pride ourselves on offering professional, friendly, and dependable service. Our mission goes beyond simply helping you pass your driving test; we focus on equipping you with the knowledge, skills, and techniques that build confidence for safe driving.">
-            <meta name="keywords" content="Arirang Driving School, driving lessons, professional driving, safe driving, driving test, personalized driving lessons, beginner driving lessons, driving skills, confidence in driving">
-            <meta name="robots" content="index, follow">
-
-            <link rel="icon" href="{{asset("assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg")}}" type="image/x-icon"> <!-- Replace with your favicon path -->
-
-
-        <style id='wp-emoji-styles-inline-css'>
-            img.wp-smiley,
-            img.emoji {
-                display: inline !important;
-                border: none !important;
-                box-shadow: none !important;
-                height: 1em !important;
-                width: 1em !important;
-                margin: 0 0.07em !important;
-                vertical-align: -0.1em !important;
-                background: none !important;
-                padding: 0 !important;
-            }
-        </style>
-        <style id='global-styles-inline-css'>
-            :root {
-                --wp--preset--aspect-ratio--square: 1;
-                --wp--preset--aspect-ratio--4-3: 4/3;
-                --wp--preset--aspect-ratio--3-4: 3/4;
-                --wp--preset--aspect-ratio--3-2: 3/2;
-                --wp--preset--aspect-ratio--2-3: 2/3;
-                --wp--preset--aspect-ratio--16-9: 16/9;
-                --wp--preset--aspect-ratio--9-16: 9/16;
-                --wp--preset--color--black: #000000;
-                --wp--preset--color--cyan-bluish-gray: #abb8c3;
-                --wp--preset--color--white: #ffffff;
-                --wp--preset--color--pale-pink: #f78da7;
-                --wp--preset--color--vivid-red: #cf2e2e;
-                --wp--preset--color--luminous-vivid-orange: #ff6900;
-                --wp--preset--color--luminous-vivid-amber: #fcb900;
-                --wp--preset--color--light-green-cyan: #7bdcb5;
-                --wp--preset--color--vivid-green-cyan: #00d084;
-                --wp--preset--color--pale-cyan-blue: #8ed1fc;
-                --wp--preset--color--vivid-cyan-blue: #0693e3;
-                --wp--preset--color--vivid-purple: #9b51e0;
-                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
-                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
-                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
-                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
-                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
-                --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
-                --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-                --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
-                --wp--preset--font-size--small: 13px;
-                --wp--preset--font-size--medium: 20px;
-                --wp--preset--font-size--large: 36px;
-                --wp--preset--font-size--x-large: 42px;
-                --wp--preset--spacing--20: 0.44rem;
-                --wp--preset--spacing--30: 0.67rem;
-                --wp--preset--spacing--40: 1rem;
-                --wp--preset--spacing--50: 1.5rem;
-                --wp--preset--spacing--60: 2.25rem;
-                --wp--preset--spacing--70: 3.38rem;
-                --wp--preset--spacing--80: 5.06rem;
-                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
-            }
-
-            :root {
-                --wp--style--global--content-size: 800px;
-                --wp--style--global--wide-size: 1200px;
-            }
-
-            :where(body) {
-                margin: 0;
-            }
-
-            .wp-site-blocks>.alignleft {
-                float: left;
-                margin-right: 2em;
-            }
-
-            .wp-site-blocks>.alignright {
-                float: right;
-                margin-left: 2em;
-            }
-
-            .wp-site-blocks>.aligncenter {
-                justify-content: center;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            :where(.wp-site-blocks)>* {
-                margin-block-start: 24px;
-                margin-block-end: 0;
-            }
-
-            :where(.wp-site-blocks)> :first-child {
-                margin-block-start: 0;
-            }
-
-            :where(.wp-site-blocks)> :last-child {
-                margin-block-end: 0;
-            }
-
-            :root {
-                --wp--style--block-gap: 24px;
-            }
-
-            :root :where(.is-layout-flow)> :first-child {
-                margin-block-start: 0;
-            }
-
-            :root :where(.is-layout-flow)> :last-child {
-                margin-block-end: 0;
-            }
-
-            :root :where(.is-layout-flow)>* {
-                margin-block-start: 24px;
-                margin-block-end: 0;
-            }
-
-            :root :where(.is-layout-constrained)> :first-child {
-                margin-block-start: 0;
-            }
-
-            :root :where(.is-layout-constrained)> :last-child {
-                margin-block-end: 0;
-            }
-
-            :root :where(.is-layout-constrained)>* {
-                margin-block-start: 24px;
-                margin-block-end: 0;
-            }
-
-            :root :where(.is-layout-flex) {
-                gap: 24px;
-            }
-
-            :root :where(.is-layout-grid) {
-                gap: 24px;
-            }
-
-            .is-layout-flow>.alignleft {
-                float: left;
-                margin-inline-start: 0;
-                margin-inline-end: 2em;
-            }
-
-            .is-layout-flow>.alignright {
-                float: right;
-                margin-inline-start: 2em;
-                margin-inline-end: 0;
-            }
-
-            .is-layout-flow>.aligncenter {
-                margin-left: auto !important;
-                margin-right: auto !important;
-            }
-
-            .is-layout-constrained>.alignleft {
-                float: left;
-                margin-inline-start: 0;
-                margin-inline-end: 2em;
-            }
-
-            .is-layout-constrained>.alignright {
-                float: right;
-                margin-inline-start: 2em;
-                margin-inline-end: 0;
-            }
-
-            .is-layout-constrained>.aligncenter {
-                margin-left: auto !important;
-                margin-right: auto !important;
-            }
-
-            .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
-                max-width: var(--wp--style--global--content-size);
-                margin-left: auto !important;
-                margin-right: auto !important;
-            }
-
-            .is-layout-constrained>.alignwide {
-                max-width: var(--wp--style--global--wide-size);
-            }
-
-            body .is-layout-flex {
-                display: flex;
-            }
-
-            .is-layout-flex {
-                flex-wrap: wrap;
-                align-items: center;
-            }
-
-            .is-layout-flex> :is(*, div) {
-                margin: 0;
-            }
-
-            body .is-layout-grid {
-                display: grid;
-            }
-
-            .is-layout-grid> :is(*, div) {
-                margin: 0;
-            }
-
-            body {
-                padding-top: 0px;
-                padding-right: 0px;
-                padding-bottom: 0px;
-                padding-left: 0px;
-            }
-
-            a:where(:not(.wp-element-button)) {
-                text-decoration: underline;
-            }
-
-            :root :where(.wp-element-button, .wp-block-button__link) {
-                background-color: #32373c;
-                border-width: 0;
-                color: #fff;
-                font-family: inherit;
-                font-size: inherit;
-                line-height: inherit;
-                padding: calc(0.667em + 2px) calc(1.333em + 2px);
-                text-decoration: none;
-            }
-
-            .has-black-color {
-                color: var(--wp--preset--color--black) !important;
-            }
-
-            .has-cyan-bluish-gray-color {
-                color: var(--wp--preset--color--cyan-bluish-gray) !important;
-            }
-
-            .has-white-color {
-                color: var(--wp--preset--color--white) !important;
-            }
-
-            .has-pale-pink-color {
-                color: var(--wp--preset--color--pale-pink) !important;
-            }
-
-            .has-vivid-red-color {
-                color: var(--wp--preset--color--vivid-red) !important;
-            }
-
-            .has-luminous-vivid-orange-color {
-                color: var(--wp--preset--color--luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-amber-color {
-                color: var(--wp--preset--color--luminous-vivid-amber) !important;
-            }
-
-            .has-light-green-cyan-color {
-                color: var(--wp--preset--color--light-green-cyan) !important;
-            }
-
-            .has-vivid-green-cyan-color {
-                color: var(--wp--preset--color--vivid-green-cyan) !important;
-            }
-
-            .has-pale-cyan-blue-color {
-                color: var(--wp--preset--color--pale-cyan-blue) !important;
-            }
-
-            .has-vivid-cyan-blue-color {
-                color: var(--wp--preset--color--vivid-cyan-blue) !important;
-            }
-
-            .has-vivid-purple-color {
-                color: var(--wp--preset--color--vivid-purple) !important;
-            }
-
-            .has-black-background-color {
-                background-color: var(--wp--preset--color--black) !important;
-            }
-
-            .has-cyan-bluish-gray-background-color {
-                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-            }
-
-            .has-white-background-color {
-                background-color: var(--wp--preset--color--white) !important;
-            }
-
-            .has-pale-pink-background-color {
-                background-color: var(--wp--preset--color--pale-pink) !important;
-            }
-
-            .has-vivid-red-background-color {
-                background-color: var(--wp--preset--color--vivid-red) !important;
-            }
-
-            .has-luminous-vivid-orange-background-color {
-                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-amber-background-color {
-                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-            }
-
-            .has-light-green-cyan-background-color {
-                background-color: var(--wp--preset--color--light-green-cyan) !important;
-            }
-
-            .has-vivid-green-cyan-background-color {
-                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-            }
-
-            .has-pale-cyan-blue-background-color {
-                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-            }
-
-            .has-vivid-cyan-blue-background-color {
-                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-            }
-
-            .has-vivid-purple-background-color {
-                background-color: var(--wp--preset--color--vivid-purple) !important;
-            }
-
-            .has-black-border-color {
-                border-color: var(--wp--preset--color--black) !important;
-            }
-
-            .has-cyan-bluish-gray-border-color {
-                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-            }
-
-            .has-white-border-color {
-                border-color: var(--wp--preset--color--white) !important;
-            }
-
-            .has-pale-pink-border-color {
-                border-color: var(--wp--preset--color--pale-pink) !important;
-            }
-
-            .has-vivid-red-border-color {
-                border-color: var(--wp--preset--color--vivid-red) !important;
-            }
-
-            .has-luminous-vivid-orange-border-color {
-                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-amber-border-color {
-                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-            }
-
-            .has-light-green-cyan-border-color {
-                border-color: var(--wp--preset--color--light-green-cyan) !important;
-            }
-
-            .has-vivid-green-cyan-border-color {
-                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-            }
-
-            .has-pale-cyan-blue-border-color {
-                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-            }
-
-            .has-vivid-cyan-blue-border-color {
-                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-            }
-
-            .has-vivid-purple-border-color {
-                border-color: var(--wp--preset--color--vivid-purple) !important;
-            }
-
-            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-            }
-
-            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-            }
-
-            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-            }
-
-            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-            }
-
-            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-            }
-
-            .has-cool-to-warm-spectrum-gradient-background {
-                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-            }
-
-            .has-blush-light-purple-gradient-background {
-                background: var(--wp--preset--gradient--blush-light-purple) !important;
-            }
-
-            .has-blush-bordeaux-gradient-background {
-                background: var(--wp--preset--gradient--blush-bordeaux) !important;
-            }
-
-            .has-luminous-dusk-gradient-background {
-                background: var(--wp--preset--gradient--luminous-dusk) !important;
-            }
-
-            .has-pale-ocean-gradient-background {
-                background: var(--wp--preset--gradient--pale-ocean) !important;
-            }
-
-            .has-electric-grass-gradient-background {
-                background: var(--wp--preset--gradient--electric-grass) !important;
-            }
-
-            .has-midnight-gradient-background {
-                background: var(--wp--preset--gradient--midnight) !important;
-            }
-
-            .has-small-font-size {
-                font-size: var(--wp--preset--font-size--small) !important;
-            }
-
-            .has-medium-font-size {
-                font-size: var(--wp--preset--font-size--medium) !important;
-            }
-
-            .has-large-font-size {
-                font-size: var(--wp--preset--font-size--large) !important;
-            }
-
-            .has-x-large-font-size {
-                font-size: var(--wp--preset--font-size--x-large) !important;
-            }
-
-            :root :where(.wp-block-pullquote) {
-                font-size: 1.5em;
-                line-height: 1.6;
-            }
-        </style>
-        <link rel='stylesheet' id='wp-components-css'
-            href='{{ asset("assets/wp-includes/css/dist/components/style.min.css") }}' media='all' />
-        <link rel='stylesheet' id='godaddy-styles-css'
-            href='{{ asset("assets/wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='hello-elementor-css'
-            href='{{ asset("assets/wp-content/themes/hello-elementor/style.min.css") }}' media='all' />
-        <link rel='stylesheet' id='hello-elementor-theme-style-css'
-            href='{{ asset("assets/wp-content/themes/hello-elementor/theme.min.css") }}' media='all' />
-        <link rel='stylesheet' id='hello-elementor-header-footer-css'
-            href='{{ asset("assets/wp-content/themes/hello-elementor/header-footer.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='elementor-frontend-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/css/frontend.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='eael-general-css'
-            href='{{ asset("assets/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='eael-492-css'
-            href='{{ asset("assets/wp-content/uploads/essential-addons-elementor/eael-492.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='elementor-icons-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css") }}'
-            media='all' />
-        <style id='elementor-icons-inline-css'>
-            .elementor-add-new-section .elementor-add-templately-promo-button {
-                background-color: #5d4fff;
-                background-image: url(https://idealdrivingschool.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
-                background-repeat: no-repeat;
-                background-position: center center;
-                position: relative;
-            }
-
-            .elementor-add-new-section .elementor-add-templately-promo-button>i {
-                height: 12px;
-            }
-
-            body .elementor-add-new-section .elementor-add-section-area-button {
-                margin-left: 0;
-            }
-
-            .elementor-add-new-section .elementor-add-templately-promo-button {
-                background-color: #5d4fff;
-                background-image: url(https://idealdrivingschool.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
-                background-repeat: no-repeat;
-                background-position: center center;
-                position: relative;
-            }
-
-            .elementor-add-new-section .elementor-add-templately-promo-button>i {
-                height: 12px;
-            }
-
-            body .elementor-add-new-section .elementor-add-section-area-button {
-                margin-left: 0;
-            }
-        </style>
-        <link rel='stylesheet' id='elementor-post-50-css'
-            href='{{ asset("assets/wp-content/uploads/elementor/css/post-50.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='elementor-post-492-css'
-            href='{{ asset("assets/wp-content/uploads/elementor/css/post-492.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='elementor-post-639-css'
-            href='{{ asset("assets/wp-content/uploads/elementor/css/post-639.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='elementor-post-665-css'
-            href='{{ asset("assets/wp-content/uploads/elementor/css/post-665.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='google-fonts-1-css'
-            href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMaven+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.7.1'
-            media='all' />
-        <link rel='stylesheet' id='elementor-icons-shared-0-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='elementor-icons-fa-solid-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css") }}'
-            media='all' />
-        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-        <script src="{{ asset("assets/wp-includes/js/jquery/jquery.min.js") }}" id="jquery-core-js"></script>
-        <script src="{{ asset("assets/wp-includes/js/jquery/jquery-migrate.min.js") }}"
-            id="jquery-migrate-js"></script>
-        <link rel="https://api.w.org/" href="https://idealdrivingschool.ca/wp-json/" />
-        <link rel="alternate" title="JSON" type="application/json"
-            href="https://idealdrivingschool.ca/wp-json/wp/v2/pages/492" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD"
-            href="https://idealdrivingschool.ca/xmlrpc.php?rsd" />
-        <meta name="generator" content="WordPress 6.7.1" />
-        <link rel="canonical" href="https://idealdrivingschool.ca/" />
-        <link rel='shortlink' href='https://idealdrivingschool.ca/' />
-        <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-            href="https://idealdrivingschool.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fidealdrivingschool.ca%2F" />
-        <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-            href="https://idealdrivingschool.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fidealdrivingschool.ca%2F&#038;format=xml" />
-        <meta name="generator"
-            content="Elementor 3.27.3; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
-        <style>
-            .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
-            .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
-                background-image: none !important;
-            }
-
-            @media screen and (max-height: 1024px) {
-
-                .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
-                .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
-                    background-image: none !important;
-                }
-            }
-
-            @media screen and (max-height: 640px) {
-
-                .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
-                .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
-                    background-image: none !important;
-                }
-            }
-        </style>
-        <link rel="icon"
-            href="https://idealdrivingschool.ca/wp-content/uploads/2020/11/IDEAL-Driving-School.rev7png-150x150.png"
-            sizes="32x32" />
-        <link rel="icon"
-            href="{{asset("assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg")}}"
-            sizes="192x192" />
-        <link rel="apple-touch-icon"
-            href="{{asset("assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg")}}" />
-        <meta name="msapplication-TileImage"
-            content="{{asset("assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg")}}" />
-        <style id="wp-custom-css">
-            /** Start Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
-
-            .envato-block__preview {
-                overflow: visible;
-            }
-
-            /* Envato Kit 141 Custom Styles - Applied to the element under Advanced */
-
-            .elementor-headline-animation-type-drop-in .elementor-headline-dynamic-wrapper {
-                text-align: center;
-            }
-
-            .envato-kit-141-top-0 h1,
-            .envato-kit-141-top-0 h2,
-            .envato-kit-141-top-0 h3,
-            .envato-kit-141-top-0 h4,
-            .envato-kit-141-top-0 h5,
-            .envato-kit-141-top-0 h6,
-            .envato-kit-141-top-0 p {
-                margin-top: 0;
-            }
-
-            .envato-kit-141-newsletter-inline .elementor-field-textual.elementor-size-md {
-                padding-left: 1.5rem;
-                padding-right: 1.5rem;
-            }
-
-            .envato-kit-141-bottom-0 p {
-                margin-bottom: 0;
-            }
-
-            .envato-kit-141-bottom-8 .elementor-price-list .elementor-price-list-item .elementor-price-list-header {
-                margin-bottom: .5rem;
-            }
-
-            .envato-kit-141.elementor-widget-testimonial-carousel.elementor-pagination-type-bullets .swiper-container {
-                padding-bottom: 52px;
-            }
-
-            .envato-kit-141-display-inline {
-                display: inline-block;
-            }
-
-            .envato-kit-141 .elementor-slick-slider ul.slick-dots {
-                bottom: -40px;
-            }
-
-            /** End Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
-        </style>
-    </head>
-
-    <body
-        class="home page-template-default page page-id-492 wp-custom-logo wp-embed-responsive theme-default elementor-default elementor-kit-50 elementor-page elementor-page-492">
-    @include('header')
-
-        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-
-      
-
-        <main id="content" class="site-main post-492 page type-page status-publish hentry">
-
-
-            <div class="page-content">
-                <div data-elementor-type="wp-page" data-elementor-id="492" class="elementor elementor-492"
-                    data-elementor-post-type="page">
-                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-f022277 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
-                        data-id="f022277" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a01a55a"
-                                data-id="a01a55a" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-cc01fdf elementor-widget elementor-widget-text-editor"
-                                        data-id="cc01fdf" data-element_type="widget"
-                                        data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <p>Locally Owned &amp; Operated</p>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-cd29b23 elementor-widget elementor-widget-heading"
-                                        data-id="cd29b23" data-element_type="widget" data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">Get The Best
-                                                Learning At Affordable Rates</h2>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-38cb035 elementor-widget elementor-widget-text-editor"
-                                        data-id="38cb035" data-element_type="widget"
-                                        data-widget_type="text-editor.default">
-                                        <div class="elementor-widget-container">
-                                            <p>Exceptional car driving lessons towards developing good driving habits and
-                                                skills to stay safe on the road.</p>
-                                        </div>
-                                    </div>
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-4dccd6a elementor-section-full_width elementor-hidden-tablet elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"
-                                        data-id="4dccd6a" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-75f8282"
-                                                data-id="75f8282" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-fba4d55 elementor-align-left elementor-widget elementor-widget-button"
-                                                        data-id="fba4d55" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="{{route('registration')}}">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Enroll
-                                                                            Now</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-48e1286"
-                                                data-id="48e1286" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-ba67e4d elementor-align-left elementor-widget elementor-widget-button"
-                                                        data-id="ba67e4d" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="{{route('services')}}/">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Learn
-                                                                            More</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-db94553"
-                                                data-id="db94553" data-element_type="column">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-76e6234 elementor-hidden-tablet elementor-hidden-mobile"
-                                                data-id="76e6234" data-element_type="column">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-244d72e elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="244d72e" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2db7a16"
-                                                data-id="2db7a16" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-911dbf3 elementor-align-left elementor-widget elementor-widget-button"
-                                                        data-id="911dbf3" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="#form">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Enroll
-                                                                            Now</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7d74518"
-                                                data-id="7d74518" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-71144d3 elementor-align-left elementor-widget elementor-widget-button"
-                                                        data-id="71144d3" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="{{route('services')}}/">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Learn
-                                                                            More</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-35efb27"
-                                                data-id="35efb27" data-element_type="column">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-5e6c9e2 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                        data-id="5e6c9e2" data-element_type="section">
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-77d9863"
-                                data-id="77d9863" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-1ec36d6 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                                        data-id="1ec36d6" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-65ad586"
-                                                data-id="65ad586" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-4e3d868 elementor-widget elementor-widget-image"
-                                                        data-id="4e3d868" data-element_type="widget"
-                                                        data-widget_type="image.default">
-                                                        <div class="elementor-widget-container">
-                                         
-                                                            <img  style="
+ <!doctype html>
+ <html lang="en-CA">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="profile" href="https://gmpg.org/xfn/11">
+     <meta name='robots' content='max-image-preview:large' />
+     <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+     <link rel="alternate" type="application/rss+xml" title="Arirang Driving School &raquo; Feed"
+         href="https://idealdrivingschool.ca/feed/" />
+     <link rel="alternate" type="application/rss+xml" title="Arirang Driving School &raquo; Comments Feed"
+         href="https://idealdrivingschool.ca/comments/feed/" />
+     <title>Arirang Driving School - Professional Driving Lessons</title>
+     <meta name="description"
+         content="At Arirang Driving School, we pride ourselves on offering professional, friendly, and dependable service. Our mission goes beyond simply helping you pass your driving test; we focus on equipping you with the knowledge, skills, and techniques that build confidence for safe driving.">
+     <meta name="keywords"
+         content="Arirang Driving School, driving lessons, professional driving, safe driving, driving test, personalized driving lessons, beginner driving lessons, driving skills, confidence in driving">
+     <meta name="robots" content="index, follow">
+
+     <link rel="icon" href="{{ asset('assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg') }}"
+         type="image/x-icon"> <!-- Replace with your favicon path -->
+
+
+     <style id='wp-emoji-styles-inline-css'>
+         img.wp-smiley,
+         img.emoji {
+             display: inline !important;
+             border: none !important;
+             box-shadow: none !important;
+             height: 1em !important;
+             width: 1em !important;
+             margin: 0 0.07em !important;
+             vertical-align: -0.1em !important;
+             background: none !important;
+             padding: 0 !important;
+         }
+     </style>
+     <style id='global-styles-inline-css'>
+         :root {
+             --wp--preset--aspect-ratio--square: 1;
+             --wp--preset--aspect-ratio--4-3: 4/3;
+             --wp--preset--aspect-ratio--3-4: 3/4;
+             --wp--preset--aspect-ratio--3-2: 3/2;
+             --wp--preset--aspect-ratio--2-3: 2/3;
+             --wp--preset--aspect-ratio--16-9: 16/9;
+             --wp--preset--aspect-ratio--9-16: 9/16;
+             --wp--preset--color--black: #000000;
+             --wp--preset--color--cyan-bluish-gray: #abb8c3;
+             --wp--preset--color--white: #ffffff;
+             --wp--preset--color--pale-pink: #f78da7;
+             --wp--preset--color--vivid-red: #cf2e2e;
+             --wp--preset--color--luminous-vivid-orange: #ff6900;
+             --wp--preset--color--luminous-vivid-amber: #fcb900;
+             --wp--preset--color--light-green-cyan: #7bdcb5;
+             --wp--preset--color--vivid-green-cyan: #00d084;
+             --wp--preset--color--pale-cyan-blue: #8ed1fc;
+             --wp--preset--color--vivid-cyan-blue: #0693e3;
+             --wp--preset--color--vivid-purple: #9b51e0;
+             --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+             --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+             --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+             --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+             --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+             --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+             --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+             --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+             --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+             --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+             --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+             --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+             --wp--preset--font-size--small: 13px;
+             --wp--preset--font-size--medium: 20px;
+             --wp--preset--font-size--large: 36px;
+             --wp--preset--font-size--x-large: 42px;
+             --wp--preset--spacing--20: 0.44rem;
+             --wp--preset--spacing--30: 0.67rem;
+             --wp--preset--spacing--40: 1rem;
+             --wp--preset--spacing--50: 1.5rem;
+             --wp--preset--spacing--60: 2.25rem;
+             --wp--preset--spacing--70: 3.38rem;
+             --wp--preset--spacing--80: 5.06rem;
+             --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+             --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+             --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+             --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+             --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+         }
+
+         :root {
+             --wp--style--global--content-size: 800px;
+             --wp--style--global--wide-size: 1200px;
+         }
+
+         :where(body) {
+             margin: 0;
+         }
+
+         .wp-site-blocks>.alignleft {
+             float: left;
+             margin-right: 2em;
+         }
+
+         .wp-site-blocks>.alignright {
+             float: right;
+             margin-left: 2em;
+         }
+
+         .wp-site-blocks>.aligncenter {
+             justify-content: center;
+             margin-left: auto;
+             margin-right: auto;
+         }
+
+         :where(.wp-site-blocks)>* {
+             margin-block-start: 24px;
+             margin-block-end: 0;
+         }
+
+         :where(.wp-site-blocks)> :first-child {
+             margin-block-start: 0;
+         }
+
+         :where(.wp-site-blocks)> :last-child {
+             margin-block-end: 0;
+         }
+
+         :root {
+             --wp--style--block-gap: 24px;
+         }
+
+         :root :where(.is-layout-flow)> :first-child {
+             margin-block-start: 0;
+         }
+
+         :root :where(.is-layout-flow)> :last-child {
+             margin-block-end: 0;
+         }
+
+         :root :where(.is-layout-flow)>* {
+             margin-block-start: 24px;
+             margin-block-end: 0;
+         }
+
+         :root :where(.is-layout-constrained)> :first-child {
+             margin-block-start: 0;
+         }
+
+         :root :where(.is-layout-constrained)> :last-child {
+             margin-block-end: 0;
+         }
+
+         :root :where(.is-layout-constrained)>* {
+             margin-block-start: 24px;
+             margin-block-end: 0;
+         }
+
+         :root :where(.is-layout-flex) {
+             gap: 24px;
+         }
+
+         :root :where(.is-layout-grid) {
+             gap: 24px;
+         }
+
+         .is-layout-flow>.alignleft {
+             float: left;
+             margin-inline-start: 0;
+             margin-inline-end: 2em;
+         }
+
+         .is-layout-flow>.alignright {
+             float: right;
+             margin-inline-start: 2em;
+             margin-inline-end: 0;
+         }
+
+         .is-layout-flow>.aligncenter {
+             margin-left: auto !important;
+             margin-right: auto !important;
+         }
+
+         .is-layout-constrained>.alignleft {
+             float: left;
+             margin-inline-start: 0;
+             margin-inline-end: 2em;
+         }
+
+         .is-layout-constrained>.alignright {
+             float: right;
+             margin-inline-start: 2em;
+             margin-inline-end: 0;
+         }
+
+         .is-layout-constrained>.aligncenter {
+             margin-left: auto !important;
+             margin-right: auto !important;
+         }
+
+         .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+             max-width: var(--wp--style--global--content-size);
+             margin-left: auto !important;
+             margin-right: auto !important;
+         }
+
+         .is-layout-constrained>.alignwide {
+             max-width: var(--wp--style--global--wide-size);
+         }
+
+         body .is-layout-flex {
+             display: flex;
+         }
+
+         .is-layout-flex {
+             flex-wrap: wrap;
+             align-items: center;
+         }
+
+         .is-layout-flex> :is(*, div) {
+             margin: 0;
+         }
+
+         body .is-layout-grid {
+             display: grid;
+         }
+
+         .is-layout-grid> :is(*, div) {
+             margin: 0;
+         }
+
+         body {
+             padding-top: 0px;
+             padding-right: 0px;
+             padding-bottom: 0px;
+             padding-left: 0px;
+         }
+
+         a:where(:not(.wp-element-button)) {
+             text-decoration: underline;
+         }
+
+         :root :where(.wp-element-button, .wp-block-button__link) {
+             background-color: #32373c;
+             border-width: 0;
+             color: #fff;
+             font-family: inherit;
+             font-size: inherit;
+             line-height: inherit;
+             padding: calc(0.667em + 2px) calc(1.333em + 2px);
+             text-decoration: none;
+         }
+
+         .has-black-color {
+             color: var(--wp--preset--color--black) !important;
+         }
+
+         .has-cyan-bluish-gray-color {
+             color: var(--wp--preset--color--cyan-bluish-gray) !important;
+         }
+
+         .has-white-color {
+             color: var(--wp--preset--color--white) !important;
+         }
+
+         .has-pale-pink-color {
+             color: var(--wp--preset--color--pale-pink) !important;
+         }
+
+         .has-vivid-red-color {
+             color: var(--wp--preset--color--vivid-red) !important;
+         }
+
+         .has-luminous-vivid-orange-color {
+             color: var(--wp--preset--color--luminous-vivid-orange) !important;
+         }
+
+         .has-luminous-vivid-amber-color {
+             color: var(--wp--preset--color--luminous-vivid-amber) !important;
+         }
+
+         .has-light-green-cyan-color {
+             color: var(--wp--preset--color--light-green-cyan) !important;
+         }
+
+         .has-vivid-green-cyan-color {
+             color: var(--wp--preset--color--vivid-green-cyan) !important;
+         }
+
+         .has-pale-cyan-blue-color {
+             color: var(--wp--preset--color--pale-cyan-blue) !important;
+         }
+
+         .has-vivid-cyan-blue-color {
+             color: var(--wp--preset--color--vivid-cyan-blue) !important;
+         }
+
+         .has-vivid-purple-color {
+             color: var(--wp--preset--color--vivid-purple) !important;
+         }
+
+         .has-black-background-color {
+             background-color: var(--wp--preset--color--black) !important;
+         }
+
+         .has-cyan-bluish-gray-background-color {
+             background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+         }
+
+         .has-white-background-color {
+             background-color: var(--wp--preset--color--white) !important;
+         }
+
+         .has-pale-pink-background-color {
+             background-color: var(--wp--preset--color--pale-pink) !important;
+         }
+
+         .has-vivid-red-background-color {
+             background-color: var(--wp--preset--color--vivid-red) !important;
+         }
+
+         .has-luminous-vivid-orange-background-color {
+             background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+         }
+
+         .has-luminous-vivid-amber-background-color {
+             background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+         }
+
+         .has-light-green-cyan-background-color {
+             background-color: var(--wp--preset--color--light-green-cyan) !important;
+         }
+
+         .has-vivid-green-cyan-background-color {
+             background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+         }
+
+         .has-pale-cyan-blue-background-color {
+             background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+         }
+
+         .has-vivid-cyan-blue-background-color {
+             background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+         }
+
+         .has-vivid-purple-background-color {
+             background-color: var(--wp--preset--color--vivid-purple) !important;
+         }
+
+         .has-black-border-color {
+             border-color: var(--wp--preset--color--black) !important;
+         }
+
+         .has-cyan-bluish-gray-border-color {
+             border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+         }
+
+         .has-white-border-color {
+             border-color: var(--wp--preset--color--white) !important;
+         }
+
+         .has-pale-pink-border-color {
+             border-color: var(--wp--preset--color--pale-pink) !important;
+         }
+
+         .has-vivid-red-border-color {
+             border-color: var(--wp--preset--color--vivid-red) !important;
+         }
+
+         .has-luminous-vivid-orange-border-color {
+             border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+         }
+
+         .has-luminous-vivid-amber-border-color {
+             border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+         }
+
+         .has-light-green-cyan-border-color {
+             border-color: var(--wp--preset--color--light-green-cyan) !important;
+         }
+
+         .has-vivid-green-cyan-border-color {
+             border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+         }
+
+         .has-pale-cyan-blue-border-color {
+             border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+         }
+
+         .has-vivid-cyan-blue-border-color {
+             border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+         }
+
+         .has-vivid-purple-border-color {
+             border-color: var(--wp--preset--color--vivid-purple) !important;
+         }
+
+         .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+             background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+         }
+
+         .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+             background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+         }
+
+         .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+             background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+         }
+
+         .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+             background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+         }
+
+         .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+             background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+         }
+
+         .has-cool-to-warm-spectrum-gradient-background {
+             background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+         }
+
+         .has-blush-light-purple-gradient-background {
+             background: var(--wp--preset--gradient--blush-light-purple) !important;
+         }
+
+         .has-blush-bordeaux-gradient-background {
+             background: var(--wp--preset--gradient--blush-bordeaux) !important;
+         }
+
+         .has-luminous-dusk-gradient-background {
+             background: var(--wp--preset--gradient--luminous-dusk) !important;
+         }
+
+         .has-pale-ocean-gradient-background {
+             background: var(--wp--preset--gradient--pale-ocean) !important;
+         }
+
+         .has-electric-grass-gradient-background {
+             background: var(--wp--preset--gradient--electric-grass) !important;
+         }
+
+         .has-midnight-gradient-background {
+             background: var(--wp--preset--gradient--midnight) !important;
+         }
+
+         .has-small-font-size {
+             font-size: var(--wp--preset--font-size--small) !important;
+         }
+
+         .has-medium-font-size {
+             font-size: var(--wp--preset--font-size--medium) !important;
+         }
+
+         .has-large-font-size {
+             font-size: var(--wp--preset--font-size--large) !important;
+         }
+
+         .has-x-large-font-size {
+             font-size: var(--wp--preset--font-size--x-large) !important;
+         }
+
+         :root :where(.wp-block-pullquote) {
+             font-size: 1.5em;
+             line-height: 1.6;
+         }
+     </style>
+     <link rel='stylesheet' id='wp-components-css'
+         href='{{ asset('assets/wp-includes/css/dist/components/style.min.css') }}' media='all' />
+     <link rel='stylesheet' id='godaddy-styles-css'
+         href='{{ asset('assets/wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='hello-elementor-css'
+         href='{{ asset('assets/wp-content/themes/hello-elementor/style.min.css') }}' media='all' />
+     <link rel='stylesheet' id='hello-elementor-theme-style-css'
+         href='{{ asset('assets/wp-content/themes/hello-elementor/theme.min.css') }}' media='all' />
+     <link rel='stylesheet' id='hello-elementor-header-footer-css'
+         href='{{ asset('assets/wp-content/themes/hello-elementor/header-footer.min.css') }}' media='all' />
+     <link rel='stylesheet' id='elementor-frontend-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/css/frontend.min.css') }}' media='all' />
+     <link rel='stylesheet' id='eael-general-css'
+         href='{{ asset('assets/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='eael-492-css'
+         href='{{ asset('assets/wp-content/uploads/essential-addons-elementor/eael-492.css') }}' media='all' />
+     <link rel='stylesheet' id='elementor-icons-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css') }}'
+         media='all' />
+     <style id='elementor-icons-inline-css'>
+         .elementor-add-new-section .elementor-add-templately-promo-button {
+             background-color: #5d4fff;
+             background-image: url(https://idealdrivingschool.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
+             background-repeat: no-repeat;
+             background-position: center center;
+             position: relative;
+         }
+
+         .elementor-add-new-section .elementor-add-templately-promo-button>i {
+             height: 12px;
+         }
+
+         body .elementor-add-new-section .elementor-add-section-area-button {
+             margin-left: 0;
+         }
+
+         .elementor-add-new-section .elementor-add-templately-promo-button {
+             background-color: #5d4fff;
+             background-image: url(https://idealdrivingschool.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
+             background-repeat: no-repeat;
+             background-position: center center;
+             position: relative;
+         }
+
+         .elementor-add-new-section .elementor-add-templately-promo-button>i {
+             height: 12px;
+         }
+
+         body .elementor-add-new-section .elementor-add-section-area-button {
+             margin-left: 0;
+         }
+     </style>
+     <link rel='stylesheet' id='elementor-post-50-css'
+         href='{{ asset('assets/wp-content/uploads/elementor/css/post-50.css') }}' media='all' />
+     <link rel='stylesheet' id='elementor-post-492-css'
+         href='{{ asset('assets/wp-content/uploads/elementor/css/post-492.css') }}' media='all' />
+     <link rel='stylesheet' id='elementor-post-639-css'
+         href='{{ asset('assets/wp-content/uploads/elementor/css/post-639.css') }}' media='all' />
+     <link rel='stylesheet' id='elementor-post-665-css'
+         href='{{ asset('assets/wp-content/uploads/elementor/css/post-665.css') }}' media='all' />
+     <link rel='stylesheet' id='google-fonts-1-css'
+         href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMaven+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.7.1'
+         media='all' />
+     <link rel='stylesheet' id='elementor-icons-shared-0-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='elementor-icons-fa-solid-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css') }}'
+         media='all' />
+     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+     <script src="{{ asset('assets/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js"></script>
+     <script src="{{ asset('assets/wp-includes/js/jquery/jquery-migrate.min.js') }}" id="jquery-migrate-js"></script>
+     <link rel="https://api.w.org/" href="https://idealdrivingschool.ca/wp-json/" />
+     <link rel="alternate" title="JSON" type="application/json"
+         href="https://idealdrivingschool.ca/wp-json/wp/v2/pages/492" />
+     <link rel="EditURI" type="application/rsd+xml" title="RSD"
+         href="https://idealdrivingschool.ca/xmlrpc.php?rsd" />
+     <meta name="generator" content="WordPress 6.7.1" />
+     <link rel="canonical" href="https://idealdrivingschool.ca/" />
+     <link rel='shortlink' href='https://idealdrivingschool.ca/' />
+     <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
+         href="https://idealdrivingschool.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fidealdrivingschool.ca%2F" />
+     <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
+         href="https://idealdrivingschool.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fidealdrivingschool.ca%2F&#038;format=xml" />
+     <meta name="generator"
+         content="Elementor 3.27.3; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+     <style>
+         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+             background-image: none !important;
+         }
+
+         @media screen and (max-height: 1024px) {
+
+             .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+             .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                 background-image: none !important;
+             }
+         }
+
+         @media screen and (max-height: 640px) {
+
+             .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+             .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                 background-image: none !important;
+             }
+         }
+     </style>
+     <link rel="icon"
+         href="https://idealdrivingschool.ca/wp-content/uploads/2020/11/IDEAL-Driving-School.rev7png-150x150.png"
+         sizes="32x32" />
+     <link rel="icon" href="{{ asset('assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg') }}"
+         sizes="192x192" />
+     <link rel="apple-touch-icon" href="{{ asset('assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg') }}" />
+     <meta name="msapplication-TileImage"
+         content="{{ asset('assets/cropped-Airirang-Driving-School-Logo-141x142.jpeg') }}" />
+     <style id="wp-custom-css">
+         /** Start Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
+
+         .envato-block__preview {
+             overflow: visible;
+         }
+
+         /* Envato Kit 141 Custom Styles - Applied to the element under Advanced */
+
+         .elementor-headline-animation-type-drop-in .elementor-headline-dynamic-wrapper {
+             text-align: center;
+         }
+
+         .envato-kit-141-top-0 h1,
+         .envato-kit-141-top-0 h2,
+         .envato-kit-141-top-0 h3,
+         .envato-kit-141-top-0 h4,
+         .envato-kit-141-top-0 h5,
+         .envato-kit-141-top-0 h6,
+         .envato-kit-141-top-0 p {
+             margin-top: 0;
+         }
+
+         .envato-kit-141-newsletter-inline .elementor-field-textual.elementor-size-md {
+             padding-left: 1.5rem;
+             padding-right: 1.5rem;
+         }
+
+         .envato-kit-141-bottom-0 p {
+             margin-bottom: 0;
+         }
+
+         .envato-kit-141-bottom-8 .elementor-price-list .elementor-price-list-item .elementor-price-list-header {
+             margin-bottom: .5rem;
+         }
+
+         .envato-kit-141.elementor-widget-testimonial-carousel.elementor-pagination-type-bullets .swiper-container {
+             padding-bottom: 52px;
+         }
+
+         .envato-kit-141-display-inline {
+             display: inline-block;
+         }
+
+         .envato-kit-141 .elementor-slick-slider ul.slick-dots {
+             bottom: -40px;
+         }
+
+         /** End Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
+     </style>
+ </head>
+
+ <body
+     class="home page-template-default page page-id-492 wp-custom-logo wp-embed-responsive theme-default elementor-default elementor-kit-50 elementor-page elementor-page-492">
+     @include('header')
+
+     <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+
+
+     <main id="content" class="site-main post-492 page type-page status-publish hentry">
+
+
+         <div class="page-content">
+             <div data-elementor-type="wp-page" data-elementor-id="492" class="elementor elementor-492"
+                 data-elementor-post-type="page">
+                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                     class="elementor-section elementor-top-section elementor-element elementor-element-f022277 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
+                     data-id="f022277" data-element_type="section"
+                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                     <div class="elementor-background-overlay"></div>
+                     <div class="elementor-container elementor-column-gap-default">
+                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a01a55a"
+                             data-id="a01a55a" data-element_type="column">
+                             <div class="elementor-widget-wrap elementor-element-populated">
+                                 <div class="elementor-element elementor-element-cc01fdf elementor-widget elementor-widget-text-editor"
+                                     data-id="cc01fdf" data-element_type="widget"
+                                     data-widget_type="text-editor.default">
+                                     <div class="elementor-widget-container">
+                                         <p>Locally Owned &amp; Operated</p>
+                                     </div>
+                                 </div>
+                                 <div class="elementor-element elementor-element-cd29b23 elementor-widget elementor-widget-heading"
+                                     data-id="cd29b23" data-element_type="widget" data-widget_type="heading.default">
+                                     <div class="elementor-widget-container">
+                                         <h2 class="elementor-heading-title elementor-size-default">Get The Best
+                                             Learning At Affordable Rates</h2>
+                                     </div>
+                                 </div>
+                                 <div class="elementor-element elementor-element-38cb035 elementor-widget elementor-widget-text-editor"
+                                     data-id="38cb035" data-element_type="widget"
+                                     data-widget_type="text-editor.default">
+                                     <div class="elementor-widget-container">
+                                         <p>Exceptional car driving lessons towards developing good driving habits and
+                                             skills to stay safe on the road.</p>
+                                     </div>
+                                 </div>
+                                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                                     class="elementor-section elementor-inner-section elementor-element elementor-element-4dccd6a elementor-section-full_width elementor-hidden-tablet elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"
+                                     data-id="4dccd6a" data-element_type="section">
+                                     <div class="elementor-container elementor-column-gap-default">
+                                         <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-75f8282"
+                                             data-id="75f8282" data-element_type="column">
+                                             <div class="elementor-widget-wrap elementor-element-populated">
+                                                 <div class="elementor-element elementor-element-fba4d55 elementor-align-left elementor-widget elementor-widget-button"
+                                                     data-id="fba4d55" data-element_type="widget"
+                                                     data-widget_type="button.default">
+                                                     <div class="elementor-widget-container">
+                                                         <div class="elementor-button-wrapper">
+                                                             <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                 href="{{ route('registration') }}">
+                                                                 <span class="elementor-button-content-wrapper">
+                                                                     <span class="elementor-button-text">Enroll
+                                                                         Now</span>
+                                                                 </span>
+                                                             </a>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-48e1286"
+                                             data-id="48e1286" data-element_type="column">
+                                             <div class="elementor-widget-wrap elementor-element-populated">
+                                                 <div class="elementor-element elementor-element-ba67e4d elementor-align-left elementor-widget elementor-widget-button"
+                                                     data-id="ba67e4d" data-element_type="widget"
+                                                     data-widget_type="button.default">
+                                                     <div class="elementor-widget-container">
+                                                         <div class="elementor-button-wrapper">
+                                                             <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                 href="{{ route('services') }}/">
+                                                                 <span class="elementor-button-content-wrapper">
+                                                                     <span class="elementor-button-text">Learn
+                                                                         More</span>
+                                                                 </span>
+                                                             </a>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-db94553"
+                                             data-id="db94553" data-element_type="column">
+                                             <div class="elementor-widget-wrap">
+                                             </div>
+                                         </div>
+                                         <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-76e6234 elementor-hidden-tablet elementor-hidden-mobile"
+                                             data-id="76e6234" data-element_type="column">
+                                             <div class="elementor-widget-wrap">
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </section>
+                                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                                     class="elementor-section elementor-inner-section elementor-element elementor-element-244d72e elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                     data-id="244d72e" data-element_type="section">
+                                     <div class="elementor-container elementor-column-gap-default">
+                                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2db7a16"
+                                             data-id="2db7a16" data-element_type="column">
+                                             <div class="elementor-widget-wrap elementor-element-populated">
+                                                 <div class="elementor-element elementor-element-911dbf3 elementor-align-left elementor-widget elementor-widget-button"
+                                                     data-id="911dbf3" data-element_type="widget"
+                                                     data-widget_type="button.default">
+                                                     <div class="elementor-widget-container">
+                                                         <div class="elementor-button-wrapper">
+                                                             <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                 href="#form">
+                                                                 <span class="elementor-button-content-wrapper">
+                                                                     <span class="elementor-button-text">Enroll
+                                                                         Now</span>
+                                                                 </span>
+                                                             </a>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7d74518"
+                                             data-id="7d74518" data-element_type="column">
+                                             <div class="elementor-widget-wrap elementor-element-populated">
+                                                 <div class="elementor-element elementor-element-71144d3 elementor-align-left elementor-widget elementor-widget-button"
+                                                     data-id="71144d3" data-element_type="widget"
+                                                     data-widget_type="button.default">
+                                                     <div class="elementor-widget-container">
+                                                         <div class="elementor-button-wrapper">
+                                                             <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                 href="{{ route('services') }}/">
+                                                                 <span class="elementor-button-content-wrapper">
+                                                                     <span class="elementor-button-text">Learn
+                                                                         More</span>
+                                                                 </span>
+                                                             </a>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-35efb27"
+                                             data-id="35efb27" data-element_type="column">
+                                             <div class="elementor-widget-wrap">
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </section>
+                             </div>
+                         </div>
+                     </div>
+                 </section>
+                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                     class="elementor-section elementor-top-section elementor-element elementor-element-5e6c9e2 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                     data-id="5e6c9e2" data-element_type="section">
+                     <div class="elementor-container elementor-column-gap-default">
+                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-77d9863"
+                             data-id="77d9863" data-element_type="column">
+                             <div class="elementor-widget-wrap elementor-element-populated">
+                                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                                     class="elementor-section elementor-inner-section elementor-element elementor-element-1ec36d6 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                                     data-id="1ec36d6" data-element_type="section">
+                                     <div class="elementor-container elementor-column-gap-default">
+                                         <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-65ad586"
+                                             data-id="65ad586" data-element_type="column">
+                                             <div class="elementor-widget-wrap elementor-element-populated">
+                                                 <div class="elementor-element elementor-element-4e3d868 elementor-widget elementor-widget-image"
+                                                     data-id="4e3d868" data-element_type="widget"
+                                                     data-widget_type="image.default">
+                                                     <div class="elementor-widget-container">
+
+                                                         <img style="
                                                             height: 500px;
                                                             width: 100%;
                                                             object-fit: cover;
-                                                        " decoding="async"  
-                                                                src="{{ asset('assets/z6292606938134_515a679ec267d9237a169cdbe710ab92.jpg') }}"
-                                                                class="attachment-large size-large wp-image-505"
-                                                                alt=""
-                                                                sizes="(max-width: 800px) 100vw, 800px" />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-13aee37"
-                                                data-id="13aee37" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-8d1d81b elementor-widget elementor-widget-heading"
-                                                        data-id="8d1d81b" data-element_type="widget"
-                                                        data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container">
-                                                            <h2 class="elementor-heading-title elementor-size-default">
-                                                                We're here to help you succeed!</h2>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-560de44 elementor-widget elementor-widget-text-editor"
-                                                        data-id="560de44" data-element_type="widget"
-                                                        data-widget_type="text-editor.default">
-                                                        <div class="elementor-widget-container">
-                                                            <p>Our school offers a variety of different services that will
-                                                                be beneficial to our students which will develop good
-                                                                driving skills and habits while being trained by our well
-                                                                educated instructors.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-f779d8c elementor-align-left elementor-widget elementor-widget-button"
-                                                        data-id="f779d8c" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="{{route('services')}}/">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Learn
-                                                                            More</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                    class="elementor-section elementor-top-section elementor-element elementor-element-7e058ac elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="7e058ac" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class=" " style="background: white"></div>
-                    <div class="elementor-container elementor-column-gap-default" style="
+                                                                object-position: bottom; /* Hoặc bạn có thể dùng 50% 0 để căn giữa */
+
+                                                        "
+                                                             decoding="async"
+                                                             src="{{ asset('assets/z6292606938134_515a679ec267d9237a169cdbe710ab92.jpg') }}"
+                                                             class="attachment-large size-large wp-image-505"
+                                                             alt="" sizes="(max-width: 800px) 100vw, 800px" />
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-13aee37"
+                                             data-id="13aee37" data-element_type="column">
+                                             <div class="elementor-widget-wrap elementor-element-populated">
+                                                 <div class="elementor-element elementor-element-8d1d81b elementor-widget elementor-widget-heading"
+                                                     data-id="8d1d81b" data-element_type="widget"
+                                                     data-widget_type="heading.default">
+                                                     <div class="elementor-widget-container">
+                                                         <h2 class="elementor-heading-title elementor-size-default">
+                                                             We're here to help you succeed!</h2>
+                                                     </div>
+                                                 </div>
+                                                 <div class="elementor-element elementor-element-560de44 elementor-widget elementor-widget-text-editor"
+                                                     data-id="560de44" data-element_type="widget"
+                                                     data-widget_type="text-editor.default">
+                                                     <div class="elementor-widget-container">
+                                                         <p>Our school offers a variety of different services that will
+                                                             be beneficial to our students which will develop good
+                                                             driving skills and habits while being trained by our well
+                                                             educated instructors.</p>
+                                                     </div>
+                                                 </div>
+                                                 <div class="elementor-element elementor-element-f779d8c elementor-align-left elementor-widget elementor-widget-button"
+                                                     data-id="f779d8c" data-element_type="widget"
+                                                     data-widget_type="button.default">
+                                                     <div class="elementor-widget-container">
+                                                         <div class="elementor-button-wrapper">
+                                                             <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                 href="{{ route('services') }}/">
+                                                                 <span class="elementor-button-content-wrapper">
+                                                                     <span class="elementor-button-text">Learn
+                                                                         More</span>
+                                                                 </span>
+                                                             </a>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </section>
+                             </div>
+                         </div>
+                     </div>
+                 </section>
+                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                     class="elementor-section elementor-top-section elementor-element elementor-element-7e058ac elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                     data-id="7e058ac" data-element_type="section"
+                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                     <div class=" " style="background: white"></div>
+                     <div class="elementor-container elementor-column-gap-default"
+                         style="
                     background: white;
                  ">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0369964"
-                            data-id="0369964" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                                <style>
-                                                                    /* General styles for the review section */
-                            .elementor-section {
-                                padding: 40px 0;
-                            }
+                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0369964"
+                             data-id="0369964" data-element_type="column">
+                             <div class="elementor-widget-wrap elementor-element-populated">
+                                 <style>
+                                     /* General styles for the review section */
+                                     .elementor-section {
+                                         padding: 40px 0;
+                                     }
 
-                            .home-reviews {
-                                max-width: 800px;
-                                margin: 0 auto;
-                            }
+                                     .home-reviews {
+                                         max-width: 800px;
+                                         margin: 0 auto;
+                                     }
 
-                            .sub-heading {
-                                font-size: 2em;
-                                margin-bottom: 20px;
-                                color: #333;
-                            }
+                                     .sub-heading {
+                                         font-size: 2em;
+                                         margin-bottom: 20px;
+                                         color: #333;
+                                     }
 
-                            .row {
-                                display: flex;
-                                flex-wrap: wrap;
-                                justify-content: center;
-                            }
+                                     .row {
+                                         display: flex;
+                                         flex-wrap: wrap;
+                                         justify-content: center;
+                                     }
 
-                            .review {
-                                margin-bottom: 20px;
-                                background-color: #f9f9f9;
-                                border-radius: 8px;
-                                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                                overflow: hidden;
-                                width: 100%;
-                            }
+                                     .review {
+                                         margin-bottom: 20px;
+                                         background-color: #f9f9f9;
+                                         border-radius: 8px;
+                                         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                                         overflow: hidden;
+                                         width: 100%;
+                                     }
 
-                            .card {
-                                display: flex;
-                                align-items: center;
-                                padding: 15px;
-                            }
+                                     .card {
+                                         display: flex;
+                                         align-items: center;
+                                         padding: 15px;
+                                     }
 
-                            .author-image {
-                                border-radius: 50%;
-                                margin-right: 15px;
-                            }
+                                     .author-image {
+                                         border-radius: 50%;
+                                         margin-right: 15px;
+                                     }
 
-                            .author-name {
-                                font-size: 1.2em;
-                                color: #333;
-                            }
+                                     .author-name {
+                                         font-size: 1.2em;
+                                         color: #333;
+                                     }
 
-                            .card-body {
-                                flex: 1;
-                            }
+                                     .card-body {
+                                         flex: 1;
+                                     }
 
-                            .card-text {
-                                font-size: 1em;
-                                color: #555;
-                            }
+                                     .card-text {
+                                         font-size: 1em;
+                                         color: #555;
+                                     }
 
-                            .google-ratings {
-                                margin: 10px 0;
-                            }
+                                     .google-ratings {
+                                         margin: 10px 0;
+                                     }
 
-                            .rating {
-                                color: #ffcc00; /* Gold color for stars */
-                            }
+                                     .rating {
+                                         color: #ffcc00;
+                                         /* Gold color for stars */
+                                     }
 
-                            .text-gray {
-                                color: #888;
-                            }
+                                     .text-gray {
+                                         color: #888;
+                                     }
 
-                            .review-time {
-                                font-size: 0.9em;
-                            }
-                            h2.sub-heading {
-                                font-weight: bold;
-                                font-size: 3rem;
-                                text-transform: uppercase;
-                            }.google-ratings {
-                                font-size: 1.2em;
-                                color: #333;
-                                text-align: center;
-                                letter-spacing: 2px;
-                            }
-                            .reviews {
-                                display: grid
-                            ;
-                                grid-template-columns: 1fr 1fr;
-                                gap: 1rem;
-                            }
-                            .review .card {
-                                
-                                flex-direction: column;
-                                align-items: center;
-                                justify-content: center;
+                                     .review-time {
+                                         font-size: 0.9em;
+                                     }
 
-                            }
-                            .review .no-link {
-                                
-                                flex-direction: column;
-                                align-items: center;
-                                display: flex;
-                                justify-content: center;
+                                     h2.sub-heading {
+                                         font-weight: bold;
+                                         font-size: 3rem;
+                                         text-transform: uppercase;
+                                     }
 
-                            }
-                            .review .rating.orange.text-orange {
-                                
-                                padding-left: 23%;
+                                     .google-ratings {
+                                         font-size: 1.2em;
+                                         color: #333;
+                                         text-align: center;
+                                         letter-spacing: 2px;
+                                     }
 
-                            }
-                            @media (max-width: 768px) {
-                                .reviews {
-                                    grid-template-columns: 1fr; /* One column for mobile screens */
-                                }
-                            }
-                            .elementor-492 .elementor-element.elementor-element-7e058ac:not(.elementor-motion-effects-element-type-background), .elementor-492 .elementor-element.elementor-element-7e058ac > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-color: transparent;
-}
-                                                    </style>
-                                                                <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                                                    class="elementor-section elementor-inner-section elementor-element elementor-element-ca72116 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                                                    data-id="ca72116" data-element_type="section">
-                                                                    <div class="col-md-12 home-reviews text-center py-5">
-                                                                        <div class="container a1-container text-center">
-                                                                            <h2 style="
+                                     .reviews {
+                                         display: grid;
+                                         grid-template-columns: 1fr 1fr;
+                                         gap: 1rem;
+                                     }
+
+                                     .review .card {
+
+                                         flex-direction: column;
+                                         align-items: center;
+                                         justify-content: center;
+
+                                     }
+
+                                     .review .no-link {
+
+                                         flex-direction: column;
+                                         align-items: center;
+                                         display: flex;
+                                         justify-content: center;
+
+                                     }
+
+                                     .review .rating.orange.text-orange {
+
+                                         padding-left: 23%;
+
+                                     }
+
+                                     @media (max-width: 768px) {
+                                         .reviews {
+                                             grid-template-columns: 1fr;
+                                             /* One column for mobile screens */
+                                         }
+                                     }
+
+                                     .elementor-492 .elementor-element.elementor-element-7e058ac:not(.elementor-motion-effects-element-type-background),
+                                     .elementor-492 .elementor-element.elementor-element-7e058ac>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+                                         background-color: transparent;
+                                     }
+                                 </style>
+                                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                                     class="elementor-section elementor-inner-section elementor-element elementor-element-ca72116 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                     data-id="ca72116" data-element_type="section">
+                                     <div class="col-md-12 home-reviews text-center py-5">
+                                         <div class="container a1-container text-center">
+                                             <h2 style="
                                                                             text-align: center;
-                                                                        " class="sub-heading">What our Customers Say</h2>
-                                                    <div class="row py-5">
-                                                        <div class="col-xs-12 col-sm-10 col-lg-8 center-block">
-                                                                                            <div style="text-align: center" class="h4">Vacnouver Driving School</div><div class="google-ratings overall-ratings">
-                                                                                            <a class="no-link" style="  display: flex;
+                                                                        "
+                                                 class="sub-heading">What our Customers Say</h2>
+                                             <div class="row py-5">
+                                                 <div class="col-xs-12 col-sm-10 col-lg-8 center-block">
+                                                     <div style="text-align: center" class="h4">Vacnouver Driving
+                                                         School</div>
+                                                     <div class="google-ratings overall-ratings">
+                                                         <a class="no-link"
+                                                             style="  display: flex;
                                 align-items: center;
                                 justify-content: center;
-                                vertical-align: middle;" href="https://www.google.com/maps?cid=1977024605774768343" target="_blank" title="Google Ratings">
-                                                                                            <span class="inline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="44" width="44"><g fill="none" fill-rule="evenodd"><path d="M482.56 261.36c0-16.73-1.5-32.83-4.29-48.27H256v91.29h127.01c-5.47 29.5-22.1 54.49-47.09 71.23v59.21h76.27c44.63-41.09 70.37-101.59 70.37-173.46z" fill="#4285f4"></path><path d="M256 492c63.72 0 117.14-21.13 156.19-57.18l-76.27-59.21c-21.13 14.16-48.17 22.53-79.92 22.53-61.47 0-113.49-41.51-132.05-97.3H45.1v61.15c38.83 77.13 118.64 130.01 210.9 130.01z" fill="#34a853"></path><path d="M123.95 300.84c-4.72-14.16-7.4-29.29-7.4-44.84s2.68-30.68 7.4-44.84V150.01H45.1C29.12 181.87 20 217.92 20 256c0 38.08 9.12 74.13 25.1 105.99l78.85-61.15z" fill="#fbbc05"></path><path d="M256 113.86c34.65 0 65.76 11.91 90.22 35.29l67.69-67.69C373.03 43.39 319.61 20 256 20c-92.25 0-172.07 52.89-210.9 130.01l78.85 61.15c18.56-55.78 70.59-97.3 132.05-97.3z" fill="#ea4335"></path><path d="M20 20h472v472H20V20z"></path></g></svg></span>
-                                                                                            <span class="inline">Google Ratings<br>5.0 <span class="rating orange text-orange"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span></span>
-                                                                                            </a>
-                                                          </div><div class="reviews"><div class="review">
-                                                                <div class="card">
-                                                                  <a class="no-link" href="https://www.google.com/maps/contrib/101877261372935905753/reviews" title="Dominic Melanson">
-                                                                    <img class="img-fluid card-img-top author-image" width="80" src="https://lh3.googleusercontent.com/a-/ALV-UjVBwFQCH18CxEgX2Mx0EOj4zXVV-cca7bYuCKl7mecdzOHWimXw=s128-c0x00000000-cc-rp-mo" alt="Dominic Melanson" title="Dominic Melanson">
-                                                                    <div class="h4 author-name">Dominic Melanson</div>
-                                                                  </a>
-                                                                  <span><span class="rating orange text-orange"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span><span> <span class="text-gray review-time">in the last week</span>
-                                                                  <div class="card-body">
-                                                                    <p class="card-text text-left review-text">Passed my test on the first try! Vancouver driving school has excellent instructors - Shafi, Lori, Ashraf. It’s thanks to their teaching that I was able to grow comfortable and felt 100% prepared for my road test.</p>
-                                                                  </div>
-                                                                </span></span></div>
-                                                              </div><div class="review">
-                                                                <div class="card">
-                                                                  <a class="no-link" href="https://www.google.com/maps/contrib/117294221752761645396/reviews" title="Maia Rankine-Griffith">
-                                                                    <img class="img-fluid card-img-top author-image" width="80" src="https://lh3.googleusercontent.com/a-/ALV-UjV9h6mDBWdg6H-oC6r8QrtdIyUiUxZLQtxkkMumJbHV4Cms2eyH=s128-c0x00000000-cc-rp-mo" alt="Maia Rankine-Griffith" title="Maia Rankine-Griffith">
-                                                                    <div class="h4 author-name">Maia Rankine-Griffith</div>
-                                                                  </a>
-                                                                  <span><span class="rating orange text-orange"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span><span> <span class="text-gray review-time">in the last week</span>
-                                                                  <div class="card-body">
-                                                                    <p class="card-text text-left review-text">Ashraf from VDS was a great instructor. His lessons gave me the  confidence and fine tuning I needed to pass the road test. Would recommend for both new and experienced drivers :)</p>
-                                                                  </div>
-                                                                </span></span></div>
-                                                              </div><div class="review">
-                                                                <div class="card">
-                                                                  <a class="no-link" href="https://www.google.com/maps/contrib/117797568700274983705/reviews" title="Nova Chamberlin">
-                                                                    <img class="img-fluid card-img-top author-image" width="80" src="https://lh3.googleusercontent.com/a/ACg8ocIrZ-lSMXarc0v_2MewyeRaI4hHhTmhG1pVDKtxaMtgnVySWOQ=s128-c0x00000000-cc-rp-mo" alt="Nova Chamberlin" title="Nova Chamberlin">
-                                                                    <div class="h4 author-name">Nova Chamberlin</div>
-                                                                  </a>
-                                                                  <span><span class="rating orange text-orange"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span><span> <span class="text-gray review-time">in the last week</span>
-                                                                  <div class="card-body">
-                                                                    <p class="card-text text-left review-text">After taking lessons with Shafi, I passed my N road test on the first attempt! He is very kind, calm and patient, and makes you feel comfortable even as a beginner. He is great at teaching the more difficult manoeuvres like parallel and back-in parking, and makes sure that you feel confident with everything that is expected of you for the road test. I would absolutely recommend him and Vancouver Driving School to anyone looking to take lessons, and especially if you are new to driving. The office staff were also kind and helpful - the whole experience was great.</p>
-                                                                  </div>
-                                                                </span></span></div>
-                                                              </div><div class="review">
-                                                                <div class="card">
-                                                                  <a class="no-link" href="https://www.google.com/maps/contrib/108238144018505589330/reviews" title="Adam G">
-                                                                    <img class="img-fluid card-img-top author-image" width="80" src="https://lh3.googleusercontent.com/a/ACg8ocKMTJH3wL4wyE4ylonnMi3ndJdy52eQEqj4R5nC4K3JUsWdug=s128-c0x00000000-cc-rp-mo" alt="Adam G" title="Adam G">
-                                                                    <div class="h4 author-name">Adam G</div>
-                                                                  </a>
-                                                                  <span><span class="rating orange text-orange"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></span><span> <span class="text-gray review-time">in the last week</span>
-                                                                  <div class="card-body">
-                                                                    <p class="card-text text-left review-text">I had the pleasure of learning 21 lessons with Shah. He demonstrated an abundance of patience and leaving the lessons I felt confident in my skills and passed the class 7 road test with flying colors. Highly recommended!</p>
-                                                                  </div>
-                                                                </span></span></div>
-                                                              </div></div>					</div>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </section>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                                vertical-align: middle;"
+                                                             href="https://www.google.com/maps?cid=1977024605774768343"
+                                                             target="_blank" title="Google Ratings">
+                                                             <span class="inline"><svg
+                                                                     xmlns="http://www.w3.org/2000/svg"
+                                                                     viewBox="0 0 512 512" height="44"
+                                                                     width="44">
+                                                                     <g fill="none" fill-rule="evenodd">
+                                                                         <path
+                                                                             d="M482.56 261.36c0-16.73-1.5-32.83-4.29-48.27H256v91.29h127.01c-5.47 29.5-22.1 54.49-47.09 71.23v59.21h76.27c44.63-41.09 70.37-101.59 70.37-173.46z"
+                                                                             fill="#4285f4"></path>
+                                                                         <path
+                                                                             d="M256 492c63.72 0 117.14-21.13 156.19-57.18l-76.27-59.21c-21.13 14.16-48.17 22.53-79.92 22.53-61.47 0-113.49-41.51-132.05-97.3H45.1v61.15c38.83 77.13 118.64 130.01 210.9 130.01z"
+                                                                             fill="#34a853"></path>
+                                                                         <path
+                                                                             d="M123.95 300.84c-4.72-14.16-7.4-29.29-7.4-44.84s2.68-30.68 7.4-44.84V150.01H45.1C29.12 181.87 20 217.92 20 256c0 38.08 9.12 74.13 25.1 105.99l78.85-61.15z"
+                                                                             fill="#fbbc05"></path>
+                                                                         <path
+                                                                             d="M256 113.86c34.65 0 65.76 11.91 90.22 35.29l67.69-67.69C373.03 43.39 319.61 20 256 20c-92.25 0-172.07 52.89-210.9 130.01l78.85 61.15c18.56-55.78 70.59-97.3 132.05-97.3z"
+                                                                             fill="#ea4335"></path>
+                                                                         <path d="M20 20h472v472H20V20z"></path>
+                                                                     </g>
+                                                                 </svg></span>
+                                                             <span class="inline">Google Ratings<br>5.0 <span
+                                                                     class="rating orange text-orange"><span
+                                                                         class="fa fa-star"></span><span
+                                                                         class="fa fa-star"></span><span
+                                                                         class="fa fa-star"></span><span
+                                                                         class="fa fa-star"></span><span
+                                                                         class="fa fa-star"></span></span></span>
+                                                         </a>
+                                                     </div>
+                                                     <div class="reviews">
+                                                         <div class="review">
+                                                             <div class="card">
+                                                                 <a class="no-link"
+                                                                     href="https://www.google.com/maps/contrib/101877261372935905753/reviews"
+                                                                     title="Dominic Melanson">
+                                                                     <img class="img-fluid card-img-top author-image"
+                                                                         width="80"
+                                                                         src="https://lh3.googleusercontent.com/a-/ALV-UjVBwFQCH18CxEgX2Mx0EOj4zXVV-cca7bYuCKl7mecdzOHWimXw=s128-c0x00000000-cc-rp-mo"
+                                                                         alt="Dominic Melanson"
+                                                                         title="Dominic Melanson">
+                                                                     <div class="h4 author-name">Dominic Melanson</div>
+                                                                 </a>
+                                                                 <span><span class="rating orange text-orange"><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span></span><span>
+                                                                         <span class="text-gray review-time">in the
+                                                                             last week</span>
+                                                                         <div class="card-body">
+                                                                             <p
+                                                                                 class="card-text text-left review-text">
+                                                                                 Passed my test on the first try!
+                                                                                 Vancouver driving school has excellent
+                                                                                 instructors - Shafi, Lori, Ashraf. It’s
+                                                                                 thanks to their teaching that I was
+                                                                                 able to grow comfortable and felt 100%
+                                                                                 prepared for my road test.</p>
+                                                                         </div>
+                                                                     </span></span>
+                                                             </div>
+                                                         </div>
+                                                         <div class="review">
+                                                             <div class="card">
+                                                                 <a class="no-link"
+                                                                     href="https://www.google.com/maps/contrib/117294221752761645396/reviews"
+                                                                     title="Maia Rankine-Griffith">
+                                                                     <img class="img-fluid card-img-top author-image"
+                                                                         width="80"
+                                                                         src="https://lh3.googleusercontent.com/a-/ALV-UjV9h6mDBWdg6H-oC6r8QrtdIyUiUxZLQtxkkMumJbHV4Cms2eyH=s128-c0x00000000-cc-rp-mo"
+                                                                         alt="Maia Rankine-Griffith"
+                                                                         title="Maia Rankine-Griffith">
+                                                                     <div class="h4 author-name">Maia Rankine-Griffith
+                                                                     </div>
+                                                                 </a>
+                                                                 <span><span class="rating orange text-orange"><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span></span><span>
+                                                                         <span class="text-gray review-time">in the
+                                                                             last week</span>
+                                                                         <div class="card-body">
+                                                                             <p
+                                                                                 class="card-text text-left review-text">
+                                                                                 Ashraf from VDS was a great instructor.
+                                                                                 His lessons gave me the confidence and
+                                                                                 fine tuning I needed to pass the road
+                                                                                 test. Would recommend for both new and
+                                                                                 experienced drivers :)</p>
+                                                                         </div>
+                                                                     </span></span>
+                                                             </div>
+                                                         </div>
+                                                         <div class="review">
+                                                             <div class="card">
+                                                                 <a class="no-link"
+                                                                     href="https://www.google.com/maps/contrib/117797568700274983705/reviews"
+                                                                     title="Nova Chamberlin">
+                                                                     <img class="img-fluid card-img-top author-image"
+                                                                         width="80"
+                                                                         src="https://lh3.googleusercontent.com/a/ACg8ocIrZ-lSMXarc0v_2MewyeRaI4hHhTmhG1pVDKtxaMtgnVySWOQ=s128-c0x00000000-cc-rp-mo"
+                                                                         alt="Nova Chamberlin"
+                                                                         title="Nova Chamberlin">
+                                                                     <div class="h4 author-name">Nova Chamberlin</div>
+                                                                 </a>
+                                                                 <span><span class="rating orange text-orange"><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span></span><span>
+                                                                         <span class="text-gray review-time">in the
+                                                                             last week</span>
+                                                                         <div class="card-body">
+                                                                             <p
+                                                                                 class="card-text text-left review-text">
+                                                                                 After taking lessons with Shafi, I
+                                                                                 passed my N road test on the first
+                                                                                 attempt! He is very kind, calm and
+                                                                                 patient, and makes you feel comfortable
+                                                                                 even as a beginner. He is great at
+                                                                                 teaching the more difficult manoeuvres
+                                                                                 like parallel and back-in parking, and
+                                                                                 makes sure that you feel confident with
+                                                                                 everything that is expected of you for
+                                                                                 the road test. I would absolutely
+                                                                                 recommend him and Vancouver Driving
+                                                                                 School to anyone looking to take
+                                                                                 lessons, and especially if you are new
+                                                                                 to driving. The office staff were also
+                                                                                 kind and helpful - the whole experience
+                                                                                 was great.</p>
+                                                                         </div>
+                                                                     </span></span>
+                                                             </div>
+                                                         </div>
+                                                         <div class="review">
+                                                             <div class="card">
+                                                                 <a class="no-link"
+                                                                     href="https://www.google.com/maps/contrib/108238144018505589330/reviews"
+                                                                     title="Adam G">
+                                                                     <img class="img-fluid card-img-top author-image"
+                                                                         width="80"
+                                                                         src="https://lh3.googleusercontent.com/a/ACg8ocKMTJH3wL4wyE4ylonnMi3ndJdy52eQEqj4R5nC4K3JUsWdug=s128-c0x00000000-cc-rp-mo"
+                                                                         alt="Adam G" title="Adam G">
+                                                                     <div class="h4 author-name">Adam G</div>
+                                                                 </a>
+                                                                 <span><span class="rating orange text-orange"><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span><span
+                                                                             class="fa fa-star"></span></span><span>
+                                                                         <span class="text-gray review-time">in the
+                                                                             last week</span>
+                                                                         <div class="card-body">
+                                                                             <p
+                                                                                 class="card-text text-left review-text">
+                                                                                 I had the pleasure of learning 21
+                                                                                 lessons with Shah. He demonstrated an
+                                                                                 abundance of patience and leaving the
+                                                                                 lessons I felt confident in my skills
+                                                                                 and passed the class 7 road test with
+                                                                                 flying colors. Highly recommended!</p>
+                                                                         </div>
+                                                                     </span></span>
+                                                             </div>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </section>
+                             </div>
+                         </div>
+                     </div>
+                 </section>
 
-                <div style="    max-width: 1140px; margin: auto"  id="vancouver-driving-school" class="col-md-12 home-feature">
-                    <div class="container a1-container">
-                        <div class="col-md-8 col-md-offset-2 feature-top">
-                            <h2 class="home-heading">ARIRANG DRIVING SCHOOL
+                 <div style="    max-width: 1140px; margin: auto" id="vancouver-driving-school"
+                     class="col-md-12 home-feature">
+                     <div class="container a1-container">
+                         <div class="col-md-8 col-md-offset-2 feature-top">
+                             <h2 class="home-heading">ARIRANG DRIVING SCHOOL
 
-                            </h2>
-                            <div class="circle-border"><span class="fa fa-circle"></span></div>
-                            <p>Welcome to Arirang Driving School! We are committed to ensuring you become a confident and skilled driver for the future. Our experienced instructors provide one-on-one, in-car practical training, creating an enjoyable and supportive learning environment. We aim to help you pass your road test without hassle, giving you the knowledge, skills, and confidence to be safe on the road.
+                             </h2>
+                             <div class="circle-border"><span class="fa fa-circle"></span></div>
+                             <p>Welcome to Arirang Driving School! We are committed to ensuring you become a confident
+                                 and skilled driver for the future. Our experienced instructors provide one-on-one,
+                                 in-car practical training, creating an enjoyable and supportive learning environment.
+                                 We aim to help you pass your road test without hassle, giving you the knowledge,
+                                 skills, and confidence to be safe on the road.
 
-                            </p>
-                        </div>
-                        <div class="col-md-12 no-padding-lr">
-                            <div class="row feature-row1">
-                                <div class="col-md-4 col-sm-4 feature-box " style="display: flex; justify-content: start; flex-direction: column;align-items: center">
-                                    <span><img src="{{asset('assets/car-icon.jpg')}}" style="width: 100px;;"></span>
-                                    <h5>Licensed Instructor</h5>
-                                    <p>Our instructors surpass ICBC requirements and bring years of driving experience in the local area.
+                             </p>
+                         </div>
+                         <div class="col-md-12 no-padding-lr">
+                             <div class="row feature-row1">
+                                 <div class="col-md-4 col-sm-4 feature-box "
+                                     style="display: flex; justify-content: start; flex-direction: column;align-items: center">
+                                     <span><img src="{{ asset('assets/car-icon.jpg') }}"
+                                             style="width: 100px;;"></span>
+                                     <h5>Licensed Instructor</h5>
+                                     <p>Our instructors surpass ICBC requirements and bring years of driving experience
+                                         in the local area.
 
-                                    </p>
-                                </div>
-                                <div class="col-md-4 col-sm-4 feature-box " style="display: flex; justify-content: center; flex-direction: column;align-items: center">
-                                    <span><img src="{{asset('assets/vds-icon.jpg')}}" style="width: 100px;;"></span>
-                                    <h5>Why Arirang Driving School?
-                                    </h5>
-                                    <p>We offer reliable, professional service in a safe, friendly environment. Our highly qualified instructors cater to the learning needs of each student. This level of service is provided at a fair, competitive price.
+                                     </p>
+                                 </div>
+                                 <div class="col-md-4 col-sm-4 feature-box "
+                                     style="display: flex; justify-content: center; flex-direction: column;align-items: center">
+                                     <span><img src="{{ asset('assets/vds-icon.jpg') }}"
+                                             style="width: 100px;;"></span>
+                                     <h5>Why Arirang Driving School?
+                                     </h5>
+                                     <p>We offer reliable, professional service in a safe, friendly environment. Our
+                                         highly qualified instructors cater to the learning needs of each student. This
+                                         level of service is provided at a fair, competitive price.
 
-                                    </p>
-                                </div>
-                                <div class="col-md-4 col-sm-4 feature-box " style="display: flex; justify-content: center; flex-direction: column;align-items: center">
-                                    <span><img src="{{asset('assets/teach-icon.jpg')}}" style="width: 100px;;"></span>
-                                    <h5>What We Teach</h5>
+                                     </p>
+                                 </div>
+                                 <div class="col-md-4 col-sm-4 feature-box "
+                                     style="display: flex; justify-content: center; flex-direction: column;align-items: center">
+                                     <span><img src="{{ asset('assets/teach-icon.jpg') }}"
+                                             style="width: 100px;;"></span>
+                                     <h5>What We Teach</h5>
                                      <ul>
-                                        <li>Circle Check, Shoulder & 360° Check</li>
-                                        <li>Hazard Perception</li>
-                                        <li>Speed Control</li>
-                                        <li>2 & 3-Point Turns</li>
-                                        <li>Uphill & Downhill Parking</li>
-                                        <li>Parallel Parking & Reverse Stall Parking</li>
+                                         <li>Circle Check, Shoulder & 360° Check</li>
+                                         <li>Hazard Perception</li>
+                                         <li>Speed Control</li>
+                                         <li>2 & 3-Point Turns</li>
+                                         <li>Uphill & Downhill Parking</li>
+                                         <li>Parallel Parking & Reverse Stall Parking</li>
                                      </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <style>
-                    /* Styles for Vancouver Driving School Section */
-#vancouver-driving-school {
-    padding: 20px; /* Add padding for the section */
-}
-
-.feature-top {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.circle-border {
-    display: inline-block;
-    margin: 10px 0;
-}
-.circle-border:before {
-    content: "";
-    border-top: 2px solid #ffffff;
-    width: 47%;
-    padding: 29px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-}.circle-border:after {
-    content: "";
-    border-top: 2px solid #ffffff;
-    width: 47%;
-    padding: 29px;
-    position: absolute;
-    top: 50%;
-    right: 0;
-}
-.circle-border {
-    width: 100%;
-    font-size: 18px;
-    margin: 15px 0;
-    position: relative;
-    float: left;
-    color: #A0711E;
-    text-align: center;
-    margin: 25px 0 35px 0;
-}
-.feature-row1 {
-    display: flex; /* Use flexbox for the row */
-    flex-wrap: wrap; /* Allow wrapping */
-    justify-content: space-between; /* Space out the boxes */
-}
-
-.feature-box {
-    flex: 1 1 calc(33.33% - 20px); /* Responsive width with spacing */
-    margin: 10px; /* Margin for spacing */
-    border-radius: 8px; /* Optional: rounded corners */
-    padding: 15px; /* Optional: padding inside each box */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
-}
-.feature-top>.circle-border:before, .feature-top>.circle-border:after {
-    border-color: #7f7f7f;
-}
-.feature-box img {
-    max-width: 100%; /* Make images responsive */
-    height: auto; /* Maintain aspect ratio */
-}
-                </style>
-                    <section  data-particle_enable="false" data-particle-mobile-disabled="false"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-c665d1d elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
-                        data-id="c665d1d" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5a00c78"
-                                data-id="5a00c78" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-bfa7a59 elementor-widget elementor-widget-heading"
-                                        data-id="bfa7a59" data-element_type="widget" data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">When it comes to
-                                                learning to drive, we're the experts!</h2>
-                                        </div>
-                                    </div>
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-6d7c743 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="6d7c743" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9eb3450"
-                                                data-id="9eb3450" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-b35e920 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button"
-                                                        data-id="b35e920" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="#form">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Book Now</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-dba471b"
-                                                data-id="dba471b" data-element_type="column">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-d3ac6cf elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button"
-                                                        data-id="d3ac6cf" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="{{route('services')}}">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Learn
-                                                                            More</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-fc4e972 elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
-                        data-id="fc4e972" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1afa8f7"
-                                data-id="1afa8f7" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-4b46395 elementor-widget elementor-widget-heading"
-                                        data-id="4b46395" data-element_type="widget" data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">Successful Students</h2>
-                                        
-                                            <style>
-                                                .image-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Can be changed to 'flex-start' if you want left alignment */
-    gap: 10px; /* Space between images */
-}
-
-.student-image {
-    max-height: 300px; /* Giới hạn chiều cao tối đa */
-    width: auto; /* Để chiều rộng tự động điều chỉnh theo chiều cao */
-    height: auto; /* Duy trì tỷ lệ khung hình */
-    border-radius: 8px; /* Optional: add rounded corners */
-}
-                                            </style>
-                                        </div>
-                                    </div>
-                                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-0ebcb5a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="0ebcb5a" data-element_type="section">
-                                        <div class="elementor-container elementor-column-gap-default">
-                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-710f4fe bdt-backdrop-filter-yes"
-                                                data-id="710f4fe" data-element_type="column"
-                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                <div class="elementor-widget-wrap elementor-element-populated">
-                                                    <div class="elementor-element elementor-element-9019c24 elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
-                                                        data-id="9019c24" data-element_type="widget"
-                                                        data-widget_type="star-rating.default">
-                                                        <div class="elementor-widget-container">
-
-                                                            <div class="elementor-star-rating__wrapper">
-                                                                <div class="elementor-star-rating" title="5/5"
-                                                                    itemtype="http://schema.org/Rating" itemscope=""
-                                                                    itemprop="reviewRating"><i
-                                                                        class="elementor-star-full">&#xE934;</i><i
-                                                                        class="elementor-star-full">&#xE934;</i><i
-                                                                        class="elementor-star-full">&#xE934;</i><i
-                                                                        class="elementor-star-full">&#xE934;</i><i
-                                                                        class="elementor-star-full">&#xE934;</i> <span
-                                                                        itemprop="ratingValue"
-                                                                        class="elementor-screen-only">5/5</span></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-9e200b7 elementor-widget elementor-widget-eael-testimonial-slider"
-                                                        data-id="9e200b7" data-element_type="widget"
-                                                        data-settings="{&quot;items&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;items_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;items_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;slide_items&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;slide_items_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;slide_items_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]}}"
-                                                        data-widget_type="eael-testimonial-slider.default">
-                                                        <div class="elementor-widget-container">
-
-                                                            <div class="swiper-container-wrap eael-testimonial-slider icon-img-left-content"
-                                                                id="eael-testimonial-9e200b7">
-                                                                <div class="swiper swiper-8 eael-testimonial-slider-main swiper-container-9e200b7"
-                                                                    data-pagination=".swiper-pagination-9e200b7"
-                                                                    data-arrow-next=".swiper-button-next-9e200b7"
-                                                                    data-arrow-prev=".swiper-button-prev-9e200b7"
-                                                                    data-items="1" data-items-tablet="1"
-                                                                    data-items-mobile="1" data-slide-items="1"
-                                                                    data-slide-items-tablet="1"
-                                                                    data-slide-items-mobile="1" data-margin="10"
-                                                                    data-effect="slide" data-speed="2000" data-loop="1"
-                                                                    data-autoplay_speed="5000">
-
-                                                                    <div class="swiper-wrapper">
-
-
-
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>If you are looking for a best
-                                                                                            driving school in Surrey. Ideal
-                                                                                            Driving School is the perfect
-                                                                                            choice! Sabir is an awesome guy,
-                                                                                            patient and professional. He'll
-                                                                                            always remind you about what you
-                                                                                            missed so you could not do
-                                                                                            mistakes in actual road test.
-                                                                                            Just passed my class 5 roadtest
-                                                                                        </p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>I was able to pass the test
-                                                                                            solely because of the expert
-                                                                                            services by Ideal. I kid you
-                                                                                            not, I was super nervous and the
-                                                                                            way the instructor handled it
-                                                                                            was so professional. He keeps a
-                                                                                            record of your progress and
-                                                                                            trains you in the best way
-                                                                                            possible</p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>Sabir helped me overcome my fear
-                                                                                            of driving. With his technique,
-                                                                                            I was able to pass my test with
-                                                                                            flying colours at my first
-                                                                                            attempt! In fact, many of his
-                                                                                            students pass during their first
-                                                                                            time. Highly recommend if you're
-                                                                                            looking for driving schools in
-                                                                                            the lower mainland</p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>What an awesome trainer. I would
-                                                                                            strongly recommend this driving
-                                                                                            school. I had been struggling
-                                                                                            from last 2 and half years for
-                                                                                            Class 5 road test which looked a
-                                                                                            hard but to crack for me. I got
-                                                                                            a reference from one of my
-                                                                                            office colleague about this
-                                                                                            driving school and took only 5
-                                                                                            regular classes and result was I
-                                                                                            got my class 5 licence today
-                                                                                            morning. Trainer is too too
-                                                                                            good, very professional, soft
-                                                                                            spoken, positive attitude. He
-                                                                                            encouraged me every time at
-                                                                                            every point to be confident and
-                                                                                            positive, which is really a key
-                                                                                            to success in road test.</p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>I passed my test on the first
-                                                                                            attempt. Sabir is excellent. He
-                                                                                            is patient. Plans the lessons
-                                                                                            and covers everything you need
-                                                                                            to know and learn for the test.
-                                                                                            Good clean cars, pick up and
-                                                                                            drop to and from convenient
-                                                                                            locations</p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>I had a positive experience with
-                                                                                            Arirang Driving School. The
-                                                                                            trainer was knowledgeable and
-                                                                                            patient for giving all
-                                                                                            instructions, and took care
-                                                                                            about all my driving weakness
-                                                                                        </p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>I had a great experience with
-                                                                                            Arirang Driving School and passed
-                                                                                            my test in first attempt. The
-                                                                                            instructor really helps you
-                                                                                            build confidence and points out
-                                                                                            all the mistakes with a lot of
-                                                                                            patience. In the past i had
-                                                                                            experience with a couple of
-                                                                                            other driving schools but I
-                                                                                            found this one the best.</p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-                                                                        <div
-                                                                            class="eael-testimonial-item clearfix swiper-slide  eael-testimonial-align-left">
-                                                                            <div
-                                                                                class="eael-testimonial-item-inner clearfix">
-                                                                                <div class="eael-testimonial-image">
-                                                                                    <figure>
-                                                                                        <img decoding="async"
-                                                                                            src="http://idealdrivingschool.ca/wp-content/uploads/2022/03/person-profile-image.svg"
-                                                                                            alt="">
-                                                                                    </figure>
-                                                                                </div>
-                                                                                <div class="eael-testimonial-content "
-                                                                                    style=" height: px;">
-                                                                                    <span
-                                                                                        class="eael-testimonial-quote"></span>
-                                                                                    <div class="eael-testimonial-text ">
-                                                                                        <p>I highly recommend this driving
-                                                                                            school. Sabir is a very patient
-                                                                                            and professional instructor. He
-                                                                                            points out all the things you're
-                                                                                            doing wrong in an instance and
-                                                                                            you'll learn easily from your
-                                                                                            mistakes. My daughter took
-                                                                                            lessons from Ideal Driving
-                                                                                            School and not only passed her
-                                                                                            road test she felt very
-                                                                                            confident with the test after
-                                                                                            receiving excellent instructions
-                                                                                            that made her feel very prepared
-                                                                                            prior to her test.</p>
-                                                                                    </div>
-                                                                                    <p class="eael-testimonial-user"></p>
-                                                                                    <p
-                                                                                        class="eael-testimonial-user-company">
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
-
-
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-7ebf50d elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button"
-                                                        data-id="7ebf50d" data-element_type="widget"
-                                                        data-widget_type="button.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-button-wrapper">
-                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    href="https://www.google.com/search?q=ideal+driving+school&#038;hl=en&#038;ei=DoDyYsOEAZWekPIP27qX6Ao&#038;ved=0ahUKEwjDw9eTjLr5AhUVD0QIHVvdBa0Q4dUDCA4&#038;oq=ideal+driving+school&#038;gs_lcp=Cgdnd3Mtd2l6EAxKBAhBGABKBAhGGABQAFgAYABoAHABeACAAQCIAQCSAQCYAQA&#038;sclient=gws-wiz#lrd=0x5485d785345fe7d7:0xeb99932a2c29012a,1,,,">
-                                                                    <span class="elementor-button-content-wrapper">
-                                                                        <span class="elementor-button-text">Leave Us A
-                                                                            Review</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                    <section class="elementor-container elementor-column-gap-default">
-                                        <div class="image-container">
-                                            <img src="{{ asset('assets/z6292606938134_515a679ec267d9237a169cdbe710ab92.jpg') }}" alt="Student 1" class="student-image">
-                                            <img src="{{ asset('assets/z6292606976448_4c548e52f07afca95976446fa11312f4.jpg') }}" alt="Student 2" class="student-image">
-                                            <img src="{{ asset('assets/z6292607818611_44d570875040747c1ba105e9784d94e1.jpg') }}" alt="Student 3" class="student-image">
-                                            <img src="{{ asset('assets/z6292607827407_99688cc3c225f11d327f782f389ef237.jpg') }}" alt="Student 4" class="student-image">
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                        class="elementor-section elementor-top-section elementor-element elementor-element-a6c4a9a elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
-                        data-id="a6c4a9a" data-element_type="section"
-                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-background-overlay"></div>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-97dac33"
-                                data-id="97dac33" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-2e42d9a elementor-widget elementor-widget-heading"
-                                        data-id="2e42d9a" data-element_type="widget" data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">Become An
-                                                Exceptional Driver Today</h2>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-34e4825 elementor-align-center elementor-widget elementor-widget-button"
-                                        data-id="34e4825" data-element_type="widget" data-widget_type="button.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-button-wrapper">
-                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                    href="{{route('contact')}}">
-                                                    <span class="elementor-button-content-wrapper">
-                                                        <span class="elementor-button-text">Contact Us Today</span>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-
-
-            </div>
-
-
-        </main>
-
-        <div data-elementor-type="footer" data-elementor-id="665"
-            class="elementor elementor-665 elementor-location-footer" data-elementor-post-type="elementor_library">
-            <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                class="elementor-section elementor-top-section elementor-element elementor-element-2784eb74 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="2784eb74" data-element_type="section"
-                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-630f6184"
-                        data-id="630f6184" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-f56a5b1 elementor-nav-menu__align-center elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu"
-                                data-id="f56a5b1" data-element_type="widget"
-                                data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}"
-                                data-widget_type="nav-menu.default">
-                                <div class="elementor-widget-container">
-                                    <nav aria-label="Menu"
-                                        class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
-                                        <ul id="menu-1-f56a5b1" class="elementor-nav-menu">
-                                            <li
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-492 current_page_item menu-item-674">
-                                                <a href="https://idealdrivingschool.ca/" aria-current="page"
-                                                    class="elementor-item elementor-item-active">Home</a></li>
-                                            <li
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673">
-                                                <a href="{{route('about')}}/"
-                                                    class="elementor-item">About</a></li>
-                                            <li
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671">
-                                                <a href="{{route('services')}}"
-                                                    class="elementor-item">Services</a></li>
-                                            <li
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
-                                                <a href="{{route('contact')}}
-                                                    class="elementor-item">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                    <div class="elementor-menu-toggle" role="button" tabindex="0"
-                                        aria-label="Menu Toggle" aria-expanded="false">
-                                        <i aria-hidden="true" role="presentation"
-                                            class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i
-                                            aria-hidden="true" role="presentation"
-                                            class="elementor-menu-toggle__icon--close eicon-close"></i>
-                                    </div>
-                                    <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container"
-                                        aria-hidden="true">
-                                        <ul id="menu-2-f56a5b1" class="elementor-nav-menu">
-                                            <li
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-492 current_page_item menu-item-674">
-                                                <a href="https://idealdrivingschool.ca/" aria-current="page"
-                                                    class="elementor-item elementor-item-active" tabindex="-1">Home</a>
-                                            </li>
-                                            <li
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673">
-                                                <a href="{{route('about')}}/" class="elementor-item"
-                                                    tabindex="-1">About</a></li>
-                                            <li
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671">
-                                                <a href="{{route('services')}}" class="elementor-item"
-                                                    tabindex="-1">Services</a></li>
-                                            <li
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
-                                                <a href="{{route('contact')}}" class="elementor-item"
-                                                    tabindex="-1">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-22471838"
-                        data-id="22471838" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-67bc2f09 elementor-widget elementor-widget-heading"
-                                data-id="67bc2f09" data-element_type="widget" data-widget_type="heading.default">
-                                <div class="elementor-widget-container">
-                                    <h1 class="elementor-heading-title elementor-size-default">Useful Links</h1>
-                                </div>
-                            </div>
-                            <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                                class="elementor-section elementor-inner-section elementor-element elementor-element-6d5b03b6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                data-id="6d5b03b6" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4966bde1"
-                                        data-id="4966bde1" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-173f13f3 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                data-id="173f13f3" data-element_type="widget"
-                                                data-widget_type="icon-list.default">
-                                                <div class="elementor-widget-container">
-                                                    <ul class="elementor-icon-list-items">
-                                                        <li class="elementor-icon-list-item">
-                                                            <a href="https://practicetest.icbc.com/#/">
-
-                                                                <span class="elementor-icon-list-text">Online Practice
-                                                                    Knowledge Test</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="elementor-icon-list-item">
-                                                            <a
-                                                                href="https://www.icbc.com/driver-licensing/visit-dl-office/Pages/Book-a-road-test.aspx">
-
-                                                                <span class="elementor-icon-list-text">Book a Road
-                                                                    Test</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="elementor-icon-list-item">
-                                                            <a
-                                                                href="https://www.icbc.com/driver-licensing/new-drivers/Pages/Default.aspx">
-
-                                                                <span class="elementor-icon-list-text">New Drivers</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7ad341df"
-                                        data-id="7ad341df" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-6d1001b4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                data-id="6d1001b4" data-element_type="widget"
-                                                data-widget_type="icon-list.default">
-                                                <div class="elementor-widget-container">
-                                                    <ul class="elementor-icon-list-items">
-                                                        <li class="elementor-icon-list-item">
-                                                            <a
-                                                                href="https://www.icbc.com/driver-licensing/Pages/default.aspx">
-
-                                                                <span class="elementor-icon-list-text">Driver
-                                                                    Licensing</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="elementor-icon-list-item">
-                                                            <a
-                                                                href="https://www.icbc.com/driver-licensing/driving-guides/Pages/Learn-to-Drive-Smart.aspx">
-
-                                                                <span class="elementor-icon-list-text">Learn to Drive
-                                                                    Smart</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section data-particle_enable="false" data-particle-mobile-disabled="false"
-                class="elementor-section elementor-top-section elementor-element elementor-element-4dae2451 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="4dae2451" data-element_type="section"
-                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2f353296"
-                        data-id="2f353296" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-457b7f1e elementor-widget elementor-widget-text-editor"
-                                data-id="457b7f1e" data-element_type="widget" data-widget_type="text-editor.default">
-                                <div class="elementor-widget-container">
-                                    <p>Copyright © 2022 Arirang Driving School</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-30959ed5"
-                        data-id="30959ed5" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-12a6467b elementor-widget elementor-widget-text-editor"
-                                data-id="12a6467b" data-element_type="widget" data-widget_type="text-editor.default">
-                                <div class="elementor-widget-container">
-                                    Website designed  by <a style="color: white"
-                                        href="https://www.navswebdesign.com">Nav&#8217;s Web Design</a> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <script>
-            const lazyloadRunObserver = () => {
-                const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
-                const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
-                    entries.forEach((entry) => {
-                        if (entry.isIntersecting) {
-                            let lazyloadBackground = entry.target;
-                            if (lazyloadBackground) {
-                                lazyloadBackground.classList.add('e-lazyloaded');
-                            }
-                            lazyloadBackgroundObserver.unobserve(entry.target);
-                        }
-                    });
-                }, {
-                    rootMargin: '200px 0px 200px 0px'
-                });
-                lazyloadBackgrounds.forEach((lazyloadBackground) => {
-                    lazyloadBackgroundObserver.observe(lazyloadBackground);
-                });
-            };
-            const events = [
-                'DOMContentLoaded',
-                'elementor/lazyload/observe',
-            ];
-            events.forEach((event) => {
-                document.addEventListener(event, lazyloadRunObserver);
-            });
-        </script>
-        <link rel='stylesheet' id='widget-icon-list-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='widget-image-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/css/widget-image.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='widget-text-editor-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='widget-nav-menu-css'
-            href='{{ asset("assets/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='widget-heading-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='flatpickr-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='widget-form-css'
-            href='{{ asset("assets/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='widget-star-rating-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/css/widget-star-rating.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='font-awesome-5-all-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='font-awesome-4-shim-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='swiper-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css") }}'
-            media='all' />
-        <link rel='stylesheet' id='e-swiper-css'
-            href='{{ asset("assets/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css") }}'
-            media='all' />
-        <script id="eael-general-js-extra">
-            var localize = {
-                "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
-                "nonce": "aac387bd3f",
-                "i18n": {
-                    "added": "Added ",
-                    "compare": "Compare",
-                    "loading": "Loading..."
-                },
-                "eael_translate_text": {
-                    "required_text": "is a required field",
-                    "invalid_text": "Invalid",
-                    "billing_text": "Billing",
-                    "shipping_text": "Shipping",
-                    "fg_mfp_counter_text": "of"
-                },
-                "page_permalink": "https:\/\/idealdrivingschool.ca\/",
-                "cart_redirectition": "",
-                "cart_page_url": "",
-                "el_breakpoints": {
-                    "mobile": {
-                        "label": "Mobile Portrait",
-                        "value": 767,
-                        "default_value": 767,
-                        "direction": "max",
-                        "is_enabled": true
-                    },
-                    "mobile_extra": {
-                        "label": "Mobile Landscape",
-                        "value": 880,
-                        "default_value": 880,
-                        "direction": "max",
-                        "is_enabled": false
-                    },
-                    "tablet": {
-                        "label": "Tablet Portrait",
-                        "value": 1024,
-                        "default_value": 1024,
-                        "direction": "max",
-                        "is_enabled": true
-                    },
-                    "tablet_extra": {
-                        "label": "Tablet Landscape",
-                        "value": 1200,
-                        "default_value": 1200,
-                        "direction": "max",
-                        "is_enabled": false
-                    },
-                    "laptop": {
-                        "label": "Laptop",
-                        "value": 1366,
-                        "default_value": 1366,
-                        "direction": "max",
-                        "is_enabled": false
-                    },
-                    "widescreen": {
-                        "label": "Widescreen",
-                        "value": 2400,
-                        "default_value": 2400,
-                        "direction": "min",
-                        "is_enabled": false
-                    }
-                },
-                "ParticleThemesData": {
-                    "default": "{\"particles\":{\"number\":{\"value\":160,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":true,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"repulse\"},\"onclick\":{\"enable\":true,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}",
-                    "nasa": "{\"particles\":{\"number\":{\"value\":250,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":1,\"random\":true,\"anim\":{\"enable\":true,\"speed\":1,\"opacity_min\":0,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":4,\"size_min\":0.3,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":1,\"direction\":\"none\",\"random\":true,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":600}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":250,\"size\":0,\"duration\":2,\"opacity\":0,\"speed\":3},\"repulse\":{\"distance\":400,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}",
-                    "bubble": "{\"particles\":{\"number\":{\"value\":15,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#1b1e34\"},\"shape\":{\"type\":\"polygon\",\"stroke\":{\"width\":0,\"color\":\"#000\"},\"polygon\":{\"nb_sides\":6},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":50,\"random\":false,\"anim\":{\"enable\":true,\"speed\":10,\"size_min\":40,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":200,\"color\":\"#ffffff\",\"opacity\":1,\"width\":2},\"move\":{\"enable\":true,\"speed\":8,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":false,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}",
-                    "snow": "{\"particles\":{\"number\":{\"value\":450,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#fff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":500,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":2},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"bottom\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":0.5}},\"bubble\":{\"distance\":400,\"size\":4,\"duration\":0.3,\"opacity\":1,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}",
-                    "nyan_cat": "{\"particles\":{\"number\":{\"value\":150,\"density\":{\"enable\":false,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"star\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"http:\/\/wiki.lexisnexis.com\/academic\/images\/f\/fb\/Itunes_podcast_icon_300.jpg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":4,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":14,\"direction\":\"left\",\"random\":false,\"straight\":true,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":200,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}"
-                },
-                "eael_login_nonce": "df3b604104",
-                "eael_register_nonce": "6fadf4c794",
-                "eael_lostpassword_nonce": "45873009c3",
-                "eael_resetpassword_nonce": "2ed2440f54"
-            };
-        </script>
-        <script
-            src="{{ asset("assets/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js") }}"
-            id="eael-general-js"></script>
-        <script src="{{ asset("assets/wp-content/uploads/essential-addons-elementor/eael-492.js") }}"
-            id="eael-492-js"></script>
-        <script id="bdt-uikit-js-extra">
-            var element_pack_ajax_login_config = {
-                "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
-                "language": "en",
-                "loadingmessage": "Sending user info, please wait...",
-                "unknownerror": "Unknown error, make sure access is correct!"
-            };
-            var ElementPackConfig = {
-                "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
-                "nonce": "f952e14462",
-                "data_table": {
-                    "language": {
-                        "lengthMenu": "Show _MENU_ Entries",
-                        "info": "Showing _START_ to _END_ of _TOTAL_ entries",
-                        "search": "Search :",
-                        "sZeroRecords": "No matching records found",
-                        "paginate": {
-                            "previous": "Previous",
-                            "next": "Next"
-                        }
-                    }
-                },
-                "contact_form": {
-                    "sending_msg": "Sending message please wait...",
-                    "captcha_nd": "Invisible captcha not defined!",
-                    "captcha_nr": "Could not get invisible captcha response!"
-                },
-                "mailchimp": {
-                    "subscribing": "Subscribing you please wait..."
-                },
-                "search": {
-                    "more_result": "More Results",
-                    "search_result": "SEARCH RESULT",
-                    "not_found": "not found"
-                },
-                "elements_data": {
-                    "sections": [],
-                    "columns": [],
-                    "widgets": []
-                }
-            };
-        </script>
-        <script
-            src="{{ asset("assets/wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js") }}"
-            id="bdt-uikit-js"></script>
-        <script src="{{ asset("assets/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js") }}"
-            id="elementor-webpack-runtime-js"></script>
-        <script src="{{ asset("assets/wp-content/plugins/elementor/assets/js/frontend-modules.min.js") }}"
-            id="elementor-frontend-modules-js"></script>
-        <script src="{{ asset("assets/wp-includes/js/jquery/ui/core.min.js") }}" id="jquery-ui-core-js">
-        </script>
-        <script id="elementor-frontend-js-before">
-            var elementorFrontendConfig = {
-                "environmentMode": {
-                    "edit": false,
-                    "wpPreview": false,
-                    "isScriptDebug": false
-                },
-                "i18n": {
-                    "shareOnFacebook": "Share on Facebook",
-                    "shareOnTwitter": "Share on Twitter",
-                    "pinIt": "Pin it",
-                    "download": "Download",
-                    "downloadImage": "Download image",
-                    "fullscreen": "Fullscreen",
-                    "zoom": "Zoom",
-                    "share": "Share",
-                    "playVideo": "Play Video",
-                    "previous": "Previous",
-                    "next": "Next",
-                    "close": "Close",
-                    "a11yCarouselPrevSlideMessage": "Previous slide",
-                    "a11yCarouselNextSlideMessage": "Next slide",
-                    "a11yCarouselFirstSlideMessage": "This is the first slide",
-                    "a11yCarouselLastSlideMessage": "This is the last slide",
-                    "a11yCarouselPaginationBulletMessage": "Go to slide"
-                },
-                "is_rtl": false,
-                "breakpoints": {
-                    "xs": 0,
-                    "sm": 480,
-                    "md": 768,
-                    "lg": 1025,
-                    "xl": 1440,
-                    "xxl": 1600
-                },
-                "responsive": {
-                    "breakpoints": {
-                        "mobile": {
-                            "label": "Mobile Portrait",
-                            "value": 767,
-                            "default_value": 767,
-                            "direction": "max",
-                            "is_enabled": true
-                        },
-                        "mobile_extra": {
-                            "label": "Mobile Landscape",
-                            "value": 880,
-                            "default_value": 880,
-                            "direction": "max",
-                            "is_enabled": false
-                        },
-                        "tablet": {
-                            "label": "Tablet Portrait",
-                            "value": 1024,
-                            "default_value": 1024,
-                            "direction": "max",
-                            "is_enabled": true
-                        },
-                        "tablet_extra": {
-                            "label": "Tablet Landscape",
-                            "value": 1200,
-                            "default_value": 1200,
-                            "direction": "max",
-                            "is_enabled": false
-                        },
-                        "laptop": {
-                            "label": "Laptop",
-                            "value": 1366,
-                            "default_value": 1366,
-                            "direction": "max",
-                            "is_enabled": false
-                        },
-                        "widescreen": {
-                            "label": "Widescreen",
-                            "value": 2400,
-                            "default_value": 2400,
-                            "direction": "min",
-                            "is_enabled": false
-                        }
-                    },
-                    "hasCustomBreakpoints": false
-                },
-                "version": "3.27.3",
-                "is_static": false,
-                "experimentalFeatures": {
-                    "additional_custom_breakpoints": true,
-                    "e_swiper_latest": true,
-                    "e_onboarding": true,
-                    "home_screen": true,
-                    "editor_v2": true,
-                    "link-in-bio": true,
-                    "floating-buttons": true
-                },
-                "urls": {
-                    "assets": "https:\/\/idealdrivingschool.ca\/wp-content\/plugins\/elementor\/assets\/",
-                    "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
-                    "uploadUrl": "https:\/\/idealdrivingschool.ca\/wp-content\/uploads"
-                },
-                "nonces": {
-                    "floatingButtonsClickTracking": "da2265afd3"
-                },
-                "swiperClass": "swiper",
-                "settings": {
-                    "page": [],
-                    "editorPreferences": []
-                },
-                "kit": {
-                    "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
-                    "global_image_lightbox": "yes",
-                    "lightbox_enable_counter": "yes",
-                    "lightbox_enable_fullscreen": "yes",
-                    "lightbox_enable_zoom": "yes",
-                    "lightbox_enable_share": "yes",
-                    "lightbox_title_src": "title",
-                    "lightbox_description_src": "description"
-                },
-                "post": {
-                    "id": 492,
-                    "title": "Ideal%20Driving%20School",
-                    "excerpt": "",
-                    "featuredImage": false
-                }
-            };
-        </script>
-        <script src="{{ asset("assets/wp-content/plugins/elementor/assets/js/frontend.min.js") }}"
-            id="elementor-frontend-js"></script>
-        <script
-            src="{{ asset("assets/wp-content/plugins/bdthemes-element-pack/assets/js/modules/ep-wrapper-link.min.js") }}"
-            id="ep-wrapper-link-js"></script>
-        <script
-            src="{{ asset("assets/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js") }}"
-            id="smartmenus-js"></script>
-        <script
-            src="{{ asset("assets/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js") }}"
-            id="flatpickr-js"></script>
-        <script
-            src="{{ asset("assets/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js") }}"
-            id="font-awesome-4-shim-js"></script>
-        <script
-            src="{{ asset("assets/wp-content/plugins/bdthemes-element-pack/assets/js/common/helper.min.js") }}"
-            id="element-pack-helper-js"></script>
-        <script
-            src="{{ asset("assets/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js") }}"
-            id="elementor-pro-webpack-runtime-js"></script>
-        <script src="{{ asset("assets/wp-includes/js/dist/hooks.min.js") }}d63a3d491d11ffd8ac6" id="wp-hooks-js">
-        </script>
-        <script src="{{ asset("assets/wp-includes/js/dist/i18n.min.js") }}e580eb46a90c2b997e6" id="wp-i18n-js">
-        </script>
-        <script id="wp-i18n-js-after">
-            wp.i18n.setLocaleData({
-                'text direction\u0004ltr': ['ltr']
-            });
-        </script>
-        <script id="elementor-pro-frontend-js-before">
-            var ElementorProFrontendConfig = {
-                "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
-                "nonce": "f16c2a68ca",
-                "urls": {
-                    "assets": "https:\/\/idealdrivingschool.ca\/wp-content\/plugins\/elementor-pro\/assets\/",
-                    "rest": "https:\/\/idealdrivingschool.ca\/wp-json\/"
-                },
-                "settings": {
-                    "lazy_load_background_images": true
-                },
-                "popup": {
-                    "hasPopUps": false
-                },
-                "shareButtonsNetworks": {
-                    "facebook": {
-                        "title": "Facebook",
-                        "has_counter": true
-                    },
-                    "twitter": {
-                        "title": "Twitter"
-                    },
-                    "linkedin": {
-                        "title": "LinkedIn",
-                        "has_counter": true
-                    },
-                    "pinterest": {
-                        "title": "Pinterest",
-                        "has_counter": true
-                    },
-                    "reddit": {
-                        "title": "Reddit",
-                        "has_counter": true
-                    },
-                    "vk": {
-                        "title": "VK",
-                        "has_counter": true
-                    },
-                    "odnoklassniki": {
-                        "title": "OK",
-                        "has_counter": true
-                    },
-                    "tumblr": {
-                        "title": "Tumblr"
-                    },
-                    "digg": {
-                        "title": "Digg"
-                    },
-                    "skype": {
-                        "title": "Skype"
-                    },
-                    "stumbleupon": {
-                        "title": "StumbleUpon",
-                        "has_counter": true
-                    },
-                    "mix": {
-                        "title": "Mix"
-                    },
-                    "telegram": {
-                        "title": "Telegram"
-                    },
-                    "pocket": {
-                        "title": "Pocket",
-                        "has_counter": true
-                    },
-                    "xing": {
-                        "title": "XING",
-                        "has_counter": true
-                    },
-                    "whatsapp": {
-                        "title": "WhatsApp"
-                    },
-                    "email": {
-                        "title": "Email"
-                    },
-                    "print": {
-                        "title": "Print"
-                    },
-                    "x-twitter": {
-                        "title": "X"
-                    },
-                    "threads": {
-                        "title": "Threads"
-                    }
-                },
-                "facebook_sdk": {
-                    "lang": "en_CA",
-                    "app_id": ""
-                },
-                "lottie": {
-                    "defaultAnimationUrl": "https:\/\/idealdrivingschool.ca\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
-                }
-            };
-        </script>
-        <script src="{{ asset("assets/wp-content/plugins/elementor-pro/assets/js/frontend.min.js") }}"
-            id="elementor-pro-frontend-js"></script>
-        <script
-            src="{{ asset("assets/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js") }}"
-            id="pro-elements-handlers-js"></script>
-
-    </body>
-
-    </html>
-
- 
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <style>
+                     /* Styles for Vancouver Driving School Section */
+                     #vancouver-driving-school {
+                         padding: 20px;
+                         /* Add padding for the section */
+                     }
+
+                     .feature-top {
+                         text-align: center;
+                         margin-bottom: 30px;
+                     }
+
+                     .circle-border {
+                         display: inline-block;
+                         margin: 10px 0;
+                     }
+
+                     .circle-border:before {
+                         content: "";
+                         border-top: 2px solid #ffffff;
+                         width: 47%;
+                         padding: 29px;
+                         position: absolute;
+                         top: 50%;
+                         left: 0;
+                     }
+
+                     .circle-border:after {
+                         content: "";
+                         border-top: 2px solid #ffffff;
+                         width: 47%;
+                         padding: 29px;
+                         position: absolute;
+                         top: 50%;
+                         right: 0;
+                     }
+
+                     .circle-border {
+                         width: 100%;
+                         font-size: 18px;
+                         margin: 15px 0;
+                         position: relative;
+                         float: left;
+                         color: #A0711E;
+                         text-align: center;
+                         margin: 25px 0 35px 0;
+                     }
+
+                     .feature-row1 {
+                         display: flex;
+                         /* Use flexbox for the row */
+                         flex-wrap: wrap;
+                         /* Allow wrapping */
+                         justify-content: space-between;
+                         /* Space out the boxes */
+                     }
+
+                     .feature-box {
+                         flex: 1 1 calc(33.33% - 20px);
+                         /* Responsive width with spacing */
+                         margin: 10px;
+                         /* Margin for spacing */
+                         border-radius: 8px;
+                         /* Optional: rounded corners */
+                         padding: 15px;
+                         /* Optional: padding inside each box */
+                         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                         /* Optional: shadow for depth */
+                     }
+
+                     .feature-top>.circle-border:before,
+                     .feature-top>.circle-border:after {
+                         border-color: #7f7f7f;
+                     }
+
+                     .feature-box img {
+                         max-width: 100%;
+                         /* Make images responsive */
+                         height: auto;
+                         /* Maintain aspect ratio */
+                     }
+                 </style>
+                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                     class="elementor-section elementor-top-section elementor-element elementor-element-c665d1d elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
+                     data-id="c665d1d" data-element_type="section"
+                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                     <div class="elementor-background-overlay"></div>
+                     <div class="elementor-container elementor-column-gap-default">
+                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5a00c78"
+                             data-id="5a00c78" data-element_type="column">
+                             <div class="elementor-widget-wrap elementor-element-populated">
+                                 <div class="elementor-element elementor-element-bfa7a59 elementor-widget elementor-widget-heading"
+                                     data-id="bfa7a59" data-element_type="widget" data-widget_type="heading.default">
+                                     <div class="elementor-widget-container">
+                                         <h2 class="elementor-heading-title elementor-size-default">When it comes to
+                                             learning to drive, we're the experts!</h2>
+                                     </div>
+                                 </div>
+                                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                                     class="elementor-section elementor-inner-section elementor-element elementor-element-6d7c743 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                     data-id="6d7c743" data-element_type="section">
+                                     <div class="elementor-container elementor-column-gap-default">
+                                         <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9eb3450"
+                                             data-id="9eb3450" data-element_type="column">
+                                             <div class="elementor-widget-wrap elementor-element-populated">
+                                                 <div class="elementor-element elementor-element-b35e920 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button"
+                                                     data-id="b35e920" data-element_type="widget"
+                                                     data-widget_type="button.default">
+                                                     <div class="elementor-widget-container">
+                                                         <div class="elementor-button-wrapper">
+                                                             <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                 href="#form">
+                                                                 <span class="elementor-button-content-wrapper">
+                                                                     <span class="elementor-button-text">Book
+                                                                         Now</span>
+                                                                 </span>
+                                                             </a>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                         <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-dba471b"
+                                             data-id="dba471b" data-element_type="column">
+                                             <div class="elementor-widget-wrap elementor-element-populated">
+                                                 <div class="elementor-element elementor-element-d3ac6cf elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button"
+                                                     data-id="d3ac6cf" data-element_type="widget"
+                                                     data-widget_type="button.default">
+                                                     <div class="elementor-widget-container">
+                                                         <div class="elementor-button-wrapper">
+                                                             <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                 href="{{ route('services') }}">
+                                                                 <span class="elementor-button-content-wrapper">
+                                                                     <span class="elementor-button-text">Learn
+                                                                         More</span>
+                                                                 </span>
+                                                             </a>
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </section>
+                             </div>
+                         </div>
+                     </div>
+                 </section>
+                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                     class="elementor-section elementor-top-section elementor-element elementor-element-fc4e972 elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
+                     data-id="fc4e972" data-element_type="section"
+                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                     <div class="elementor-background-overlay"></div>
+                     <div class="elementor-container elementor-column-gap-default">
+                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1afa8f7"
+                             data-id="1afa8f7" data-element_type="column">
+                             <div class="elementor-widget-wrap elementor-element-populated">
+                                 <div class="elementor-element elementor-element-4b46395 elementor-widget elementor-widget-heading"
+                                     data-id="4b46395" data-element_type="widget" data-widget_type="heading.default">
+                                     <div class="elementor-widget-container">
+
+                                         <style>
+                                             .image-container {
+                                                 display: flex;
+                                                 flex-wrap: wrap;
+                                                 justify-content: center;
+                                                 /* Can be changed to 'flex-start' if you want left alignment */
+                                                 gap: 10px;
+                                                 /* Space between images */
+                                             }
+
+                                             .student-image {
+                                                 max-height: 300px;
+                                                 /* Giới hạn chiều cao tối đa */
+                                                 width: auto;
+                                                 /* Để chiều rộng tự động điều chỉnh theo chiều cao */
+                                                 height: auto;
+                                                 /* Duy trì tỷ lệ khung hình */
+                                                 border-radius: 8px;
+                                                 /* Optional: add rounded corners */
+                                             }
+                                         </style>
+                                     </div>
+                                 </div>
+                              
+                                 <section class="elementor-container elementor-column-gap-default">
+                                     <div class="image-container">
+                                         <img src="{{ asset('assets/z6292606938134_515a679ec267d9237a169cdbe710ab92.jpg') }}"
+                                             alt="Student 1" class="student-image">
+                                         <img src="{{ asset('assets/z6292606976448_4c548e52f07afca95976446fa11312f4.jpg') }}"
+                                             alt="Student 2" class="student-image">
+                                         <img src="{{ asset('assets/z6292607818611_44d570875040747c1ba105e9784d94e1.jpg') }}"
+                                             alt="Student 3" class="student-image">
+                                         <img src="{{ asset('assets/z6292607827407_99688cc3c225f11d327f782f389ef237.jpg') }}"
+                                             alt="Student 4" class="student-image">
+                                     </div>
+                                 </section>
+                             </div>
+                         </div>
+                     </div>
+                 </section>
+                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                     class="elementor-section elementor-top-section elementor-element elementor-element-a6c4a9a elementor-section-height-min-height elementor-section-full_width elementor-section-height-default elementor-section-items-middle"
+                     data-id="a6c4a9a" data-element_type="section"
+                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                     <div class="elementor-background-overlay"></div>
+                     <div class="elementor-container elementor-column-gap-default">
+                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-97dac33"
+                             data-id="97dac33" data-element_type="column">
+                             <div class="elementor-widget-wrap elementor-element-populated">
+                                 <div class="elementor-element elementor-element-2e42d9a elementor-widget elementor-widget-heading"
+                                     data-id="2e42d9a" data-element_type="widget" data-widget_type="heading.default">
+                                     <div class="elementor-widget-container">
+                                         <h2 class="elementor-heading-title elementor-size-default">Become An
+                                             Exceptional Driver Today</h2>
+                                     </div>
+                                 </div>
+                                 <div class="elementor-element elementor-element-34e4825 elementor-align-center elementor-widget elementor-widget-button"
+                                     data-id="34e4825" data-element_type="widget" data-widget_type="button.default">
+                                     <div class="elementor-widget-container">
+                                         <div class="elementor-button-wrapper">
+                                             <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                 href="{{ route('contact') }}">
+                                                 <span class="elementor-button-content-wrapper">
+                                                     <span class="elementor-button-text">Contact Us Today</span>
+                                                 </span>
+                                             </a>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </section>
+             </div>
+
+
+         </div>
+
+
+     </main>
+
+     <div data-elementor-type="footer" data-elementor-id="665"
+         class="elementor elementor-665 elementor-location-footer" data-elementor-post-type="elementor_library">
+         <section data-particle_enable="false" data-particle-mobile-disabled="false"
+             class="elementor-section elementor-top-section elementor-element elementor-element-2784eb74 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+             data-id="2784eb74" data-element_type="section"
+             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+             <div class="elementor-container elementor-column-gap-default">
+                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-630f6184"
+                     data-id="630f6184" data-element_type="column">
+                     <div class="elementor-widget-wrap elementor-element-populated">
+                         <div class="elementor-element elementor-element-f56a5b1 elementor-nav-menu__align-center elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu"
+                             data-id="f56a5b1" data-element_type="widget"
+                             data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}"
+                             data-widget_type="nav-menu.default">
+                             <div class="elementor-widget-container">
+                                 <nav aria-label="Menu"
+                                     class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+                                     <ul id="menu-1-f56a5b1" class="elementor-nav-menu">
+                                         <li
+                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-492 current_page_item menu-item-674">
+                                             <a href="https://idealdrivingschool.ca/" aria-current="page"
+                                                 class="elementor-item elementor-item-active">Home</a>
+                                         </li>
+                                         <li
+                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673">
+                                             <a href="{{ route('about') }}/" class="elementor-item">About</a>
+                                         </li>
+                                         <li
+                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671">
+                                             <a href="{{ route('services') }}" class="elementor-item">Services</a>
+                                         </li>
+                                         <li
+                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
+                                             <a
+                                                 href="{{ route('contact') }}
+                                                    class="elementor-item">Contact</a>
+                                         </li>
+                                     </ul>
+                                 </nav>
+                                 <div class="elementor-menu-toggle" role="button" tabindex="0"
+                                     aria-label="Menu Toggle" aria-expanded="false">
+                                     <i aria-hidden="true" role="presentation"
+                                         class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i
+                                         aria-hidden="true" role="presentation"
+                                         class="elementor-menu-toggle__icon--close eicon-close"></i>
+                                 </div>
+                                 <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container"
+                                     aria-hidden="true">
+                                     <ul id="menu-2-f56a5b1" class="elementor-nav-menu">
+                                         <li
+                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-492 current_page_item menu-item-674">
+                                             <a href="https://idealdrivingschool.ca/" aria-current="page"
+                                                 class="elementor-item elementor-item-active" tabindex="-1">Home</a>
+                                         </li>
+                                         <li
+                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673">
+                                             <a href="{{ route('about') }}/" class="elementor-item"
+                                                 tabindex="-1">About</a>
+                                         </li>
+                                         <li
+                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671">
+                                             <a href="{{ route('services') }}" class="elementor-item"
+                                                 tabindex="-1">Services</a>
+                                         </li>
+                                         <li
+                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
+                                             <a href="{{ route('contact') }}" class="elementor-item"
+                                                 tabindex="-1">Contact</a>
+                                         </li>
+                                     </ul>
+                                 </nav>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-22471838"
+                     data-id="22471838" data-element_type="column">
+                     <div class="elementor-widget-wrap elementor-element-populated">
+                         <div class="elementor-element elementor-element-67bc2f09 elementor-widget elementor-widget-heading"
+                             data-id="67bc2f09" data-element_type="widget" data-widget_type="heading.default">
+                             <div class="elementor-widget-container">
+                                 <h1 class="elementor-heading-title elementor-size-default">Useful Links</h1>
+                             </div>
+                         </div>
+                         <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                             class="elementor-section elementor-inner-section elementor-element elementor-element-6d5b03b6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                             data-id="6d5b03b6" data-element_type="section">
+                             <div class="elementor-container elementor-column-gap-default">
+                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4966bde1"
+                                     data-id="4966bde1" data-element_type="column">
+                                     <div class="elementor-widget-wrap elementor-element-populated">
+                                         <div class="elementor-element elementor-element-173f13f3 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                             data-id="173f13f3" data-element_type="widget"
+                                             data-widget_type="icon-list.default">
+                                             <div class="elementor-widget-container">
+                                                 <ul class="elementor-icon-list-items">
+                                                     <li class="elementor-icon-list-item">
+                                                         <a href="https://practicetest.icbc.com/#/">
+
+                                                             <span class="elementor-icon-list-text">Online Practice
+                                                                 Knowledge Test</span>
+                                                         </a>
+                                                     </li>
+                                                     <li class="elementor-icon-list-item">
+                                                         <a
+                                                             href="https://www.icbc.com/driver-licensing/visit-dl-office/Pages/Book-a-road-test.aspx">
+
+                                                             <span class="elementor-icon-list-text">Book a Road
+                                                                 Test</span>
+                                                         </a>
+                                                     </li>
+                                                     <li class="elementor-icon-list-item">
+                                                         <a
+                                                             href="https://www.icbc.com/driver-licensing/new-drivers/Pages/Default.aspx">
+
+                                                             <span class="elementor-icon-list-text">New Drivers</span>
+                                                         </a>
+                                                     </li>
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7ad341df"
+                                     data-id="7ad341df" data-element_type="column">
+                                     <div class="elementor-widget-wrap elementor-element-populated">
+                                         <div class="elementor-element elementor-element-6d1001b4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                             data-id="6d1001b4" data-element_type="widget"
+                                             data-widget_type="icon-list.default">
+                                             <div class="elementor-widget-container">
+                                                 <ul class="elementor-icon-list-items">
+                                                     <li class="elementor-icon-list-item">
+                                                         <a
+                                                             href="https://www.icbc.com/driver-licensing/Pages/default.aspx">
+
+                                                             <span class="elementor-icon-list-text">Driver
+                                                                 Licensing</span>
+                                                         </a>
+                                                     </li>
+                                                     <li class="elementor-icon-list-item">
+                                                         <a
+                                                             href="https://www.icbc.com/driver-licensing/driving-guides/Pages/Learn-to-Drive-Smart.aspx">
+
+                                                             <span class="elementor-icon-list-text">Learn to Drive
+                                                                 Smart</span>
+                                                         </a>
+                                                     </li>
+                                                 </ul>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </section>
+                     </div>
+                 </div>
+             </div>
+         </section>
+         <section data-particle_enable="false" data-particle-mobile-disabled="false"
+             class="elementor-section elementor-top-section elementor-element elementor-element-4dae2451 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+             data-id="4dae2451" data-element_type="section"
+             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+             <div class="elementor-container elementor-column-gap-default">
+                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2f353296"
+                     data-id="2f353296" data-element_type="column">
+                     <div class="elementor-widget-wrap elementor-element-populated">
+                         <div class="elementor-element elementor-element-457b7f1e elementor-widget elementor-widget-text-editor"
+                             data-id="457b7f1e" data-element_type="widget" data-widget_type="text-editor.default">
+                             <div class="elementor-widget-container">
+                                 <p>Copyright © 2022 Arirang Driving School</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-30959ed5"
+                     data-id="30959ed5" data-element_type="column">
+                     <div class="elementor-widget-wrap elementor-element-populated">
+                         <div class="elementor-element elementor-element-12a6467b elementor-widget elementor-widget-text-editor"
+                             data-id="12a6467b" data-element_type="widget" data-widget_type="text-editor.default">
+                             <div class="elementor-widget-container">
+                                 Website designed  by <a style="color: white"
+                                     href="https://www.navswebdesign.com">Nav&#8217;s Web Design</a> </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+     </div>
+
+     <script>
+         const lazyloadRunObserver = () => {
+             const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+             const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+                 entries.forEach((entry) => {
+                     if (entry.isIntersecting) {
+                         let lazyloadBackground = entry.target;
+                         if (lazyloadBackground) {
+                             lazyloadBackground.classList.add('e-lazyloaded');
+                         }
+                         lazyloadBackgroundObserver.unobserve(entry.target);
+                     }
+                 });
+             }, {
+                 rootMargin: '200px 0px 200px 0px'
+             });
+             lazyloadBackgrounds.forEach((lazyloadBackground) => {
+                 lazyloadBackgroundObserver.observe(lazyloadBackground);
+             });
+         };
+         const events = [
+             'DOMContentLoaded',
+             'elementor/lazyload/observe',
+         ];
+         events.forEach((event) => {
+             document.addEventListener(event, lazyloadRunObserver);
+         });
+     </script>
+     <link rel='stylesheet' id='widget-icon-list-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='widget-image-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/css/widget-image.min.css') }}' media='all' />
+     <link rel='stylesheet' id='widget-text-editor-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='widget-nav-menu-css'
+         href='{{ asset('assets/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='widget-heading-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/css/widget-heading.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='flatpickr-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='widget-form-css'
+         href='{{ asset('assets/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='widget-star-rating-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/css/widget-star-rating.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='font-awesome-5-all-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='font-awesome-4-shim-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='swiper-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css') }}'
+         media='all' />
+     <link rel='stylesheet' id='e-swiper-css'
+         href='{{ asset('assets/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css') }}'
+         media='all' />
+     <script id="eael-general-js-extra">
+         var localize = {
+             "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
+             "nonce": "aac387bd3f",
+             "i18n": {
+                 "added": "Added ",
+                 "compare": "Compare",
+                 "loading": "Loading..."
+             },
+             "eael_translate_text": {
+                 "required_text": "is a required field",
+                 "invalid_text": "Invalid",
+                 "billing_text": "Billing",
+                 "shipping_text": "Shipping",
+                 "fg_mfp_counter_text": "of"
+             },
+             "page_permalink": "https:\/\/idealdrivingschool.ca\/",
+             "cart_redirectition": "",
+             "cart_page_url": "",
+             "el_breakpoints": {
+                 "mobile": {
+                     "label": "Mobile Portrait",
+                     "value": 767,
+                     "default_value": 767,
+                     "direction": "max",
+                     "is_enabled": true
+                 },
+                 "mobile_extra": {
+                     "label": "Mobile Landscape",
+                     "value": 880,
+                     "default_value": 880,
+                     "direction": "max",
+                     "is_enabled": false
+                 },
+                 "tablet": {
+                     "label": "Tablet Portrait",
+                     "value": 1024,
+                     "default_value": 1024,
+                     "direction": "max",
+                     "is_enabled": true
+                 },
+                 "tablet_extra": {
+                     "label": "Tablet Landscape",
+                     "value": 1200,
+                     "default_value": 1200,
+                     "direction": "max",
+                     "is_enabled": false
+                 },
+                 "laptop": {
+                     "label": "Laptop",
+                     "value": 1366,
+                     "default_value": 1366,
+                     "direction": "max",
+                     "is_enabled": false
+                 },
+                 "widescreen": {
+                     "label": "Widescreen",
+                     "value": 2400,
+                     "default_value": 2400,
+                     "direction": "min",
+                     "is_enabled": false
+                 }
+             },
+             "ParticleThemesData": {
+                 "default": "{\"particles\":{\"number\":{\"value\":160,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":true,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"repulse\"},\"onclick\":{\"enable\":true,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}",
+                 "nasa": "{\"particles\":{\"number\":{\"value\":250,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":1,\"random\":true,\"anim\":{\"enable\":true,\"speed\":1,\"opacity_min\":0,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":4,\"size_min\":0.3,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":1,\"direction\":\"none\",\"random\":true,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":600}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":250,\"size\":0,\"duration\":2,\"opacity\":0,\"speed\":3},\"repulse\":{\"distance\":400,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}",
+                 "bubble": "{\"particles\":{\"number\":{\"value\":15,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#1b1e34\"},\"shape\":{\"type\":\"polygon\",\"stroke\":{\"width\":0,\"color\":\"#000\"},\"polygon\":{\"nb_sides\":6},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":50,\"random\":false,\"anim\":{\"enable\":true,\"speed\":10,\"size_min\":40,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":200,\"color\":\"#ffffff\",\"opacity\":1,\"width\":2},\"move\":{\"enable\":true,\"speed\":8,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":false,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}",
+                 "snow": "{\"particles\":{\"number\":{\"value\":450,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#fff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":500,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":2},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"bottom\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":0.5}},\"bubble\":{\"distance\":400,\"size\":4,\"duration\":0.3,\"opacity\":1,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}",
+                 "nyan_cat": "{\"particles\":{\"number\":{\"value\":150,\"density\":{\"enable\":false,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"star\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"http:\/\/wiki.lexisnexis.com\/academic\/images\/f\/fb\/Itunes_podcast_icon_300.jpg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":4,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":14,\"direction\":\"left\",\"random\":false,\"straight\":true,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":200,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}"
+             },
+             "eael_login_nonce": "df3b604104",
+             "eael_register_nonce": "6fadf4c794",
+             "eael_lostpassword_nonce": "45873009c3",
+             "eael_resetpassword_nonce": "2ed2440f54"
+         };
+     </script>
+     <script
+         src="{{ asset('assets/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js') }}"
+         id="eael-general-js"></script>
+     <script src="{{ asset('assets/wp-content/uploads/essential-addons-elementor/eael-492.js') }}" id="eael-492-js">
+     </script>
+     <script id="bdt-uikit-js-extra">
+         var element_pack_ajax_login_config = {
+             "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
+             "language": "en",
+             "loadingmessage": "Sending user info, please wait...",
+             "unknownerror": "Unknown error, make sure access is correct!"
+         };
+         var ElementPackConfig = {
+             "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
+             "nonce": "f952e14462",
+             "data_table": {
+                 "language": {
+                     "lengthMenu": "Show _MENU_ Entries",
+                     "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                     "search": "Search :",
+                     "sZeroRecords": "No matching records found",
+                     "paginate": {
+                         "previous": "Previous",
+                         "next": "Next"
+                     }
+                 }
+             },
+             "contact_form": {
+                 "sending_msg": "Sending message please wait...",
+                 "captcha_nd": "Invisible captcha not defined!",
+                 "captcha_nr": "Could not get invisible captcha response!"
+             },
+             "mailchimp": {
+                 "subscribing": "Subscribing you please wait..."
+             },
+             "search": {
+                 "more_result": "More Results",
+                 "search_result": "SEARCH RESULT",
+                 "not_found": "not found"
+             },
+             "elements_data": {
+                 "sections": [],
+                 "columns": [],
+                 "widgets": []
+             }
+         };
+     </script>
+     <script src="{{ asset('assets/wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js') }}"
+         id="bdt-uikit-js"></script>
+     <script src="{{ asset('assets/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}"
+         id="elementor-webpack-runtime-js"></script>
+     <script src="{{ asset('assets/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}"
+         id="elementor-frontend-modules-js"></script>
+     <script src="{{ asset('assets/wp-includes/js/jquery/ui/core.min.js') }}" id="jquery-ui-core-js"></script>
+     <script id="elementor-frontend-js-before">
+         var elementorFrontendConfig = {
+             "environmentMode": {
+                 "edit": false,
+                 "wpPreview": false,
+                 "isScriptDebug": false
+             },
+             "i18n": {
+                 "shareOnFacebook": "Share on Facebook",
+                 "shareOnTwitter": "Share on Twitter",
+                 "pinIt": "Pin it",
+                 "download": "Download",
+                 "downloadImage": "Download image",
+                 "fullscreen": "Fullscreen",
+                 "zoom": "Zoom",
+                 "share": "Share",
+                 "playVideo": "Play Video",
+                 "previous": "Previous",
+                 "next": "Next",
+                 "close": "Close",
+                 "a11yCarouselPrevSlideMessage": "Previous slide",
+                 "a11yCarouselNextSlideMessage": "Next slide",
+                 "a11yCarouselFirstSlideMessage": "This is the first slide",
+                 "a11yCarouselLastSlideMessage": "This is the last slide",
+                 "a11yCarouselPaginationBulletMessage": "Go to slide"
+             },
+             "is_rtl": false,
+             "breakpoints": {
+                 "xs": 0,
+                 "sm": 480,
+                 "md": 768,
+                 "lg": 1025,
+                 "xl": 1440,
+                 "xxl": 1600
+             },
+             "responsive": {
+                 "breakpoints": {
+                     "mobile": {
+                         "label": "Mobile Portrait",
+                         "value": 767,
+                         "default_value": 767,
+                         "direction": "max",
+                         "is_enabled": true
+                     },
+                     "mobile_extra": {
+                         "label": "Mobile Landscape",
+                         "value": 880,
+                         "default_value": 880,
+                         "direction": "max",
+                         "is_enabled": false
+                     },
+                     "tablet": {
+                         "label": "Tablet Portrait",
+                         "value": 1024,
+                         "default_value": 1024,
+                         "direction": "max",
+                         "is_enabled": true
+                     },
+                     "tablet_extra": {
+                         "label": "Tablet Landscape",
+                         "value": 1200,
+                         "default_value": 1200,
+                         "direction": "max",
+                         "is_enabled": false
+                     },
+                     "laptop": {
+                         "label": "Laptop",
+                         "value": 1366,
+                         "default_value": 1366,
+                         "direction": "max",
+                         "is_enabled": false
+                     },
+                     "widescreen": {
+                         "label": "Widescreen",
+                         "value": 2400,
+                         "default_value": 2400,
+                         "direction": "min",
+                         "is_enabled": false
+                     }
+                 },
+                 "hasCustomBreakpoints": false
+             },
+             "version": "3.27.3",
+             "is_static": false,
+             "experimentalFeatures": {
+                 "additional_custom_breakpoints": true,
+                 "e_swiper_latest": true,
+                 "e_onboarding": true,
+                 "home_screen": true,
+                 "editor_v2": true,
+                 "link-in-bio": true,
+                 "floating-buttons": true
+             },
+             "urls": {
+                 "assets": "https:\/\/idealdrivingschool.ca\/wp-content\/plugins\/elementor\/assets\/",
+                 "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
+                 "uploadUrl": "https:\/\/idealdrivingschool.ca\/wp-content\/uploads"
+             },
+             "nonces": {
+                 "floatingButtonsClickTracking": "da2265afd3"
+             },
+             "swiperClass": "swiper",
+             "settings": {
+                 "page": [],
+                 "editorPreferences": []
+             },
+             "kit": {
+                 "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                 "global_image_lightbox": "yes",
+                 "lightbox_enable_counter": "yes",
+                 "lightbox_enable_fullscreen": "yes",
+                 "lightbox_enable_zoom": "yes",
+                 "lightbox_enable_share": "yes",
+                 "lightbox_title_src": "title",
+                 "lightbox_description_src": "description"
+             },
+             "post": {
+                 "id": 492,
+                 "title": "Ideal%20Driving%20School",
+                 "excerpt": "",
+                 "featuredImage": false
+             }
+         };
+     </script>
+     <script src="{{ asset('assets/wp-content/plugins/elementor/assets/js/frontend.min.js') }}" id="elementor-frontend-js">
+     </script>
+     <script src="{{ asset('assets/wp-content/plugins/bdthemes-element-pack/assets/js/modules/ep-wrapper-link.min.js') }}"
+         id="ep-wrapper-link-js"></script>
+     <script src="{{ asset('assets/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js') }}"
+         id="smartmenus-js"></script>
+     <script src="{{ asset('assets/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js') }}"
+         id="flatpickr-js"></script>
+     <script src="{{ asset('assets/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js') }}"
+         id="font-awesome-4-shim-js"></script>
+     <script src="{{ asset('assets/wp-content/plugins/bdthemes-element-pack/assets/js/common/helper.min.js') }}"
+         id="element-pack-helper-js"></script>
+     <script src="{{ asset('assets/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js') }}"
+         id="elementor-pro-webpack-runtime-js"></script>
+     <script src="{{ asset('assets/wp-includes/js/dist/hooks.min.js') }}d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+     <script src="{{ asset('assets/wp-includes/js/dist/i18n.min.js') }}e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+     <script id="wp-i18n-js-after">
+         wp.i18n.setLocaleData({
+             'text direction\u0004ltr': ['ltr']
+         });
+     </script>
+     <script id="elementor-pro-frontend-js-before">
+         var ElementorProFrontendConfig = {
+             "ajaxurl": "https:\/\/idealdrivingschool.ca\/wp-admin\/admin-ajax.php",
+             "nonce": "f16c2a68ca",
+             "urls": {
+                 "assets": "https:\/\/idealdrivingschool.ca\/wp-content\/plugins\/elementor-pro\/assets\/",
+                 "rest": "https:\/\/idealdrivingschool.ca\/wp-json\/"
+             },
+             "settings": {
+                 "lazy_load_background_images": true
+             },
+             "popup": {
+                 "hasPopUps": false
+             },
+             "shareButtonsNetworks": {
+                 "facebook": {
+                     "title": "Facebook",
+                     "has_counter": true
+                 },
+                 "twitter": {
+                     "title": "Twitter"
+                 },
+                 "linkedin": {
+                     "title": "LinkedIn",
+                     "has_counter": true
+                 },
+                 "pinterest": {
+                     "title": "Pinterest",
+                     "has_counter": true
+                 },
+                 "reddit": {
+                     "title": "Reddit",
+                     "has_counter": true
+                 },
+                 "vk": {
+                     "title": "VK",
+                     "has_counter": true
+                 },
+                 "odnoklassniki": {
+                     "title": "OK",
+                     "has_counter": true
+                 },
+                 "tumblr": {
+                     "title": "Tumblr"
+                 },
+                 "digg": {
+                     "title": "Digg"
+                 },
+                 "skype": {
+                     "title": "Skype"
+                 },
+                 "stumbleupon": {
+                     "title": "StumbleUpon",
+                     "has_counter": true
+                 },
+                 "mix": {
+                     "title": "Mix"
+                 },
+                 "telegram": {
+                     "title": "Telegram"
+                 },
+                 "pocket": {
+                     "title": "Pocket",
+                     "has_counter": true
+                 },
+                 "xing": {
+                     "title": "XING",
+                     "has_counter": true
+                 },
+                 "whatsapp": {
+                     "title": "WhatsApp"
+                 },
+                 "email": {
+                     "title": "Email"
+                 },
+                 "print": {
+                     "title": "Print"
+                 },
+                 "x-twitter": {
+                     "title": "X"
+                 },
+                 "threads": {
+                     "title": "Threads"
+                 }
+             },
+             "facebook_sdk": {
+                 "lang": "en_CA",
+                 "app_id": ""
+             },
+             "lottie": {
+                 "defaultAnimationUrl": "https:\/\/idealdrivingschool.ca\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+             }
+         };
+     </script>
+     <script src="{{ asset('assets/wp-content/plugins/elementor-pro/assets/js/frontend.min.js') }}"
+         id="elementor-pro-frontend-js"></script>
+     <script src="{{ asset('assets/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js') }}"
+         id="pro-elements-handlers-js"></script>
+
+ </body>
+
+ </html>

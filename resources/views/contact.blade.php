@@ -764,7 +764,7 @@
                                     data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
                                         <h2 class="elementor-heading-title elementor-size-default">Contact Form</h2>
-                                        <p style="margin-top: 1rem" class="elementor-heading-title elementor-size-default">FB: Da Tuyen tran</p>
+                                        <p style="padding-top: 1rem">If you have questions, or would like more information, please your name and contact information.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-b97c6bc elementor-button-align-start elementor-widget elementor-widget-form"
@@ -952,6 +952,7 @@
                                     </div>
                                     </div>
                                 </section>
+                               
                                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
                                     class="elementor-section elementor-inner-section elementor-element elementor-element-d54d7dc elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="d54d7dc" data-element_type="section">
@@ -998,6 +999,45 @@
                                         </div>
                                     </div>
                                 </section>
+                                <section data-particle_enable="false" data-particle-mobile-disabled="false"
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-fc499eb elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                data-id="fc499eb" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c207c74"
+                                        data-id="c207c74" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-ed16d9a elementor-view-default elementor-widget elementor-widget-icon"
+                                                data-id="ed16d9a" data-element_type="widget"
+                                                data-widget_type="icon.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-icon-wrapper">
+                                                        <div class="elementor-icon">
+                                                            <img style="
+                                                            width: 66px;
+                                                        " src="
+                                                            https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e588cbb"
+                                    data-id="e588cbb" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div data-ep-wrapper-link="{&quot;url&quot;:&quot;tel:+16722000666&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;}"
+                                            style="cursor: pointer"
+                                            class="bdt-element-link elementor-element elementor-element-07148b1 elementor-widget elementor-widget-text-editor"
+                                            data-id="07148b1" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p>Da Tuyen tran</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </section>
                             </div>
                         </div>
                     </div>

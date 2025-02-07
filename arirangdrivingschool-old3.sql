@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Feb 07, 2025 at 02:35 AM
+-- Generation Time: Feb 06, 2025 at 01:54 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -38,8 +38,8 @@ CREATE TABLE `cache` (
 --
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:1;', 1738892646),
-('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1738892646;', 1738892646);
+('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:1;', 1738848999),
+('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1738848999;', 1738848999);
 
 -- --------------------------------------------------------
 
@@ -193,15 +193,15 @@ CREATE TABLE `services` (
 --
 
 INSERT INTO `services` (`id`, `name`, `duration`, `price`, `lesson_count`, `benefits`, `created_at`, `updated_at`) VALUES
-(1, 'Single Lesson', '60-90 minutes', '70.00', 1, '[{\"value\": \" $70 for 60 minutes\"}, {\"value\": \" $90 for 90 minutes (saved $15)\"}]', '2025-02-04 04:03:57', '2025-02-06 18:45:31'),
-(2, 'H2 Package', '2 lessons', '175.00', 2, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $5\"}, {\"value\": \"Recommend for intermediate drivers\"}]', '2025-02-04 04:37:40', '2025-02-06 18:45:47'),
-(3, 'H4 Package', '4 lessons', '350.00', 4, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $10\"}, {\"value\": \"Recommend for intermediate drivers\"}]', '2025-02-04 04:38:18', '2025-02-06 18:45:57'),
-(4, 'H6 Package', '6 lessons', '530.00', 6, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $10\"}, {\"value\": \"Recommend for intermediate drivers\"}]', '2025-02-04 04:38:44', '2025-02-06 18:46:10'),
-(5, 'H10 Package', '2 lessons', '880.00', 10, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $20\"}]', '2025-02-04 04:39:12', '2025-02-06 18:46:19'),
-(6, 'Road Test Rental', '0', '160.00', 1, '[{\"value\": \" Includes car rental  \"}, {\"value\": \"Plus one-hour warm-up lesson\"}]', '2025-02-04 04:39:43', '2025-02-06 18:46:47'),
-(7, 'Car Rental (Test Only)', '0', '100.00', 0, '[{\"value\": \"For advance driver only\"}]', '2025-02-05 22:54:19', '2025-02-06 18:47:02'),
-(8, 'HR15', '0', '1450.00', 0, '[{\"value\": \"90mins/ session\"}, {\"value\": \"Includes one road test + 1hour warm-up lesson\"}, {\"value\": \" Save $150\"}]', '2025-02-06 06:42:35', '2025-02-06 18:49:09'),
-(9, 'HR10', '0', '1000.00', 0, '[{\"value\": \"90mins/ session\"}, {\"value\": \"Includes one road test + 1hour warm-up lesson\"}, {\"value\": \" Save $100\"}]', '2025-02-06 06:42:52', '2025-02-06 18:49:01');
+(1, 'Single Lesson', '60-90 minutes', '70.00', 1, '[{\"value\": \" $70 for 60 minutes\"}, {\"value\": \" $90 for 90 minutes (saved $15)\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"No refund or exchange\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}]', '2025-02-04 04:03:57', '2025-02-05 22:56:42'),
+(2, 'H2 Package', '2 lessons', '175.00', 2, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $5\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}, {\"value\": \"Recommend for intermediate drivers\"}]', '2025-02-04 04:37:40', '2025-02-06 06:35:59'),
+(3, 'H4 Package', '4 lessons', '350.00', 4, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $10\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}, {\"value\": \"Recommend for intermediate drivers\"}]', '2025-02-04 04:38:18', '2025-02-06 06:36:10'),
+(4, 'H6 Package', '6 lessons', '530.00', 6, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $10\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}, {\"value\": \"Recommend for intermediate drivers\"}]', '2025-02-04 04:38:44', '2025-02-06 06:36:18'),
+(5, 'H10 Package', '2 lessons', '880.00', 10, '[{\"value\": \" 90 mins / session\"}, {\"value\": \" Saved $20\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}]', '2025-02-04 04:39:12', '2025-02-05 22:58:14'),
+(6, 'Road Test Rental', '0', '160.00', 1, '[{\"value\": \" Includes car rental for ICBC Class 5/7\"}, {\"value\": \"road test plus one-hour warm-up lesson\"}, {\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}]', '2025-02-04 04:39:43', '2025-02-05 22:59:31'),
+(7, 'Car Rental (Test Only)', '0', '100.00', 0, '[{\"value\": \"Free pick-up\"}, {\"value\": \"Drop off anywhere in Vancouver and Burnaby\"}, {\"value\": \"No refund or exchange\"}]', '2025-02-05 22:54:19', '2025-02-05 22:59:20'),
+(8, 'HR15', '0', '1450.00', 0, '[{\"value\": \"Includes one road test + 1hour warm-up lesson\"}]', '2025-02-06 06:42:35', '2025-02-06 06:42:35'),
+(9, 'HR10', '0', '1000.00', 0, '[{\"value\": \"Includes one road test + 1hour warm-up lesson\"}]', '2025-02-06 06:42:52', '2025-02-06 06:42:52');
 
 -- --------------------------------------------------------
 
@@ -223,7 +223,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('dsiYgI5Fi4nkqYEdKr0SUJZu6X6KjnA7yHi5LLoa', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiN1JZRmpZdkNyQVhRaVVRTHhnMEs3dThNa0g4NUE5UjlrTFk1ZGZWbSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkcXdETVhKOUdNZGtQa0tac3VBOVc5ZVJmZDc0aGpWVldzVG9BZVJjaVZJSTVHTXRiNFV6c3UiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1738895707);
+('7dRXFSOci69f7SPV7Ryj04VMLGw9iJg6yGZ3SQnT', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiTXpyVE5Lb1BtYldNZzJoQTlucEVzaTNzelRPSXkzZUpmVWdBYk1xSyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9jb250YWN0Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRxd0RNWEo5R01ka1BrS1pzdUE5VzllUmZkNzRoalZWV3NUb0FlUmNpVklJNUdNdGI0VXpzdSI7czo4OiJmaWxhbWVudCI7YTowOnt9fQ==', 1738850015);
 
 -- --------------------------------------------------------
 

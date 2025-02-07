@@ -890,6 +890,22 @@
                         </div>
                     </div>
                 </section>
+                <div class="feature-section">
+                    <p>Free pick-up and drop off anywhere in Vancouver and Burnaby. No exchange or refund for all the packages.</p>
+                </div>
+                <style>
+                    .feature-section {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    text-align: center; /* Center the text */
+}
+
+.feature-section p {
+    font-size: 1.2em;
+    color: #fa3f3f; /* Dark gray for readability */
+    margin: 0; /* Remove default margin */
+}
+                </style>
                 <section data-particle_enable="false" data-particle-mobile-disabled="false"
                     class="elementor-section elementor-top-section elementor-element elementor-element-7254f66 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
                     data-id="7254f66" data-element_type="section"
