@@ -948,15 +948,7 @@
                                                                                     <span
                                                                                         class="eael-testimonial-quote"></span>
                                                                                     <div class="eael-testimonial-text ">
-                                                                                        <p>If you are looking for a best
-                                                                                            driving school in Surrey. Ideal
-                                                                                            Driving School is the perfect
-                                                                                            choice! Sabir is an awesome guy,
-                                                                                            patient and professional. He'll
-                                                                                            always remind you about what you
-                                                                                            missed so you could not do
-                                                                                            mistakes in actual road test.
-                                                                                            Just passed my class 5 roadtest
+                                                                                        <p> "I passed my test on the first attempt. Tuyen is excellent. He is patient. Plans the lessons and covers everything you need to know and learn for the test. Good clean cars, pick up and drop off from convenient locations."
                                                                                         </p>
                                                                                     </div>
                                                                                     <p class="eael-testimonial-user"></p>
@@ -1005,15 +997,8 @@
                                                                                     <span
                                                                                         class="eael-testimonial-quote"></span>
                                                                                     <div class="eael-testimonial-text ">
-                                                                                        <p>Sabir helped me overcome my fear
-                                                                                            of driving. With his technique,
-                                                                                            I was able to pass my test with
-                                                                                            flying colours at my first
-                                                                                            attempt! In fact, many of his
-                                                                                            students pass during their first
-                                                                                            time. Highly recommend if you're
-                                                                                            looking for driving schools in
-                                                                                            the lower mainland</p>
+                                                                                        <p>"If you are looking for a best driving school in Vancouver, Arirang Driving School is the perfect choice! Steven is an awesome guy, patient and professional. He'll always remind you about what you missed so you could not make my class 5 road test. Just passed my class 5 road test."
+                                                                                        </p>
                                                                                     </div>
                                                                                     <p class="eael-testimonial-user"></p>
                                                                                     <p
@@ -1049,7 +1034,7 @@
                                                                                 <div class="eael-testimonial-image">
                                                                                     <figure>
                                                                                         <img decoding="async"
-                                                                                             src="{{asset("assets/original.webp")}}"
+                                                                                             src="{{asset("assets/z6296051068073_96d6570afc00fa8e4e8301b352297cda.jpg")}}"
                                                                                             alt="">
                                                                                     </figure>
                                                                                 </div>
@@ -1058,14 +1043,8 @@
                                                                                     <span
                                                                                         class="eael-testimonial-quote"></span>
                                                                                     <div class="eael-testimonial-text ">
-                                                                                        <p>I passed my test on the first
-                                                                                            attempt. Sabir is excellent. He
-                                                                                            is patient. Plans the lessons
-                                                                                            and covers everything you need
-                                                                                            to know and learn for the test.
-                                                                                            Good clean cars, pick up and
-                                                                                            drop to and from convenient
-                                                                                            locations</p>
+                                                                                        <p>"Tuyen helped me overcome my fear of driving. With his technique, I was able to pass my test with flying colors at my first attempt! In fact, many of his students pass quickly in driving schools in the lower mainland."
+                                                                                        </p>
                                                                                     </div>
                                                                                     <p class="eael-testimonial-user"></p>
                                                                                     <p

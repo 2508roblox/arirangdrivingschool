@@ -764,7 +764,7 @@
                                     data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
                                         <h2 class="elementor-heading-title elementor-size-default">Contact Form</h2>
-                                        <p style="padding-top: 1rem">If you have questions, or would like more information, please your name and contact information.</p>
+                                        <p style="padding-top: 1rem">If you have questions, or would like more information, please leave your name and contact information.</p>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-b97c6bc elementor-button-align-start elementor-widget elementor-widget-form"

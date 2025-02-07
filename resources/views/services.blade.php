@@ -896,13 +896,14 @@
                 <style>
                     .feature-section {
     padding: 20px;
+    font-weight: bolder;
     background-color: #f9f9f9; /* Light background for contrast */
     text-align: center; /* Center the text */
 }
 
 .feature-section p {
     font-size: 1.2em;
-    color: #fa3f3f; /* Dark gray for readability */
+    color: #000000; /* Dark gray for readability */
     margin: 0; /* Remove default margin */
 }
                 </style>

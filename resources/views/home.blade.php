@@ -1081,12 +1081,7 @@
                                                                          <div class="card-body">
                                                                              <p
                                                                                  class="card-text text-left review-text">
-                                                                                 Passed my test on the first try!
-                                                                                 Vancouver driving school has excellent
-                                                                                 instructors - Shafi, Lori, Ashraf. It’s
-                                                                                 thanks to their teaching that I was
-                                                                                 able to grow comfortable and felt 100%
-                                                                                 prepared for my road test.</p>
+                                                                                 Passed my test on the first try! Arirang Driving School has exceptional instructors, especially Steven, who provided clear guidance and thorough training. His patience and expertise helped me I become more confident behind the wheel. The lessons were well-structured, covering everything I needed to prepare for my road test. I felt comfortable, confident, and ready to succeed. I highly recommend to anyone looking to become a safe and skilled driver!</p>
                                                                          </div>
                                                                      </span></span>
                                                              </div>
@@ -1115,11 +1110,7 @@
                                                                          <div class="card-body">
                                                                              <p
                                                                                  class="card-text text-left review-text">
-                                                                                 Ashraf from VDS was a great instructor.
-                                                                                 His lessons gave me the confidence and
-                                                                                 fine tuning I needed to pass the road
-                                                                                 test. Would recommend for both new and
-                                                                                 experienced drivers :)</p>
+                                                                                 I had the pleasure of learning 10 lessons with Steven. He demonstrated an abundance of patience and leaving the lessons I felt confident in my skills and passed the class 7 road test with flying colors. Highly recommended!</p>
                                                                          </div>
                                                                      </span></span>
                                                              </div>
@@ -1147,22 +1138,7 @@
                                                                          <div class="card-body">
                                                                              <p
                                                                                  class="card-text text-left review-text">
-                                                                                 After taking lessons with Shafi, I
-                                                                                 passed my N road test on the first
-                                                                                 attempt! He is very kind, calm and
-                                                                                 patient, and makes you feel comfortable
-                                                                                 even as a beginner. He is great at
-                                                                                 teaching the more difficult manoeuvres
-                                                                                 like parallel and back-in parking, and
-                                                                                 makes sure that you feel confident with
-                                                                                 everything that is expected of you for
-                                                                                 the road test. I would absolutely
-                                                                                 recommend him and Vancouver Driving
-                                                                                 School to anyone looking to take
-                                                                                 lessons, and especially if you are new
-                                                                                 to driving. The office staff were also
-                                                                                 kind and helpful - the whole experience
-                                                                                 was great.</p>
+                                                                                 After taking lessons with Mr. Tuyen, I am pleased to say I passed my test with flying colors! He is a great instructor, and I feel confident with the driving techniques that are expected of you for the road test. He is great at teaching the more difficult maneuvers like parallel and back-in parking, and makes you feel comfortable with everything that is expected of you for the road test. The experience after was also great!</p>
                                                                          </div>
                                                                      </span></span>
                                                              </div>
@@ -1189,12 +1165,7 @@
                                                                          <div class="card-body">
                                                                              <p
                                                                                  class="card-text text-left review-text">
-                                                                                 I had the pleasure of learning 21
-                                                                                 lessons with Shah. He demonstrated an
-                                                                                 abundance of patience and leaving the
-                                                                                 lessons I felt confident in my skills
-                                                                                 and passed the class 7 road test with
-                                                                                 flying colors. Highly recommended!</p>
+                                                                                Da Tuyen was a great instructor. His lessons gave me the confidence and trust I needed to pass the road test. I felt well-prepared for both my test and experienced driving.</p>
                                                                          </div>
                                                                      </span></span>
                                                              </div>
