@@ -50,7 +50,7 @@
          <div style="background-image: url({{ asset('assets/z6293487719740_30797b247117c4e9403e96bdf9472ddd.jpg') }}) "
              class="top-bar">
              <p>Winter Special for a limited time</p>
-             <p>1-hour lesson: $65</p>
+             <p>1-hour lesson: $60</p>
              <p>1.5-hour lessons: $90</p>
 
          </div>
