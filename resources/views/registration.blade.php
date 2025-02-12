@@ -549,7 +549,7 @@
         <link rel="EditURI" type="application/rsd+xml" title="RSD"
             href="https://idealdrivingschool.ca/xmlrpc.php?rsd" />
         <meta name="generator" content="WordPress 6.7.1" />
-        <link rel="canonical" href="https://idealdrivingschool.ca/" />
+        <link rel="canonical" href="{{route('home')}}" />
         <link rel='shortlink' href='https://idealdrivingschool.ca/' />
         <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
             href="https://idealdrivingschool.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fidealdrivingschool.ca%2F" />
@@ -1180,7 +1180,7 @@
                                         <ul id="menu-1-f56a5b1" class="elementor-nav-menu">
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-492 current_page_item menu-item-674">
-                                                <a href="https://idealdrivingschool.ca/" aria-current="page"
+                                                <a href="{{route('home')}}" aria-current="page"
                                                     class="elementor-item elementor-item-active">Home</a></li>
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673">
@@ -1208,7 +1208,7 @@
                                         <ul id="menu-2-f56a5b1" class="elementor-nav-menu">
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-492 current_page_item menu-item-674">
-                                                <a href="https://idealdrivingschool.ca/" aria-current="page"
+                                                <a href="{{route('home')}}" aria-current="page"
                                                     class="elementor-item elementor-item-active" tabindex="-1">Home</a>
                                             </li>
                                             <li

@@ -261,7 +261,7 @@
                                      <ul id="menu-2-2d9ce608" class="elementor-nav-menu">
                                          <li
                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-492 current_page_item menu-item-674">
-                                             <a href="https://idealdrivingschool.ca/" aria-current="page"
+                                             <a href="{{route('home')}}" aria-current="page"
                                                  class="elementor-item elementor-item-active" tabindex="-1">Home</a>
                                          </li>
                                          <li

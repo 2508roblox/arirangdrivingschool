@@ -999,7 +999,7 @@
                                     <ul id="menu-1-f56a5b1" class="elementor-nav-menu">
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-674">
-                                            <a href="https://idealdrivingschool.ca/" class="elementor-item">Home</a>
+                                            <a href="{{route('home')}}" class="elementor-item">Home</a>
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673">
@@ -1027,7 +1027,7 @@
                                     <ul id="menu-2-f56a5b1" class="elementor-nav-menu">
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-674">
-                                            <a href="https://idealdrivingschool.ca/" class="elementor-item"
+                                            <a href="{{route('home')}}" class="elementor-item"
                                                 tabindex="-1">Home</a></li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673">
