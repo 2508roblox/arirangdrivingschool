@@ -1011,7 +1011,7 @@
                                                 class="elementor-item elementor-item-active">Services</a></li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
-                                            <a href="https://idealdrivingschool.ca/contact/"
+                                            <a href="{{route('contact')}}"
                                                 class="elementor-item">Contact</a></li>
                                     </ul>
                                 </nav>
@@ -1040,7 +1040,7 @@
                                                 tabindex="-1">Services</a></li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
-                                            <a href="https://idealdrivingschool.ca/contact/" class="elementor-item"
+                                            <a href="{{route('contact')}}" class="elementor-item"
                                                 tabindex="-1">Contact</a></li>
                                     </ul>
                                 </nav>

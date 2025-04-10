@@ -621,7 +621,7 @@
     <link rel="EditURI" type="application/rsd+xml" title="RSD"
         href="https://idealdrivingschool.ca/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.7.1" />
-    <link rel="canonical" href="https://idealdrivingschool.ca/contact/" />
+    <link rel="canonical" href="{{route('contact')}}" />
     <link rel='shortlink' href='https://idealdrivingschool.ca/?p=536' />
     <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
         href="https://idealdrivingschool.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fidealdrivingschool.ca%2Fcontact%2F" />
@@ -1206,7 +1206,7 @@
                                                 class="elementor-item">Services</a></li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-536 current_page_item menu-item-672">
-                                            <a href="https://idealdrivingschool.ca/contact/" aria-current="page"
+                                            <a href="{{route('contact')}}" aria-current="page"
                                                 class="elementor-item elementor-item-active">Contact</a></li>
                                     </ul>
                                 </nav>
@@ -1234,7 +1234,7 @@
                                                 tabindex="-1">Services</a></li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-536 current_page_item menu-item-672">
-                                            <a href="https://idealdrivingschool.ca/contact/" aria-current="page"
+                                            <a href="{{route('contact')}}" aria-current="page"
                                                 class="elementor-item elementor-item-active"
                                                 tabindex="-1">Contact</a></li>
                                     </ul>

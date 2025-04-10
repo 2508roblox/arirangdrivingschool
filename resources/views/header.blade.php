@@ -276,12 +276,12 @@
                                          </li>
                                          <li
                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
-                                             <a href="https://idealdrivingschool.ca/contact/" class="elementor-item"
+                                             <a href="{{route('contact')}}" class="elementor-item"
                                                  tabindex="-1">Contact</a>
                                          </li>
                                          <li
                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672">
-                                             <a href="https://idealdrivingschool.ca/policy/" class="elementor-item"
+                                             <a href="{{route('policy')}}" class="elementor-item"
                                                  tabindex="-1">Policy</a>
                                          </li>
                                      </ul>
